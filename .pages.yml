@@ -6,7 +6,7 @@ content:
     label: Posts
     type: collection
     path: 'content/posts'
-    filename: "{primary}.mdx"
+    filename: '{primary}.mdx'
     view:
       fields: [ title, published, date ]
     fields:
@@ -27,7 +27,7 @@ content:
     label: Visum Docs
     type: collection
     path: 'content/docs'
-    filename: "{primary}.mdx"
+    filename: '{primary}.mdx'
     view:
       fields: [ title, published, date ]
     fields:
@@ -44,3 +44,25 @@ content:
       - name: body
         label: Body
         type: rich-text
+  - name: categories
+    label: Categories
+    type:  collection
+    path: 'content/_data/categories'
+    filename: '{primary}.json'
+    format: json
+    fields:
+      - name: title
+        label: Title
+        required: true
+        type: string
+      - name: slug
+        label: Slug
+        required: true
+        type: string
+      - name: description
+        label: Description
+        type: string
+      - name: color
+        label: Color
+        type: string
+        
