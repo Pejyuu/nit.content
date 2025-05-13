@@ -23,3 +23,38 @@ content:
       - name: body
         label: Body
         type: rich-text
+  - name: docs
+    label: Visum Docs
+    type: collection
+    path: 'content/docs'
+    filename: "{primary}.mdx"
+    view:
+      fields: [ title, published, date ]
+    fields:
+      - name: published
+        label: Published
+        type: boolean
+        default: true
+      - name: date
+        label: Date
+        type: date
+      - name: title
+        label: Title
+        type: string
+      - name: body
+        label: Body
+        type: rich-text
+  - name: categories
+    label: Categories
+    type: file
+    path: 'content/_data'
+    filename: categories.json
+    view:
+      fields: [ title, published, date ]
+    fields:
+      - name: name
+        label: Category Name
+        type: string
+      - name: slug
+        label: Slug
+        type: string
