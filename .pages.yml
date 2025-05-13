@@ -47,8 +47,7 @@ content:
   - name: categories
     label: Categories
     type: file
-    path: 'content/_data'
-    filename: categories.json
+    path: 'content/_data/categories.json'
     view:
       fields: [ title, published, date ]
     fields:
