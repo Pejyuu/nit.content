@@ -44,16 +44,3 @@ content:
       - name: body
         label: Body
         type: rich-text
-  - name: categories
-    label: Categories
-    type: file
-    path: 'content/_data/categories.json'
-    view:
-      fields: [ title, published, date ]
-    fields:
-      - name: name
-        label: Category Name
-        type: string
-      - name: slug
-        label: Slug
-        type: string
