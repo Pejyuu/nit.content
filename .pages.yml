@@ -21,7 +21,7 @@ content:
         label: Author
         type: reference
         options:
-          label: "{name}"
+          label: "{aname}"
           value: "{slug}"
           collection: authors
       - name: title
