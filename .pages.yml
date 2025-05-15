@@ -20,6 +20,12 @@ content:
       - name: title
         label: Title
         type: string
+      - name: featured_post
+        label: Featured Post
+        type: reference
+        options:
+          multiple: true
+          collection: categories
       - name: body
         label: Body
         type: rich-text
