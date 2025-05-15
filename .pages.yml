@@ -24,6 +24,8 @@ content:
         label: Categories
         type: reference
         options:
+          search: "title"
+          value: "{slug}"
           multiple: true
           collection: categories
       - name: body
