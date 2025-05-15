@@ -26,7 +26,6 @@ content:
       - name: twitter
         label: Twitter Sharing
         type: object
-        list: true
         collapsible:
           label: "Collapsible Label?"
           expanded: true
