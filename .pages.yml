@@ -57,8 +57,8 @@ content:
             type: string
             description: Description shown in the card
           - name: twitter_image
-            label: Image URL
-            type: string
+            label: Twitter Image
+            type: image
             description: URL to image displayed in the card (min 120x120px)
   - name: docs
     label: Visum Docs
