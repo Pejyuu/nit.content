@@ -20,8 +20,8 @@ content:
       - name: title
         label: Title
         type: string
-      - name: featured_post
-        label: Featured Post
+      - name: categories
+        label: Categories
         type: reference
         options:
           multiple: true
