@@ -28,6 +28,9 @@ content:
           value: "{slug}"
           multiple: true
           collection: categories
+      - name: features_image
+        label: Featured Image
+        type: image
       - name: excerpt
         label: Excerpt
         type: string
