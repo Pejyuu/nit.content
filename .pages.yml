@@ -150,3 +150,28 @@ content:
       - name: color
         label: Color
         type: string
+
+  - name: authors
+    label: Authors
+    type:  collection
+    path: 'content/_data/authors'
+    filename: '{primary}.json'
+    format: json
+    fields:
+      - name: name
+        label: Name
+        required: true
+        type: string
+      - name: slug
+        label: Slug
+        required: true
+        type: string
+      - name: bio
+        label: Bio
+        type: string
+      - name: link
+        label: Link
+        type: string
+      - name: profile_photo
+        label: Profile Photo
+        type: image
