@@ -23,10 +23,14 @@ content:
       - name: body
         label: Body
         type: rich-text
-      - name: twitter
-        label: Twitter Sharing
+      - name: sharing
+        label: Sharing
         type: object
         fields:
+          - name: og_image
+            label: Open Graph Image
+            type: image
+            description: URL to image for Open Graph sharing
           - name: twitter_card
             label: Card Type
             type: select
@@ -48,18 +52,10 @@ content:
             label: Content Creator Username
             type: string
             description: The @username of the content creator
-          - name: twitter_title
-            label: Title
-            type: string
-            description: Title of the shared content
-          - name: twitter_description
-            label: Description
-            type: string
-            description: Description shown in the card
           - name: twitter_image
             label: Twitter Image
             type: image
-            description: URL to image displayed in the card (min 120x120px)
+            description: URL to image displayed in the Twitter card (min 120x120px)
   - name: docs
     label: Visum Docs
     type: collection
@@ -81,6 +77,39 @@ content:
       - name: body
         label: Body
         type: rich-text
+      - name: sharing
+        label: Sharing
+        type: object
+        fields:
+          - name: og_image
+            label: Open Graph Image
+            type: image
+            description: URL to image for Open Graph sharing
+          - name: twitter_card
+            label: Card Type
+            type: select
+            options:
+              values:
+              - label: Summary
+                value: summary
+              - label: Summary with Large Image
+                value: summary_large_image
+              - label: App
+                value: app
+              - label: Player
+                value: player
+          - name: twitter_site
+            label: Twitter Site Username
+            type: string
+            description: The @username for the website (e.g. @norskiThailand)
+          - name: twitter_creator
+            label: Content Creator Username
+            type: string
+            description: The @username of the content creator
+          - name: twitter_image
+            label: Twitter Image
+            type: image
+            description: URL to image displayed in the Twitter card (min 120x120px)
   - name: categories
     label: Categories
     type:  collection
@@ -102,4 +131,3 @@ content:
       - name: color
         label: Color
         type: string
-        
