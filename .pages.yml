@@ -8,7 +8,7 @@ content:
     path: 'content/posts'
     filename: '{primary}.mdx'
     view:
-      fields: [ title, published, date ]
+      fields: [ title, categories, published, date ]
     fields:
       - name: published
         label: Published
