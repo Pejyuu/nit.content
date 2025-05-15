@@ -28,6 +28,9 @@ content:
           value: "{slug}"
           multiple: true
           collection: categories
+      - name: excerpt
+        label: Excerpt
+        type: string
       - name: body
         label: Body
         type: rich-text
@@ -44,7 +47,7 @@ content:
             type: image
             description: URL to image displayed in the Twitter card (min 120x120px)
           - name: twitter_card
-            label: Card Type
+            label: Twitter Card Type
             type: select
             options:
               values:
@@ -83,6 +86,9 @@ content:
       - name: title
         label: Title
         type: string
+      - name: excerpt
+        label: Excerpt
+        type: string
       - name: body
         label: Body
         type: rich-text
@@ -99,7 +105,7 @@ content:
             type: image
             description: URL to image displayed in the Twitter card (min 120x120px)
           - name: twitter_card
-            label: Card Type
+            label: Twitter Card Type
             type: select
             options:
               values:
