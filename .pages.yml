@@ -29,7 +29,7 @@ content:
         fields:
           - name: twitter_card
             label: Card Type
-            type: string
+            type: select
             options:
               values:
               - label: Summary
