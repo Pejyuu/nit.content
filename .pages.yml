@@ -165,7 +165,7 @@ content:
     filename: '{primary}.json'
     format: json
     fields:
-      - name: name
+      - name: aname
         label: Name
         required: true
         type: string
