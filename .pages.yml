@@ -17,6 +17,13 @@ content:
       - name: date
         label: Date
         type: date
+      - name: author
+        label: Author
+        type: reference
+        options:
+          label: "{name}"
+          value: "{slug}"
+          collection: authors
       - name: title
         label: Title
         type: string
