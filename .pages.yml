@@ -29,7 +29,7 @@ content:
           multiple: true
           collection: categories
       - name: excerpt
-        label: Excerpt?
+        label: Excerpt
         type: string
       - name: body
         label: Body
