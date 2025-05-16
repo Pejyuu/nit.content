@@ -10,10 +10,6 @@ content:
     view:
       fields: [ title, categories, published, date ]
     fields:
-      - name: fullslug
-        default: '{year}/{month}/{slug}'
-        type: string
-        hidden: true
       - name: published
         label: Published
         type: boolean
@@ -40,7 +36,6 @@ content:
         options:
           label: "{title}"
           value: "{slug}"
-          multiple: true
           collection: categories
       - name: features_image
         label: Featured Image
