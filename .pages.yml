@@ -37,8 +37,8 @@ content:
           label: "{title}"
           value: "{slug}"
           collection: categories
-      - name: featured_image
-        label: Featured Image
+      - name: cover
+        label: Cover Image
         type: image
       - name: excerpt
         label: Excerpt
