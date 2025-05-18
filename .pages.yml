@@ -37,7 +37,7 @@ content:
           label: "{title}"
           value: "{slug}"
           collection: categories
-      - name: features_image
+      - name: featured_image
         label: Featured Image
         type: image
       - name: excerpt
