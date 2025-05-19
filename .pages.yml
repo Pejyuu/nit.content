@@ -22,7 +22,7 @@ content:
         type: reference
         options:
           label: "{aname}"
-          value: "{primary}"
+          value: "{slug}"
           collection: authors
       - name: slug
         label: Slug
