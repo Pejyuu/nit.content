@@ -84,7 +84,8 @@ content:
     label: Visum Docs
     type: collection
     path: 'content/docs'
-    filename: '{thefilename}.mdx'
+    primary: thefilename
+    filename: '{primary}.mdx'
     view:
       fields: [ title, published, date ]
     fields:
@@ -130,27 +131,7 @@ content:
             label: Twitter Image
             type: image
             description: URL to image displayed in the Twitter card (min 120x120px)
-          - name: twitter_card
-            label: Twitter Card Type
-            type: select
-            options:
-              values:
-                - label: Summary
-                  value: summary
-                - label: Summary with Large Image
-                  value: summary_large_image
-                - label: App
-                  value: app
-                - label: Player
-                  value: player
-          - name: twitter_site
-            label: Twitter Site Username
-            type: string
-            description: The @username for the website (e.g. @norskiThailand)
-          - name: twitter_creator
-            label: Content Creator Username
-            type: string
-            description: The @username of the content creator
+
 
   - name: categories
     label: Categories
