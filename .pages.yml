@@ -84,9 +84,9 @@ content:
     label: Visum Docs
     type: collection
     path: 'content/docs'
+    primary: thefilename
     filename: '{primary}.mdx'
     view:
-      primary: thefilename
       fields: [ title, thefilename, published, date ]
     fields:
       - name: thefilename
@@ -131,6 +131,7 @@ content:
             label: Twitter Image
             type: image
             description: URL to image displayed in the Twitter card (min 120x120px)
+
 
 
 
