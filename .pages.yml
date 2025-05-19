@@ -84,10 +84,13 @@ content:
     label: Visum Docs
     type: collection
     path: 'content/docs'
-    filename: '{primary}.mdx'
+    filename: '{thefilename}.mdx'
     view:
       fields: [ title, published, date ]
     fields:
+      - name: thefilename
+        label: Filename
+        type: string
       - name: published
         label: Published
         type: boolean
