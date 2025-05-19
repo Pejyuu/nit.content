@@ -95,7 +95,7 @@ content:
         label: Published
         type: boolean
         default: true
-      - name: date
+      - name: updated
         label: Date
         type: date
       - name: title
