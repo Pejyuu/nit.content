@@ -92,6 +92,14 @@ content:
         label: Published
         type: boolean
         default: true
+      - name: prev
+        label: Previous
+        type: boolean
+        default: false
+      - name: next
+        label: Next
+        type: boolean
+        default: false
       - name: date
         label: Date
         type: date
@@ -121,14 +129,14 @@ content:
             type: select
             options:
               values:
-              - label: Summary
-                value: summary
-              - label: Summary with Large Image
-                value: summary_large_image
-              - label: App
-                value: app
-              - label: Player
-                value: player
+                - label: Summary
+                  value: summary
+                - label: Summary with Large Image
+                  value: summary_large_image
+                - label: App
+                  value: app
+                - label: Player
+                  value: player
           - name: twitter_site
             label: Twitter Site Username
             type: string
