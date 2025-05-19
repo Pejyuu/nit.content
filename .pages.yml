@@ -1,6 +1,6 @@
 media:
   input: content/media
-  output: ../media
+  output: cms/content/media
 content:
   - name: posts
     label: Posts
