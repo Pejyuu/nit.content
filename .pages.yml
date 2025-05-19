@@ -84,29 +84,17 @@ content:
     label: Visum Docs
     type: collection
     path: 'content/docs'
-    primary: thefilename
     filename: '{primary}.mdx'
     view:
-      fields: [ title, thefilename, published, date ]
+      fields: [ title, slug, published, date ]
     fields:
-      - name: thefilename
-        label: Filename
+      - name: slug
+        label: Slug
         type: string
       - name: published
         label: Published
         type: boolean
         default: true
-      - name: prev
-        label: Previous
-        type: boolean
-        default: false
-      - name: next
-        label: Next
-        type: boolean
-        default: false
-      - name: slug
-        label: Slug
-        type: string
       - name: date
         label: Date
         type: date
@@ -131,6 +119,15 @@ content:
             label: Twitter Image
             type: image
             description: URL to image displayed in the Twitter card (min 120x120px)
+      - name: prev
+        label: Previous
+        type: boolean
+        default: false
+      - name: next
+        label: Next
+        type: boolean
+        default: false
+
 
 
 
