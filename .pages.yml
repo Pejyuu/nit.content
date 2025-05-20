@@ -17,6 +17,9 @@ content:
       - name: date
         label: Date
         type: date
+        options:
+          time: true
+          format: yyyy-MM-dd'T'HH:mm
       - name: author
         label: Author
         type: reference
@@ -98,6 +101,9 @@ content:
       - name: updated
         label: Date
         type: date
+        options:
+          time: true
+          format: yyyy-MM-dd'T'HH:mm
       - name: title
         label: Title
         type: string
