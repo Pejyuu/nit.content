@@ -47,6 +47,10 @@ content:
         label: Allow Comments
         type: boolean
         default: true
+      - name: has_affiliate
+        label: Has Affiliate
+        type: boolean
+        default: false
       - name: excerpt
         label: Excerpt
         type: string
@@ -154,6 +158,10 @@ content:
         label: Published
         type: boolean
         default: true
+      - name: has_affiliate
+        label: Has Affiliate
+        type: boolean
+        default: false
       - name: updated
         label: Date
         type: date
