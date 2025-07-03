@@ -14,6 +14,14 @@ content:
         label: Published
         type: boolean
         default: true
+      - name: allow_comment
+        label: Allow Comments
+        type: boolean
+        default: true
+      - name: has_affiliate
+        label: Has Affiliate
+        type: boolean
+        default: false
       - name: date
         label: Date
         type: date
@@ -43,14 +51,6 @@ content:
       - name: cover
         label: Cover Image
         type: image
-      - name: allow_comment
-        label: Allow Comments
-        type: boolean
-        default: true
-      - name: has_affiliate
-        label: Has Affiliate
-        type: boolean
-        default: false
       - name: excerpt
         label: Excerpt
         type: string
