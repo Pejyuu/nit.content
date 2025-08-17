@@ -46,7 +46,9 @@ content:
       - name: allow_comment
         label: Allow Comments
         type: boolean
-        default: true
+      - name: thread_id
+        label: Comment Thread ID
+        type: number
       - name: excerpt
         label: Excerpt
         type: string
