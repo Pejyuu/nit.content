@@ -1,6 +1,12 @@
 media:
+- name: Images
+  label: Images
   input: content/media
   output: /src/cms/content/media
+- name: Files
+  label: files
+  input: content/files
+  output: /src/cms/content/files
 content:
   - name: posts
     label: Posts
