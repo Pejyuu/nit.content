@@ -48,13 +48,14 @@ var PUBLISH_FIELD_DEFS = {
   post: [
     { key: 'author', label: 'Author', get: function (fm) { return fm.author; }, set: function (fm, v) { fm.author = v; }, guess: function (card) { return card.frontmatter.author || 'marianneh'; } },
     { key: 'slug', label: 'Slug', get: function (fm) { return fm.slug; }, set: function (fm, v) { fm.slug = v; }, guess: function (card) { return slugifyTitle(card.frontmatter.title); } },
-    { key: 'cover', label: 'Cover image path', get: function (fm) { return fm.cover; }, set: function (fm, v) { fm.cover = v; }, guess: function (card) { return card.frontmatter.cover || ''; } },
+    { key: 'categories', label: 'Category', kind: 'select', options: function () { return SITE_CATEGORIES; }, get: function (fm) { return fm.categories; }, set: function (fm, v) { fm.categories = v; }, guess: function (card) { return card.frontmatter.categories || SITE_CATEGORIES[0] || ''; } },
+    { key: 'cover', label: 'Cover image path', get: function (fm) { return fm.cover; }, set: function (fm, v) { fm.cover = v; }, guess: function (card) { return card.frontmatter.cover || '/src/cms/content/media/cover_placeholder.png'; } },
     { key: 'thread_id', label: 'Comment thread ID', get: function (fm) { return fm.thread_id; }, set: function (fm, v) { fm.thread_id = Number(v) || 0; }, guess: function () { return '0'; } },
-    { key: 'og_image', label: 'Open Graph image path', get: function (fm) { return fm.sharing && fm.sharing.og_image; }, set: function (fm, v) { fm.sharing = fm.sharing || {}; fm.sharing.og_image = v; }, guess: function (card) { return card.frontmatter.cover || ''; } }
+    { key: 'og_image', label: 'Open Graph image path', get: function (fm) { return fm.sharing && fm.sharing.og_image; }, set: function (fm, v) { fm.sharing = fm.sharing || {}; fm.sharing.og_image = v; }, guess: function (card) { return card.frontmatter.cover || '/src/cms/content/media/some_placeholder.png'; } }
   ],
   guide: [
     { key: 'slug', label: 'Slug', get: function (fm) { return fm.slug; }, set: function (fm, v) { fm.slug = v; }, guess: function (card) { return slugifyTitle(card.frontmatter.title); } },
-    { key: 'og_image', label: 'Open Graph image path', get: function (fm) { return fm.sharing && fm.sharing.og_image; }, set: function (fm, v) { fm.sharing = fm.sharing || {}; fm.sharing.og_image = v; }, guess: function (card) { return card.frontmatter.cover || ''; } }
+    { key: 'og_image', label: 'Open Graph image path', get: function (fm) { return fm.sharing && fm.sharing.og_image; }, set: function (fm, v) { fm.sharing = fm.sharing || {}; fm.sharing.og_image = v; }, guess: function (card) { return card.frontmatter.cover || '/src/cms/content/media/some_placeholder.png'; } }
   ]
 };
 PUBLISH_FIELD_DEFS.docs = PUBLISH_FIELD_DEFS.guide;
@@ -78,8 +79,16 @@ function ensurePublishFieldsFilled(card, onReady) {
 
 function openFillFieldsModal(card, missingDefs, onConfirm) {
   var fieldsHtml = missingDefs.map(function (d) {
+    var current = d.guess(card);
+    if (d.kind === 'select') {
+      var opts = d.options().map(function (o) {
+        return '<option value="' + escapeHtml(o) + '"' + (o === current ? ' selected' : '') + '>' + escapeHtml(o) + '</option>';
+      }).join('');
+      return '<div class="field"><label>' + escapeHtml(d.label) + '</label>' +
+        '<select id="fill-' + d.key + '" required>' + opts + '</select></div>';
+    }
     return '<div class="field"><label>' + escapeHtml(d.label) + '</label>' +
-      '<input type="text" id="fill-' + d.key + '" value="' + escapeHtml(d.guess(card)) + '" required></div>';
+      '<input type="text" id="fill-' + d.key + '" value="' + escapeHtml(current) + '" required></div>';
   }).join('');
   document.getElementById('cardModal').innerHTML =
     '<h2>Before publishing &ldquo;' + escapeHtml(getTitle(card)) + '&rdquo;</h2>' +
