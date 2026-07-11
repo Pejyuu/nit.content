@@ -37,6 +37,70 @@ function isHeld(card) {
 function isScheduled(card) { return !!getPublishDate(card); }
 function findCard(id) { return cards.filter(function (c) { return c.id === id; })[0]; }
 
+function slugifyTitle(str) {
+  return (str || 'untitled').toString().toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '') || 'untitled';
+}
+
+// Fields the site's Astro schema requires as a real string/number, not the
+// `null` Workbench seeds them with — keyed by published type, since guides
+// and docs don't carry author/cover/thread_id at all (see .pages.yml).
+var PUBLISH_FIELD_DEFS = {
+  post: [
+    { key: 'author', label: 'Author', get: function (fm) { return fm.author; }, set: function (fm, v) { fm.author = v; }, guess: function (card) { return card.frontmatter.author || 'marianneh'; } },
+    { key: 'slug', label: 'Slug', get: function (fm) { return fm.slug; }, set: function (fm, v) { fm.slug = v; }, guess: function (card) { return slugifyTitle(card.frontmatter.title); } },
+    { key: 'cover', label: 'Cover image path', get: function (fm) { return fm.cover; }, set: function (fm, v) { fm.cover = v; }, guess: function (card) { return card.frontmatter.cover || ''; } },
+    { key: 'thread_id', label: 'Comment thread ID', get: function (fm) { return fm.thread_id; }, set: function (fm, v) { fm.thread_id = Number(v) || 0; }, guess: function () { return '0'; } },
+    { key: 'og_image', label: 'Open Graph image path', get: function (fm) { return fm.sharing && fm.sharing.og_image; }, set: function (fm, v) { fm.sharing = fm.sharing || {}; fm.sharing.og_image = v; }, guess: function (card) { return card.frontmatter.cover || ''; } }
+  ],
+  guide: [
+    { key: 'slug', label: 'Slug', get: function (fm) { return fm.slug; }, set: function (fm, v) { fm.slug = v; }, guess: function (card) { return slugifyTitle(card.frontmatter.title); } },
+    { key: 'og_image', label: 'Open Graph image path', get: function (fm) { return fm.sharing && fm.sharing.og_image; }, set: function (fm, v) { fm.sharing = fm.sharing || {}; fm.sharing.og_image = v; }, guess: function (card) { return card.frontmatter.cover || ''; } }
+  ]
+};
+PUBLISH_FIELD_DEFS.docs = PUBLISH_FIELD_DEFS.guide;
+
+function isEmptyPublishValue(v) { return v === null || v === undefined || v === ''; }
+function getEmptyPublishFields(card) {
+  var defs = PUBLISH_FIELD_DEFS[card.type] || [];
+  return defs.filter(function (d) { return isEmptyPublishValue(d.get(card.frontmatter)); });
+}
+
+// Gate for any action that moves a card into a published root (post/guide/
+// docs): if the site-required fields are still empty/null, show a pop-up
+// pre-filled with sensible guesses so the author confirms or corrects them
+// before the file ever gets written where the real schema validates it.
+function ensurePublishFieldsFilled(card, onReady) {
+  if (PUBLISHED_ROOTS.indexOf(card.type) === -1) { onReady(); return; }
+  var missing = getEmptyPublishFields(card);
+  if (!missing.length) { onReady(); return; }
+  openFillFieldsModal(card, missing, onReady);
+}
+
+function openFillFieldsModal(card, missingDefs, onConfirm) {
+  var fieldsHtml = missingDefs.map(function (d) {
+    return '<div class="field"><label>' + escapeHtml(d.label) + '</label>' +
+      '<input type="text" id="fill-' + d.key + '" value="' + escapeHtml(d.guess(card)) + '" required></div>';
+  }).join('');
+  document.getElementById('cardModal').innerHTML =
+    '<h2>Before publishing &ldquo;' + escapeHtml(getTitle(card)) + '&rdquo;</h2>' +
+    '<p class="field-empty">These fields are required by the site and currently empty. Sensible defaults are pre-filled &mdash; check them, then confirm.</p>' +
+    '<form id="fillForm">' + fieldsHtml +
+    '<div class="modal-actions"><div class="left"></div><div>' +
+    '<button type="button" class="btn" id="fill-cancel">Cancel</button> ' +
+    '<button type="submit" class="btn accent-content" id="fill-confirm">Confirm &amp; continue</button>' +
+    '</div></div></form>';
+  document.getElementById('modalOverlay').classList.add('open');
+  document.getElementById('fill-cancel').addEventListener('click', closeModal);
+  document.getElementById('fillForm').addEventListener('submit', function (e) {
+    e.preventDefault();
+    missingDefs.forEach(function (d) {
+      d.set(card.frontmatter, document.getElementById('fill-' + d.key).value);
+    });
+    closeModal();
+    onConfirm();
+  });
+}
+
 function normalizeDate(str) {
   if (!str) return '';
   var parts = String(str).split('-');
@@ -225,18 +289,21 @@ function renderCalendar() {
       var id = e.dataTransfer.getData('text/plain');
       var card = findCard(id);
       if (!card) return;
-      card.frontmatter.pipeline.publish_date = dateStr;
-      card.frontmatter.pipeline.last_touched = new Date().toISOString();
       // Scheduling a post/guide/docs card onto the calendar counts as
       // publishing it outright — it's moved into its published root (see
       // rescheduleCard) and flagged published right away, same as the
-      // modal's "Mark as published" action.
-      if (PUBLISHED_ROOTS.indexOf(card.type) !== -1) {
-        card.frontmatter.date = dateStr;
-        card.frontmatter.published = true;
-        card.frontmatter.pipeline.stage = 'published';
-      }
-      rescheduleCard(card, dateStr).then(renderAll);
+      // modal's "Mark as published" action. Required site fields must be
+      // filled first (see ensurePublishFieldsFilled).
+      ensurePublishFieldsFilled(card, function () {
+        card.frontmatter.pipeline.publish_date = dateStr;
+        card.frontmatter.pipeline.last_touched = new Date().toISOString();
+        if (PUBLISHED_ROOTS.indexOf(card.type) !== -1) {
+          card.frontmatter.date = dateStr;
+          card.frontmatter.published = true;
+          card.frontmatter.pipeline.stage = 'published';
+        }
+        rescheduleCard(card, dateStr).then(renderAll);
+      });
     });
   };
   for (var d = 1; d <= daysInMonth; d++) {
@@ -535,21 +602,24 @@ function wireModalEvents(card) {
     var pub = card.frontmatter.pipeline.publish_date;
     if (!pub) { alert('Set a publish date first.'); return; }
     if (PUBLISHED_ROOTS.indexOf(card.type) === -1) { alert('Only post/guide/docs cards can be published.'); return; }
-    card.frontmatter.date = pub;
-    card.frontmatter.published = true;
-    card.frontmatter.pipeline.stage = 'published';
-    // Physically move the file out of the pipeline and into the matching
-    // published root (post/guide/docs) — publishing is a real move, keyed
-    // off the card's own type, not just a status flip.
-    fetch('/api/cards/move', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ id: card.id, toRoot: card.type, frontmatter: card.frontmatter, body: card.body })
-    }).then(function (r) {
-      if (!r.ok) return r.json().then(function (e) { throw new Error(e.error || 'move failed'); });
-      return r.json();
-    }).then(function () { closeModal(); loadCards(); })
-      .catch(function (e) { alert('Could not publish: ' + e.message); });
+    // Required site fields must be filled first (see ensurePublishFieldsFilled).
+    ensurePublishFieldsFilled(card, function () {
+      card.frontmatter.date = pub;
+      card.frontmatter.published = true;
+      card.frontmatter.pipeline.stage = 'published';
+      // Physically move the file out of the pipeline and into the matching
+      // published root (post/guide/docs) — publishing is a real move, keyed
+      // off the card's own type, not just a status flip.
+      fetch('/api/cards/move', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ id: card.id, toRoot: card.type, frontmatter: card.frontmatter, body: card.body })
+      }).then(function (r) {
+        if (!r.ok) return r.json().then(function (e) { throw new Error(e.error || 'move failed'); });
+        return r.json();
+      }).then(function () { closeModal(); loadCards(); })
+        .catch(function (e) { alert('Could not publish: ' + e.message); });
+    });
   });
 }
 

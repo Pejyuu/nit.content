@@ -48,6 +48,29 @@ function idToPath(id) {
   return path.join(ROOTS[rootKey], relPath);
 }
 
+// Published collections (post/guide/docs) validate frontmatter against the
+// site's Astro schema, where unset optional fields must be absent — not
+// `null`. Pipeline cards keep their nulls (that's the standard shape while
+// still in progress); this strips them right before a card crosses into a
+// published root, so the file that lands there conforms to the real schema.
+function isPublishedRoot(rootKey) {
+  return rootKey !== 'pipeline';
+}
+
+function pruneNullsDeep(value) {
+  if (Array.isArray(value)) return value.map(pruneNullsDeep);
+  if (value && typeof value === 'object') {
+    var out = {};
+    Object.keys(value).forEach(function (key) {
+      var v = value[key];
+      if (v === null) return;
+      out[key] = pruneNullsDeep(v);
+    });
+    return out;
+  }
+  return value;
+}
+
 function slugifyName(str) {
   return (str || 'untitled')
     .toString()
@@ -155,7 +178,9 @@ app.patch('/api/cards', function (req, res) {
   try {
     var filePath = idToPath(id);
     if (!fs.existsSync(filePath)) return res.status(404).json({ error: 'Not found' });
-    fs.writeFileSync(filePath, matter.stringify(body || '', frontmatter || {}));
+    var rootKey = id.slice(0, id.indexOf('/'));
+    var toWrite = isPublishedRoot(rootKey) ? pruneNullsDeep(frontmatter || {}) : (frontmatter || {});
+    fs.writeFileSync(filePath, matter.stringify(body || '', toWrite));
     res.json({ ok: true });
   } catch (e) {
     res.status(400).json({ error: e.message });
@@ -202,14 +227,15 @@ app.post('/api/cards/move', function (req, res) {
     // into their target root (see /api/cards/reschedule below) — if this
     // card is already there, just update the frontmatter in place instead
     // of re-slugifying and moving it a second time.
+    var movedFrontmatter = isPublishedRoot(toRoot) ? pruneNullsDeep(frontmatter) : frontmatter;
     if (id.slice(0, id.indexOf('/')) === toRoot) {
-      fs.writeFileSync(oldPath, matter.stringify(body, frontmatter));
+      fs.writeFileSync(oldPath, matter.stringify(body, movedFrontmatter));
       return res.json({ id: id });
     }
     var targetDir = ROOTS[toRoot];
     var base = slugifyName(filename || frontmatter.slug || frontmatter.title);
     var finalName = uniqueFilename(targetDir, base);
-    fs.writeFileSync(path.join(targetDir, finalName), matter.stringify(body, frontmatter));
+    fs.writeFileSync(path.join(targetDir, finalName), matter.stringify(body, movedFrontmatter));
     fs.unlinkSync(oldPath);
     res.json({ id: toRoot + '/' + finalName });
   } catch (e) {
@@ -257,14 +283,15 @@ app.post('/api/cards/reschedule', function (req, res) {
     var oldBase = path.basename(oldPath, '.mdx');
     var desiredBase = dateStr + '-' + stripDatePrefix(oldBase);
     var desiredPath = path.join(dir, desiredBase + '.mdx');
+    var rescheduledFrontmatter = isPublishedRoot(finalRoot) ? pruneNullsDeep(frontmatter) : frontmatter;
 
     if (desiredPath === oldPath) {
-      fs.writeFileSync(oldPath, matter.stringify(body, frontmatter));
+      fs.writeFileSync(oldPath, matter.stringify(body, rescheduledFrontmatter));
       return res.json({ id: id });
     }
 
     var finalName = uniqueFilename(dir, desiredBase);
-    fs.writeFileSync(path.join(dir, finalName), matter.stringify(body, frontmatter));
+    fs.writeFileSync(path.join(dir, finalName), matter.stringify(body, rescheduledFrontmatter));
     fs.unlinkSync(oldPath);
     var relPath = path.relative(ROOTS[finalRoot], path.join(dir, finalName)).split(path.sep).join('/');
     res.json({ id: finalRoot + '/' + relPath });
