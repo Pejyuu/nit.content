@@ -1,0 +1,12 @@
+{
+  "pipelineDir": "../pipeline",
+  "publishedDirs": {
+    "post": "../content/posts",
+    "guide": "../content/guides",
+    "docs": "../content/docs"
+  },
+  "types": ["research", "idea", "post", "guide", "docs"],
+  "siteCategories": ["hverdag", "kultur", "nyheter", "reise", "visum"],
+  "stages": ["candidate", "accepted", "drafting", "review", "ready", "published", "archived"],
+  "port": 4173
+}

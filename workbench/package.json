@@ -1,0 +1,13 @@
+{
+  "name": "workbench",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local kanban + calendar board for the nit.content pipeline, stored as .mdx files with YAML frontmatter.",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "gray-matter": "^4.0.3"
+  }
+}
