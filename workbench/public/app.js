@@ -19,6 +19,38 @@ function getEffort(card) { return Number(card.frontmatter.pipeline.writing_effor
 function getVerification(card) { return Number(card.frontmatter.pipeline.verification_burden) || 0; }
 function getHoldUntil(card) { return card.frontmatter.pipeline.hold_until || ''; }
 function getPublishDate(card) { return card.frontmatter.pipeline.publish_date || ''; }
+// publish_date may carry a 'T'-separated time (e.g. "2026-07-12T14:30") —
+// pull just the HH:mm back out for the time input.
+function getPublishTime(card) {
+  var pub = getPublishDate(card);
+  var idx = String(pub).indexOf('T');
+  return idx === -1 ? '' : String(pub).slice(idx + 1, idx + 6);
+}
+
+function roundToStepMinutes(timeStr, step) {
+  var parts = timeStr.split(':');
+  var total = parseInt(parts[0], 10) * 60 + parseInt(parts[1], 10);
+  var rounded = Math.round(total / step) * step % (24 * 60);
+  return String(Math.floor(rounded / 60)).padStart(2, '0') + ':' + String(rounded % 60).padStart(2, '0');
+}
+
+// A themed <select> instead of the browser's native time-picker widget (which
+// ignores the app's dark theme). Options run every 30 minutes; an existing
+// off-grid time (older posts have arbitrary minute values) is added in so
+// reopening a card never silently shifts its time.
+function timeOptionsHtml(current) {
+  var options = [];
+  for (var h = 0; h < 24; h++) {
+    for (var m = 0; m < 60; m += 30) {
+      options.push(String(h).padStart(2, '0') + ':' + String(m).padStart(2, '0'));
+    }
+  }
+  if (current && options.indexOf(current) === -1) options.push(current);
+  options.sort();
+  return options.map(function (t) {
+    return '<option value="' + t + '"' + (t === current ? ' selected' : '') + '>' + t + '</option>';
+  }).join('');
+}
 function getLastTouched(card) { return card.frontmatter.pipeline.last_touched || '1970-01-01'; }
 // Not every published card has publish_date (older guides/docs never had a
 // `date` field to carry one over) — fall back to last_verified, then the
@@ -77,8 +109,8 @@ function ensurePublishFieldsFilled(card, onReady) {
   openFillFieldsModal(card, missing, onReady);
 }
 
-function openFillFieldsModal(card, missingDefs, onConfirm) {
-  var fieldsHtml = missingDefs.map(function (d) {
+function missingFieldsHtml(card, missingDefs) {
+  return missingDefs.map(function (d) {
     var current = d.guess(card);
     if (d.kind === 'select') {
       var opts = d.options().map(function (o) {
@@ -90,10 +122,19 @@ function openFillFieldsModal(card, missingDefs, onConfirm) {
     return '<div class="field"><label>' + escapeHtml(d.label) + '</label>' +
       '<input type="text" id="fill-' + d.key + '" value="' + escapeHtml(current) + '" required></div>';
   }).join('');
+}
+
+function applyMissingFields(card, missingDefs) {
+  missingDefs.forEach(function (d) {
+    d.set(card.frontmatter, document.getElementById('fill-' + d.key).value);
+  });
+}
+
+function openFillFieldsModal(card, missingDefs, onConfirm) {
   document.getElementById('cardModal').innerHTML =
     '<h2>Before publishing &ldquo;' + escapeHtml(getTitle(card)) + '&rdquo;</h2>' +
     '<p class="field-empty">These fields are required by the site and currently empty. Sensible defaults are pre-filled &mdash; check them, then confirm.</p>' +
-    '<form id="fillForm">' + fieldsHtml +
+    '<form id="fillForm">' + missingFieldsHtml(card, missingDefs) +
     '<div class="modal-actions"><div class="left"></div><div>' +
     '<button type="button" class="btn" id="fill-cancel">Cancel</button> ' +
     '<button type="submit" class="btn accent-content" id="fill-confirm">Confirm &amp; continue</button>' +
@@ -102,11 +143,37 @@ function openFillFieldsModal(card, missingDefs, onConfirm) {
   document.getElementById('fill-cancel').addEventListener('click', closeModal);
   document.getElementById('fillForm').addEventListener('submit', function (e) {
     e.preventDefault();
-    missingDefs.forEach(function (d) {
-      d.set(card.frontmatter, document.getElementById('fill-' + d.key).value);
-    });
+    applyMissingFields(card, missingDefs);
     closeModal();
     onConfirm();
+  });
+}
+
+// Dragging a card onto a calendar day has no time picker of its own, so this
+// pop-up always asks for a publish time there (defaulting to the card's
+// existing time, or now), and — for post/guide/docs — folds in the same
+// required-field check used before a "Mark as published" move.
+function openScheduleModal(card, dateStr, onConfirm) {
+  var missing = PUBLISHED_ROOTS.indexOf(card.type) !== -1 ? getEmptyPublishFields(card) : [];
+  var defaultTime = getPublishTime(card) || roundToStepMinutes(new Date().toTimeString().slice(0, 5), 30);
+  document.getElementById('cardModal').innerHTML =
+    '<h2>Schedule &ldquo;' + escapeHtml(getTitle(card)) + '&rdquo; for ' + escapeHtml(dateStr) + '</h2>' +
+    (missing.length ? '<p class="field-empty">These fields are required by the site and currently empty. Sensible defaults are pre-filled &mdash; check them, then confirm.</p>' : '') +
+    '<form id="scheduleForm">' +
+    '<div class="field"><label>Publish time</label><select id="sched-time" required>' + timeOptionsHtml(defaultTime) + '</select></div>' +
+    missingFieldsHtml(card, missing) +
+    '<div class="modal-actions"><div class="left"></div><div>' +
+    '<button type="button" class="btn" id="sched-cancel">Cancel</button> ' +
+    '<button type="submit" class="btn accent-content" id="sched-confirm">Confirm &amp; schedule</button>' +
+    '</div></div></form>';
+  document.getElementById('modalOverlay').classList.add('open');
+  document.getElementById('sched-cancel').addEventListener('click', closeModal);
+  document.getElementById('scheduleForm').addEventListener('submit', function (e) {
+    e.preventDefault();
+    applyMissingFields(card, missing);
+    var time = document.getElementById('sched-time').value;
+    closeModal();
+    onConfirm(time);
   });
 }
 
@@ -301,13 +368,16 @@ function renderCalendar() {
       // Scheduling a post/guide/docs card onto the calendar counts as
       // publishing it outright — it's moved into its published root (see
       // rescheduleCard) and flagged published right away, same as the
-      // modal's "Mark as published" action. Required site fields must be
-      // filled first (see ensurePublishFieldsFilled).
-      ensurePublishFieldsFilled(card, function () {
-        card.frontmatter.pipeline.publish_date = dateStr;
+      // modal's "Mark as published" action. openScheduleModal always asks
+      // for a publish time (the calendar cell only carries a date) and, for
+      // post/guide/docs, folds in the same required-field check as
+      // ensurePublishFieldsFilled.
+      openScheduleModal(card, dateStr, function (time) {
+        var stamped = time ? (dateStr + 'T' + time) : dateStr;
+        card.frontmatter.pipeline.publish_date = stamped;
         card.frontmatter.pipeline.last_touched = new Date().toISOString();
         if (PUBLISHED_ROOTS.indexOf(card.type) !== -1) {
-          card.frontmatter.date = dateStr;
+          card.frontmatter.date = stamped;
           card.frontmatter.published = true;
           card.frontmatter.pipeline.stage = 'published';
         }
@@ -464,7 +534,9 @@ function applyStructuredFieldsToCard(card) {
   fm.pipeline.writing_effort = Number(document.getElementById('m-effort').dataset.val) || 0;
   fm.pipeline.verification_burden = Number(document.getElementById('m-verification').dataset.val) || 0;
   fm.pipeline.hold_until = document.getElementById('m-hold').value || '';
-  fm.pipeline.publish_date = document.getElementById('m-publish').value || '';
+  var pubDateVal = document.getElementById('m-publish').value;
+  var pubTimeVal = document.getElementById('m-publish-time').value;
+  fm.pipeline.publish_date = pubDateVal ? (pubDateVal + (pubTimeVal ? 'T' + pubTimeVal : '')) : '';
   var rejectEl = document.getElementById('m-reject');
   if (rejectEl) fm.pipeline.reject_reason = rejectEl.value;
   card.body = document.getElementById('m-body').value;
@@ -514,7 +586,10 @@ function openModal(card) {
     '</div>' +
     '<div class="field-row">' +
     '<div class="field"><label>Hold until</label><input type="date" id="m-hold" value="' + normalizeDate(getHoldUntil(card)) + '"></div>' +
-    '<div class="field"><label>Publish date</label><input type="date" id="m-publish" value="' + normalizeDate(getPublishDate(card)) + '"></div>' +
+    '<div class="field"><label>Publish date</label><div class="field-row">' +
+    '<input type="date" id="m-publish" value="' + normalizeDate(getPublishDate(card)) + '">' +
+    '<select id="m-publish-time">' + timeOptionsHtml(getPublishTime(card)) + '</select>' +
+    '</div></div>' +
     '</div>' +
     (stage === 'archived' ? '<div class="field"><label>Reject reason</label><input type="text" id="m-reject" value="' + escapeHtml(fm.pipeline.reject_reason || '') + '"></div>' : '') +
     sourceLinks +
