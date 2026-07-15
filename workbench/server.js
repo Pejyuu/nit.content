@@ -108,6 +108,7 @@ function standardFrontmatter(type, title) {
     allow_comment: false,
     thread_id: null,
     excerpt: null,
+    adIds: null,
     sharing: {
       og_image: null,
       twitter_card: 'summary_large_image'

@@ -193,6 +193,14 @@ function escapeHtml(str) {
   });
 }
 
+// Renders card body markdown as prose for display; falls back to escaped
+// plain text if the CDN markdown lib hasn't loaded for some reason.
+function renderMarkdown(md) {
+  if (!md || !md.trim()) return '<p class="field-empty">(empty)</p>';
+  if (typeof marked !== 'undefined') return marked.parse(md);
+  return '<p>' + escapeHtml(md).replace(/\n/g, '<br>') + '</p>';
+}
+
 // ---------- API ----------
 function loadCards() {
   return fetch('/api/cards').then(function (r) { return r.json(); }).then(function (data) {
@@ -530,6 +538,9 @@ function applyStructuredFieldsToCard(card) {
   fm.type = document.getElementById('m-type').value;
   card.type = fm.type;
   fm.categories = document.getElementById('m-categories').value || null;
+  var adIdsRaw = document.getElementById('m-adids').value;
+  var adIdsParsed = adIdsRaw.split(',').map(function (s) { return s.trim(); }).filter(Boolean);
+  fm.adIds = adIdsParsed.length ? adIdsParsed : null;
   fm.pipeline.stage = document.getElementById('m-stage').value;
   fm.pipeline.writing_effort = Number(document.getElementById('m-effort').dataset.val) || 0;
   fm.pipeline.verification_burden = Number(document.getElementById('m-verification').dataset.val) || 0;
@@ -569,12 +580,23 @@ function openModal(card) {
 
   document.getElementById('cardModal').innerHTML =
     '<h2>' + escapeHtml(getTitle(card)) + '</h2>' +
+    '<div class="modal-columns">' +
+    '<div class="modal-col-body">' +
+    '<div class="field">' +
+    '<div class="field-label-row"><label>Body / notes</label><button type="button" class="body-toggle" id="bodyToggle">Edit</button></div>' +
+    '<div class="body-preview" id="m-body-preview">' + renderMarkdown(card.body) + '</div>' +
+    '<textarea id="m-body" style="display:none;">' + escapeHtml(card.body || '') + '</textarea>' +
+    '</div>' +
+    '</div>' +
+    '<div class="modal-col-meta">' +
     '<div class="field"><label>Title</label><input type="text" id="m-title" value="' + escapeHtml(fm.title || '') + '"></div>' +
     '<div class="field-row">' +
     '<div class="field"><label>Type</label><select id="m-type">' + typeOptions + '</select></div>' +
     '<div class="field"><label>Stage</label><select id="m-stage">' + stageOptions + '</select></div>' +
     '</div>' +
     '<div class="field"><label>Categories</label><select id="m-categories">' + categoriesOptions + '</select></div>' +
+    '<div class="field"><label>Ad IDs (comma-separated)</label>' +
+    '<input type="text" id="m-adids" value="' + escapeHtml((fm.adIds || []).join(', ')) + '"></div>' +
     '<div class="field"><label>Source URL</label>' +
     (fm.pipeline.source_url ?
       '<a href="' + escapeHtml(fm.pipeline.source_url) + '" target="_blank" rel="noopener noreferrer" class="source-open-link">' + escapeHtml(fm.pipeline.source_url) + '</a>' :
@@ -584,18 +606,17 @@ function openModal(card) {
     '<div class="field"><label>Writing effort</label><div class="dot-picker" id="m-effort" data-val="' + effort + '">' + dotButtons(effort) + '</div></div>' +
     '<div class="field"><label>Verification burden</label><div class="dot-picker" id="m-verification" data-val="' + verification + '">' + dotButtons(verification) + '</div></div>' +
     '</div>' +
-    '<div class="field-row">' +
     '<div class="field"><label>Hold until</label><input type="date" id="m-hold" value="' + normalizeDate(getHoldUntil(card)) + '"></div>' +
     '<div class="field"><label>Publish date</label><div class="field-row">' +
     '<input type="date" id="m-publish" value="' + normalizeDate(getPublishDate(card)) + '">' +
     '<select id="m-publish-time">' + timeOptionsHtml(getPublishTime(card)) + '</select>' +
     '</div></div>' +
-    '</div>' +
     (stage === 'archived' ? '<div class="field"><label>Reject reason</label><input type="text" id="m-reject" value="' + escapeHtml(fm.pipeline.reject_reason || '') + '"></div>' : '') +
     sourceLinks +
-    '<div class="field"><label>Body / notes</label><textarea id="m-body">' + escapeHtml(card.body || '') + '</textarea></div>' +
     '<button type="button" class="raw-toggle" id="rawToggle">Show raw frontmatter (YAML)</button>' +
     '<div class="field" id="rawBox" style="display:none;"><textarea id="m-raw" style="min-height:140px;"></textarea><button type="button" class="btn" id="rawApply">Apply raw YAML</button></div>' +
+    '</div>' +
+    '</div>' +
     '<div class="modal-actions">' +
     '<div class="left">' +
     (stage === STAGES[0] ? '<button class="btn accent-research" id="m-yay">Yay</button><button class="btn accent-danger" id="m-nay">Nay</button>' : '') +
@@ -628,6 +649,24 @@ function wireModalEvents(card) {
       group.dataset.val = val;
       Array.from(group.children).forEach(function (b) { b.classList.toggle('filled', Number(b.dataset.val) <= val); });
     });
+  });
+
+  document.getElementById('bodyToggle').addEventListener('click', function () {
+    var preview = document.getElementById('m-body-preview');
+    var textarea = document.getElementById('m-body');
+    var btn = document.getElementById('bodyToggle');
+    var editing = textarea.style.display !== 'none';
+    if (editing) {
+      preview.innerHTML = renderMarkdown(textarea.value);
+      preview.style.display = '';
+      textarea.style.display = 'none';
+      btn.textContent = 'Edit';
+    } else {
+      preview.style.display = 'none';
+      textarea.style.display = '';
+      btn.textContent = 'Preview';
+      textarea.focus();
+    }
   });
 
   document.getElementById('rawToggle').addEventListener('click', function () {
@@ -737,8 +776,30 @@ function openNewCardModal() {
   });
 }
 
+// ---------- theme ----------
+var THEME_KEY = 'workbench-theme';
+function applyTheme(mode) {
+  if (mode === 'light' || mode === 'dark') document.documentElement.setAttribute('data-theme', mode);
+  else document.documentElement.removeAttribute('data-theme');
+  document.querySelectorAll('#themeToggle button').forEach(function (b) {
+    b.classList.toggle('active', b.dataset.themeChoice === mode);
+  });
+}
+function initTheme() {
+  var saved = localStorage.getItem(THEME_KEY) || 'system';
+  applyTheme(saved);
+  document.querySelectorAll('#themeToggle button').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var mode = btn.dataset.themeChoice;
+      localStorage.setItem(THEME_KEY, mode);
+      applyTheme(mode);
+    });
+  });
+}
+
 // ---------- init ----------
 function init() {
+  initTheme();
   fetch('/api/config').then(function (r) { return r.json(); }).then(function (cfg) {
     STAGES = cfg.stages;
     TYPES = cfg.types || [];
@@ -757,14 +818,6 @@ function init() {
   document.getElementById('calToday').addEventListener('click', function () {
     calMonth = new Date(); calMonth.setDate(1); calMonth.setHours(0, 0, 0, 0);
     renderCalendar();
-  });
-  document.getElementById('surpriseBtn').addEventListener('click', function () {
-    var candidates = cards.filter(function (c) {
-      return !isHeld(c) && !isScheduled(c) && getStage(c) !== STAGES[0] && getStage(c) !== 'archived';
-    });
-    if (!candidates.length) { alert('Nothing available to surprise you with right now.'); return; }
-    candidates.sort(function (a, b) { return (getEffort(a) + getVerification(a)) - (getEffort(b) + getVerification(b)); });
-    openModal(candidates[0]);
   });
   document.getElementById('newCardBtn').addEventListener('click', openNewCardModal);
   document.getElementById('modalOverlay').addEventListener('click', function (e) {
