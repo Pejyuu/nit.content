@@ -1,0 +1,101 @@
+---
+slug: turist.visum
+published: true
+updated: '2025-05-20T08:16'
+title: Turistvisum
+excerpt: 'Du kan søke på 60 dagers turistvisum til Thailand. Men du kan og søke på multi-entry visum med gyldighet i 6 måneder. '
+prev: false
+next: false
+pipeline:
+  stage: published
+  writing_effort: null
+  verification_burden: null
+  hold_until: null
+  publish_date: null
+  reject_reason: null
+  content_category: seasonal
+  resurface_cooldown: 6 months
+  last_verified: '2025-05-20T08:16'
+  last_touched: '2026-07-11T02:15:07.344Z'
+  source_research: null
+  source_idea: null
+type: visa
+id: visa.turist-visum
+description: 'Du kan søke på 60 dagers turistvisum til Thailand. Men du kan og søke på multi-entry visum med gyldighet i 6 måneder. '
+stage: published
+status: needs-review
+updatedAt: '2025-05-20T08:16'
+lastVerifiedAt: null
+nextReviewAt: null
+revisionHistory: []
+topics: []
+audiences: []
+images: {}
+sources: []
+relations: []
+affiliateLinks: []
+ads:
+  overrides: {}
+---
+Thailand er et av de mest populære reisemålene blant nordmenn, og det finnes flere ulike visumalternativer for turister.  
+Turistvisumet er et godt valg for deg som ønsker dra på besøk til Thailand, men ønsker noe sikrere enn visumfri innreise.
+
+1.  Både visumfri innreise og turistvisum gir nå 60 dagers opphold. Reglene kan endres uten forvarsel.
+    
+
+## Single-Entry
+
+Turistvisum gir deg opphold i 60 dager i Thailand.  
+Det er mulig å forlenge dette visumet med 30 dager på immigrasjonskontoret i Thailand.
+
+| Varighet | Pris | Kan brukes flere ganger | Kan forlenges? |
+| --- | --- | --- | --- |
+| 60 dg | 350,- | Nei | 30 dg |
+
+## Multiple-Entry
+
+Dette visumet gir deg muligheten til å reise inn og ut av Thailand flere ganger i løpet av en gyldighetsperiode på opptil 6 måneder.  
+Hver gang du reiser inn i Thailand, får du opphold på 60 dager. Etter dette må du forlate landet eller forlenge visumet på immigrasjonskontoret.  
+Du kan forlenge med maksimalt 30 dager for hver innreise til Thailand.
+
+Timer du dette visumet riktig, kan du få opp mot 9 måneder totalt ut av visumet.
+
+| Varighet | Pris | Kan brukes flere ganger? | Kan forlenges? |
+| --- | --- | --- | --- |
+| 60 dg pr innreise | 1700,- | Ubegrensede innreiser over 6 mnd | 30 dg |
+
+## Hvordan søke?
+
+Gå til [Thai E-Visa](https://www.thaievisa.go.th/) for å søke på turistvisum.  
+Vi anbefaler å bruke en datamaskin med [Google Chrome](https://www.google.com/chrome/) som nettleser for å gjennomføre denne søknaden.
+
+**Dokumentasjonskrav**
+
+*   Pass med gyldighet på minst 6 mnd 
+*   Fotografi av søkeren, tatt innenfor de siste 6 mnd 
+*   Bevis på reise, f.eks. en flybillett betalt i sin helhet  
+    <small>For Multiple Entry må du ha **minst to sett** med innreise og utreisebilletter</small>  
+*   Utreisebillett innen 60 dager etter ankomst  
+    <small>Ikke håndhevet ofte, men det står i MFA sine forskrifter som et krav</small>
+*   Dokumentasjon på tilstrekkelig økonomi:  
+    *   20 000 Baht per person eller 40 000 Baht per familie    
+    *   For Multiple Entry: 200 000 Baht per person, eller 400 000 Baht per familie (de siste 6 mnd)     
+*   Bevis på overnatting
+    
+
+## Forlenge oppholdet?
+
+Du kan utvide et visumfritt opphold med ytterligere 30 dager ved å dra til et av Thailands immigrasjonskontorer.
+
+**Dokumentasjonskrav**
+
+*   Kopi av bildesiden i passet
+*   Kopi av innreisestempelet i passet
+*   Kopi av ditt elektroniske visum, evt. kopi av visumsiden i passet ditt
+*   2x passfoto
+*   Søknadspapirer (finnes hos immigrasjonskontorene)
+*   1900 THB  
+*   Og litt tålmodighet og et smil. :)
+    
+
+Det er køsystem hos enkelte av immigrasjonskontorene, og begrenset antall kølapper hver dag.

@@ -1,0 +1,41 @@
+---
+type: research
+title: 'Tjene i Norge, bo i Thailand: DTV-visumet for norske digitale nomader'
+published: false
+date: null
+author: null
+slug: null
+categories: null
+cover: null
+allow_comment: false
+thread_id: null
+excerpt: >-
+  Destination Thailand Visa (DTV) er et 5-årig visum med opptil 180 dager per
+  innreise (kan forlenges én gang), rettet mot fjernarbeidere og frilansere. For
+  nordmenn med utenlandske arbeidsgivere eller kunder utenfor Thailand er det et
+  av de mest fleksible og rimelige langtidsalternativene — men det krever
+  dokumentert oppsparing på 500 000 THB (~$14 500) og gir ikke rett til
+  thailandsk arbeidstillatelse.
+sharing:
+  og_image: null
+  twitter_card: summary_large_image
+pipeline:
+  stage: candidate
+  writing_effort: null
+  verification_burden: null
+  hold_until: ''
+  publish_date: ''
+  reject_reason: ''
+  content_category: null
+  resurface_cooldown: null
+  last_verified: null
+  last_touched: '2026-07-18T11:26:55.577Z'
+  source_research: null
+  source_idea: null
+  source_url: 'https://www.thaiembassy.com/thailand-visa/dtv-visa-thailand'
+---
+Primary source: [Destination Thailand Visa (DTV) 2026: Official Guide and Requirements — ThaiEmbassy.com](https://www.thaiembassy.com/thailand-visa/dtv-visa-thailand)
+
+Worth developing: sterkt, konkret nyttestoff for den voksende gruppen norske fjernarbeidere og frilansere. Dekker hva DTV faktisk er (5 år, 180 dager per innreise, forlengbart), de økonomiske kravene (500 000 THB i 3 måneder), hvordan ektefelle og barn kan søke som medfølgende, og søknad via Thailand e-Visa-portalen. Viktig avgrensning: DTV gir ikke arbeidstillatelse og tillater ikke arbeid for thailandske klienter.
+
+Source confidence: high — offisiell visumveiledning fra ThaiEmbassy.com; bør kryssjekkes mot Royal Thai Embassy/e-Visa-portalen ved skriving for ferske gebyr- og dokumentkrav.

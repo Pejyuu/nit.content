@@ -1,0 +1,81 @@
+---
+published: true
+featured: false
+date: '2025-06-26T23:41'
+author: marianneh
+slug: cannabis-resept-thailand-2025
+title: Cannabis blir nå reseptbelagt (gjeldende fra juni 2025)
+categories: nyheter
+cover: /src/cms/content/media/cover_cannabis-resept-thailand-2025.jpg
+allow_comment: false
+excerpt: 'Thailand har vedtatt nye regler som reklassifiserer cannabis som et reseptbelagt narkotikum. Fra juni 2025 er rekreasjonsbruk forbudt, og kun medisinsk bruk med godkjent resept er tillatt.'
+sharing:
+  og_image: /src/cms/content/media/cannabis-forbidden-share.jpg
+pipeline:
+  stage: published
+  writing_effort: null
+  verification_burden: null
+  hold_until: null
+  publish_date: '2025-06-26T23:41'
+  reject_reason: null
+  content_category: one-off
+  resurface_cooldown: null
+  last_verified: '2025-06-26T23:41'
+  last_touched: '2026-07-11T02:15:07.344Z'
+  source_research: null
+  source_idea: null
+type: post
+id: post.2025.cannabis-resept-thailand-2025
+description: 'Thailand har vedtatt nye regler som reklassifiserer cannabis som et reseptbelagt narkotikum. Fra juni 2025 er rekreasjonsbruk forbudt, og kun medisinsk bruk med godkjent resept er tillatt.'
+stage: published
+status: published
+publishedAt: '2025-06-26T23:41'
+category: nyheter
+topics: []
+audiences: []
+images:
+  cover: cover.jpg
+  social:
+    universal: social/universal.jpg
+sources: []
+relations: []
+affiliateLinks: []
+ads:
+  overrides: {}
+---
+Etter at cannabis ble avkriminalisert i 2022 og solgt fritt i tusenvis av butikker over hele Thailand, har myndighetene nå valgt å stramme inn. Fra og med juni 2025 er cannabisblomster reklassifisert som et reseptbelagt narkotikum. Her er oversettelsen av den [offisielle kunngjøringen](https://ratchakitcha.soc.go.th/documents/76076.pdf) i [Royal Gazette](https://ratchakitcha.soc.go.th/).
+
+### Sammendrag av dokumentet:
+
+*   **Utstedt av**: Thailands helsedepartement
+*   **Publisert**: [25\. juni 2025 i Royal Gazette](https://ratchakitcha.soc.go.th/documents/76076.pdf)
+*   **Status**: Trer i kraft fra og med publiseringsdato, med mindre annet er spesifisert
+
+### Cannabis føres tilbake som kontrollert stoff
+
+Cannabisblomster (buds) er nå ført opp som et narkotisk stoff under **Kategori 5** i narkotikalisten, når det gjelder ikke-medisinsk bruk.
+
+### Når er bruk fortsatt tillatt?
+
+Cannabis kan nå kun brukes eller besittes under følgende betingelser:
+
+a) Du har resept fra en autorisert thailandsk lege  
+b) Det inngår i et godkjent medisinsk behandlingsprogram  
+c) Det håndteres av helsemyndigheter eller godkjente forskningsinstitusjoner  
+d) Det brukes til utdanning eller forskning etter godkjenning  
+e) Det inngår i veterinærbehandling eller industriell bruk med særskilt tillatelse  
+f) Det omsettes eller oppbevares av aktører med medisinsk lisens og statlig godkjenning
+
+### Forbudt uten særskilt tillatelse
+
+*   Rekreasjonsbruk
+*   Privat besittelse
+*   Hjemmedyrking
+*   Salg uten medisinsk lisens
+*   Nettsalg eller bruk av automater
+
+### Tidslinje for innføring
+
+*   Loven trådte formelt i kraft [25\. juni 2025 med publiseringen i Royal Gazette](https://ratchakitcha.soc.go.th/documents/76076.pdf)
+*   Det forventes en **overgangsperiode** for eksisterende virksomheter, men detaljene er ennå ikke klart definert i dette dokumentet
+*   Full håndheving kan skje i løpet av høsten 2025, og mange venter på oppfølgende forskrifter

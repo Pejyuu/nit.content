@@ -1,0 +1,1284 @@
+{
+  "generatedAt": "2026-07-18T21:12:50.266Z",
+  "command": "dry-run",
+  "contentDirectory": "content-repo",
+  "summary": {
+    "migrated": 0,
+    "unchanged": 39,
+    "needs-classification": 16,
+    "needs-topic-mapping": 0,
+    "needs-source-review": 14,
+    "needs-date-review": 14,
+    "needs-author-review": 14,
+    "ambiguous-ad-zone": 0,
+    "broken-relation": 0,
+    "invalid-frontmatter": 0
+  },
+  "files": [
+    {
+      "path": "content-repo/candidates/2026-07-11-ny-dinosaurart-oppdaget-i-thailand.md",
+      "currentUrl": null,
+      "proposedUrl": null,
+      "proposedType": "unresolved",
+      "confidence": "high",
+      "issues": [],
+      "categories": [
+        "needs-classification"
+      ],
+      "hasBody": true,
+      "assets": [],
+      "unknownFields": [],
+      "validationErrors": [],
+      "bodySha256": "a7f0966f14db9171812ba1d6899408931fe2e76c62d3ebc0dee7c6f639ac1bb8",
+      "classificationReason": "workflow candidate not approved for publication"
+    },
+    {
+      "path": "content-repo/candidates/2026-07-12-nasjonal-aksjon-mot-nominee-eierskap.md",
+      "currentUrl": null,
+      "proposedUrl": null,
+      "proposedType": "unresolved",
+      "confidence": "high",
+      "issues": [],
+      "categories": [
+        "needs-classification"
+      ],
+      "hasBody": true,
+      "assets": [],
+      "unknownFields": [],
+      "validationErrors": [],
+      "bodySha256": "e7d76323219a3b82b0154676846a88bce7e6ec9aa1f3bf3670c60019404db9c0",
+      "classificationReason": "workflow candidate not approved for publication"
+    },
+    {
+      "path": "content-repo/candidates/2026-07-15-dtv-visum-norske-nomader.md",
+      "currentUrl": null,
+      "proposedUrl": null,
+      "proposedType": "unresolved",
+      "confidence": "high",
+      "issues": [],
+      "categories": [
+        "needs-classification"
+      ],
+      "hasBody": true,
+      "assets": [],
+      "unknownFields": [],
+      "validationErrors": [],
+      "bodySha256": "64a6a23ab2b8d91e51f8b100ff2380a039db3e003a1ebc6b6e8f1f1cf8494f59",
+      "classificationReason": "workflow candidate not approved for publication"
+    },
+    {
+      "path": "content-repo/candidates/2026-07-15-levekostnader-thailand-vs-norge.md",
+      "currentUrl": null,
+      "proposedUrl": null,
+      "proposedType": "unresolved",
+      "confidence": "high",
+      "issues": [],
+      "categories": [
+        "needs-classification"
+      ],
+      "hasBody": true,
+      "assets": [],
+      "unknownFields": [],
+      "validationErrors": [],
+      "bodySha256": "2f44d226b095590d32feb7f8c120f77aea34ee7b97e37aadf611ada169c27f43",
+      "classificationReason": "workflow candidate not approved for publication"
+    },
+    {
+      "path": "content-repo/candidates/2026-07-15-norsk-skatt-thailandsk-skatteresidens.md",
+      "currentUrl": null,
+      "proposedUrl": null,
+      "proposedType": "unresolved",
+      "confidence": "high",
+      "issues": [],
+      "categories": [
+        "needs-classification"
+      ],
+      "hasBody": true,
+      "assets": [],
+      "unknownFields": [],
+      "validationErrors": [],
+      "bodySha256": "11723e35d7a7a3aae385b9c50af21332261440a123ed665aeb5d16b9338ed0f1",
+      "classificationReason": "workflow candidate not approved for publication"
+    },
+    {
+      "path": "content-repo/candidates/2026-07-16-bangkok-togbilletter-prisgrense-45-baht.md",
+      "currentUrl": null,
+      "proposedUrl": null,
+      "proposedType": "unresolved",
+      "confidence": "high",
+      "issues": [],
+      "categories": [
+        "needs-classification"
+      ],
+      "hasBody": true,
+      "assets": [],
+      "unknownFields": [],
+      "validationErrors": [],
+      "bodySha256": "cc0a16986581bee5ba27a9d75723ca50f8cb2698cba3d7f6644ef8a1dd680bd2",
+      "classificationReason": "workflow candidate not approved for publication"
+    },
+    {
+      "path": "content-repo/candidates/2026-07-16-buss-og-flybilletter-ned-thailand.md",
+      "currentUrl": null,
+      "proposedUrl": null,
+      "proposedType": "unresolved",
+      "confidence": "high",
+      "issues": [],
+      "categories": [
+        "needs-classification"
+      ],
+      "hasBody": true,
+      "assets": [],
+      "unknownFields": [],
+      "validationErrors": [],
+      "bodySha256": "aca3bc89734470004d36a8992ba978c76968c847fc7d7c26e0fc38ebfe255405",
+      "classificationReason": "workflow candidate not approved for publication"
+    },
+    {
+      "path": "content-repo/candidates/2026-07-16-phuket-jetski-razzia.md",
+      "currentUrl": null,
+      "proposedUrl": null,
+      "proposedType": "unresolved",
+      "confidence": "high",
+      "issues": [],
+      "categories": [
+        "needs-classification"
+      ],
+      "hasBody": true,
+      "assets": [],
+      "unknownFields": [],
+      "validationErrors": [],
+      "bodySha256": "3dbfb46e9e4e6bb35bcaff135fc38e1d2afed375a3c824ecdd11cb89e2a8334a",
+      "classificationReason": "workflow candidate not approved for publication"
+    },
+    {
+      "path": "content-repo/candidates/2026-07-16-thailand-deler-opp-turismedepartementet.md",
+      "currentUrl": null,
+      "proposedUrl": null,
+      "proposedType": "unresolved",
+      "confidence": "high",
+      "issues": [],
+      "categories": [
+        "needs-classification"
+      ],
+      "hasBody": true,
+      "assets": [],
+      "unknownFields": [],
+      "validationErrors": [],
+      "bodySha256": "e69bed71367f7ea6168e1a12a617306bac9fe15ed9f3654fde9cefdce771f5af",
+      "classificationReason": "workflow candidate not approved for publication"
+    },
+    {
+      "path": "content-repo/candidates/2026-07-17-chiang-mai-karaoke-svindel.md",
+      "currentUrl": null,
+      "proposedUrl": null,
+      "proposedType": "unresolved",
+      "confidence": "high",
+      "issues": [],
+      "categories": [
+        "needs-classification"
+      ],
+      "hasBody": true,
+      "assets": [],
+      "unknownFields": [],
+      "validationErrors": [],
+      "bodySha256": "d8e31f2c4fd6f0631c871734c5459445a8392c707a75de47224e27a283132d65",
+      "classificationReason": "workflow candidate not approved for publication"
+    },
+    {
+      "path": "content-repo/candidates/2026-07-17-monsun-tungtvær-20-21-juli.md",
+      "currentUrl": null,
+      "proposedUrl": null,
+      "proposedType": "unresolved",
+      "confidence": "high",
+      "issues": [],
+      "categories": [
+        "needs-classification"
+      ],
+      "hasBody": true,
+      "assets": [],
+      "unknownFields": [],
+      "validationErrors": [],
+      "bodySha256": "63d24ee45ba018238b716dc1eeb3baf1b9a0cf46b03cab1911ee93cd06319919",
+      "classificationReason": "workflow candidate not approved for publication"
+    },
+    {
+      "path": "content-repo/candidates/2026-07-17-rayong-bokseleir-norsk-sponsor.md",
+      "currentUrl": null,
+      "proposedUrl": null,
+      "proposedType": "unresolved",
+      "confidence": "high",
+      "issues": [],
+      "categories": [
+        "needs-classification"
+      ],
+      "hasBody": true,
+      "assets": [],
+      "unknownFields": [],
+      "validationErrors": [],
+      "bodySha256": "018558b8deca8e9f8390144b9aa83bad27aabc137a65cf6b3edf513d1dc970f1",
+      "classificationReason": "workflow candidate not approved for publication"
+    },
+    {
+      "path": "content-repo/candidates/2026-07-17-strompris-kutt-3-baht.md",
+      "currentUrl": null,
+      "proposedUrl": null,
+      "proposedType": "unresolved",
+      "confidence": "high",
+      "issues": [],
+      "categories": [
+        "needs-classification"
+      ],
+      "hasBody": true,
+      "assets": [],
+      "unknownFields": [],
+      "validationErrors": [],
+      "bodySha256": "2401b05556f687fb71c3284a08f434fc3123176112a3d7436642805487fa96da",
+      "classificationReason": "workflow candidate not approved for publication"
+    },
+    {
+      "path": "content-repo/candidates/2026-07-17-turisme-stimulus-245-mrd.md",
+      "currentUrl": null,
+      "proposedUrl": null,
+      "proposedType": "unresolved",
+      "confidence": "high",
+      "issues": [],
+      "categories": [
+        "needs-classification"
+      ],
+      "hasBody": true,
+      "assets": [],
+      "unknownFields": [],
+      "validationErrors": [],
+      "bodySha256": "d7a7ed452f8b9f2e8a5b73b9ea89524886d0b3a3799e5a23edbba63fea3a53b3",
+      "classificationReason": "workflow candidate not approved for publication"
+    },
+    {
+      "path": "content-repo/candidates/2026-07-18-baht-svakker-3350.md",
+      "currentUrl": null,
+      "proposedUrl": null,
+      "proposedType": "unresolved",
+      "confidence": "high",
+      "issues": [],
+      "categories": [
+        "needs-classification"
+      ],
+      "hasBody": true,
+      "assets": [],
+      "unknownFields": [],
+      "validationErrors": [],
+      "bodySha256": "421d8f3973af504d9af256d0cf3c188ac808b692ccc45abc72fc59e6189b3490",
+      "classificationReason": "workflow candidate not approved for publication"
+    },
+    {
+      "path": "content-repo/candidates/2026-07-18-huai-khwang-ulovlig-pub.md",
+      "currentUrl": null,
+      "proposedUrl": null,
+      "proposedType": "unresolved",
+      "confidence": "high",
+      "issues": [],
+      "categories": [
+        "needs-classification"
+      ],
+      "hasBody": true,
+      "assets": [],
+      "unknownFields": [],
+      "validationErrors": [],
+      "bodySha256": "a40f5b19d78748e7e151d47f43b5c067596f8d823806b6d781eaf0955b4de6e6",
+      "classificationReason": "workflow candidate not approved for publication"
+    },
+    {
+      "path": "content-repo/candidates/rejected/2026-07-16-kraftig-regn-36-provinser.md",
+      "currentUrl": null,
+      "proposedUrl": null,
+      "proposedType": "archive-candidate",
+      "confidence": "high",
+      "issues": [],
+      "categories": [
+        "unchanged"
+      ],
+      "hasBody": true,
+      "assets": [],
+      "unknownFields": [],
+      "validationErrors": [],
+      "bodySha256": "fb51b4c5652d86c1fa89d82a85cf373d701ad6ab4a427c027eab75b334da27c1",
+      "classificationReason": "rejected or archived workflow candidate"
+    },
+    {
+      "path": "content-repo/candidates/rejected/2026-07-16-thailand-kutter-visumfritt-opphold.md",
+      "currentUrl": null,
+      "proposedUrl": null,
+      "proposedType": "archive-candidate",
+      "confidence": "high",
+      "issues": [],
+      "categories": [
+        "unchanged"
+      ],
+      "hasBody": true,
+      "assets": [],
+      "unknownFields": [],
+      "validationErrors": [],
+      "bodySha256": "525786fd66b1f42c8662db856797de396098ea30e88dd4aea26c69e750ab48bc",
+      "classificationReason": "rejected or archived workflow candidate"
+    },
+    {
+      "path": "content-repo/guides/index/index.md",
+      "currentUrl": "/visumguiden/index/",
+      "proposedUrl": "/visumguiden/index/",
+      "proposedType": "guide",
+      "confidence": "high",
+      "issues": [
+        "needs-date-review",
+        "needs-author-review",
+        "needs-source-review"
+      ],
+      "categories": [
+        "needs-date-review",
+        "needs-author-review",
+        "needs-source-review",
+        "unchanged"
+      ],
+      "hasBody": true,
+      "assets": [],
+      "unknownFields": [
+        "prev",
+        "next"
+      ],
+      "validationErrors": [],
+      "bodySha256": "4bd12475890b8cba55875c0b369230a05a533b120e14150c620bbd7b09742d40",
+      "classificationReason": "maintained practical guide collection"
+    },
+    {
+      "path": "content-repo/guides/innreisekrav/index.md",
+      "currentUrl": "/visumguiden/innreisekrav/",
+      "proposedUrl": "/visumguiden/innreisekrav/",
+      "proposedType": "guide",
+      "confidence": "high",
+      "issues": [
+        "needs-date-review",
+        "needs-author-review",
+        "needs-source-review"
+      ],
+      "categories": [
+        "needs-date-review",
+        "needs-author-review",
+        "needs-source-review",
+        "unchanged"
+      ],
+      "hasBody": true,
+      "assets": [],
+      "unknownFields": [
+        "prev",
+        "next"
+      ],
+      "validationErrors": [],
+      "bodySha256": "e8ebb273072f407a7c72b24846951f921ddd0f99d304ee33b8d5985647b2b940",
+      "classificationReason": "maintained practical guide collection"
+    },
+    {
+      "path": "content-repo/guides/inntektsbekreftelse/index.md",
+      "currentUrl": "/visumguiden/inntektsbekreftelse/",
+      "proposedUrl": "/visumguiden/inntektsbekreftelse/",
+      "proposedType": "guide",
+      "confidence": "high",
+      "issues": [
+        "needs-date-review",
+        "needs-author-review",
+        "needs-source-review"
+      ],
+      "categories": [
+        "needs-date-review",
+        "needs-author-review",
+        "needs-source-review",
+        "unchanged"
+      ],
+      "hasBody": true,
+      "assets": [
+        "/src/cms/content/media/innektsbekreftelser_og_alternativer.jpg"
+      ],
+      "unknownFields": [
+        "prev",
+        "next"
+      ],
+      "validationErrors": [],
+      "bodySha256": "e05a8ef4659713dbfdab244b0a6979152c216791b927ed2f2c7d514883de46f4",
+      "classificationReason": "maintained practical guide collection"
+    },
+    {
+      "path": "content-repo/guides/nono-vs-nonoa/index.md",
+      "currentUrl": "/visumguiden/nono.vs.nonoa/",
+      "proposedUrl": "/visumguiden/nono.vs.nonoa/",
+      "proposedType": "guide",
+      "confidence": "high",
+      "issues": [
+        "needs-date-review",
+        "needs-author-review",
+        "needs-source-review"
+      ],
+      "categories": [
+        "needs-date-review",
+        "needs-author-review",
+        "needs-source-review",
+        "unchanged"
+      ],
+      "hasBody": true,
+      "assets": [],
+      "unknownFields": [
+        "prev",
+        "next"
+      ],
+      "validationErrors": [],
+      "bodySha256": "d5b423be81b57b9481340b602b8eab1eb96522ce738606c4935a82d279c3fb75",
+      "classificationReason": "maintained practical guide collection"
+    },
+    {
+      "path": "content-repo/guides/penger-praktisk/index.md",
+      "currentUrl": "/visumguiden/penger.praktisk/",
+      "proposedUrl": "/visumguiden/penger.praktisk/",
+      "proposedType": "guide",
+      "confidence": "high",
+      "issues": [
+        "needs-date-review",
+        "needs-author-review",
+        "needs-source-review"
+      ],
+      "categories": [
+        "needs-date-review",
+        "needs-author-review",
+        "needs-source-review",
+        "unchanged"
+      ],
+      "hasBody": true,
+      "assets": [],
+      "unknownFields": [
+        "prev",
+        "next"
+      ],
+      "validationErrors": [],
+      "bodySha256": "24433ef5afa77dce1da4684b1f7634fdb4f717c1b7889b4b9b3fa6b95473f334",
+      "classificationReason": "maintained practical guide collection"
+    },
+    {
+      "path": "content-repo/guides/tm47/index.md",
+      "currentUrl": "/visumguiden/tm47/",
+      "proposedUrl": "/visumguiden/tm47/",
+      "proposedType": "guide",
+      "confidence": "high",
+      "issues": [
+        "needs-date-review",
+        "needs-author-review",
+        "needs-source-review"
+      ],
+      "categories": [
+        "needs-date-review",
+        "needs-author-review",
+        "needs-source-review",
+        "unchanged"
+      ],
+      "hasBody": true,
+      "assets": [],
+      "unknownFields": [
+        "prev",
+        "next"
+      ],
+      "validationErrors": [],
+      "bodySha256": "d5015f847b28e1ac63e90e2a2d16b6591504a7944f38f27bd1ed1366df6211e8",
+      "classificationReason": "maintained practical guide collection"
+    },
+    {
+      "path": "content-repo/guides/turist-index/index.md",
+      "currentUrl": "/visumguiden/turist.index/",
+      "proposedUrl": "/visumguiden/turist.index/",
+      "proposedType": "guide",
+      "confidence": "high",
+      "issues": [
+        "needs-date-review",
+        "needs-author-review",
+        "needs-source-review"
+      ],
+      "categories": [
+        "needs-date-review",
+        "needs-author-review",
+        "needs-source-review",
+        "unchanged"
+      ],
+      "hasBody": true,
+      "assets": [],
+      "unknownFields": [
+        "prev",
+        "next"
+      ],
+      "validationErrors": [],
+      "bodySha256": "9c2f4f12ab7c7ef173e35b2c0bed0fcfbe1f7b4ba7a753fec3220599ab39787c",
+      "classificationReason": "maintained practical guide collection"
+    },
+    {
+      "path": "content-repo/posts/2025/05/7-ting-du-kan-gjore-i-regntiden/index.md",
+      "currentUrl": "/magasin/hverdag/7-ting-du-kan-gjore-i-regntiden/",
+      "proposedUrl": "/magasin/hverdag/7-ting-du-kan-gjore-i-regntiden/",
+      "proposedType": "post",
+      "confidence": "high",
+      "issues": [],
+      "categories": [
+        "unchanged"
+      ],
+      "hasBody": true,
+      "assets": [
+        "/src/cms/content/media/cover_7-ting-du-kan-gjore-i-regntiden.jpg",
+        "cover.jpg"
+      ],
+      "unknownFields": [
+        "featured",
+        "allow_comment"
+      ],
+      "validationErrors": [],
+      "bodySha256": "640ee224bf6ab82aaca95b193afc2b7732cf522831ae610c5c590a8c2493370a",
+      "classificationReason": "dated editorial collection"
+    },
+    {
+      "path": "content-repo/posts/2025/05/ambassaden-gir-seg-med-inntektsbekreftelse-mai2026/index.md",
+      "currentUrl": "/magasin/nyheter/ambassaden-gir-seg-med-inntektsbekreftelse-mai2026/",
+      "proposedUrl": "/magasin/nyheter/ambassaden-gir-seg-med-inntektsbekreftelse-mai2026/",
+      "proposedType": "post",
+      "confidence": "high",
+      "issues": [],
+      "categories": [
+        "unchanged"
+      ],
+      "hasBody": true,
+      "assets": [
+        "/src/cms/content/media/cover_ambassaden-gir-seg-med-inntektsbekreftelse-mai2026.jpeg",
+        "cover.jpeg"
+      ],
+      "unknownFields": [
+        "featured",
+        "allow_comment"
+      ],
+      "validationErrors": [],
+      "bodySha256": "c5c230628fdb52d4ef761b58eeee42aff0978ee9bd5cb0d7076acb17b54f64b0",
+      "classificationReason": "dated editorial collection"
+    },
+    {
+      "path": "content-repo/posts/2025/05/da-jeg-brakk-ankelen-i-bangkok/index.md",
+      "currentUrl": "/magasin/hverdag/da-jeg-brakk-ankelen-i-bangkok/",
+      "proposedUrl": "/magasin/hverdag/da-jeg-brakk-ankelen-i-bangkok/",
+      "proposedType": "post",
+      "confidence": "high",
+      "issues": [],
+      "categories": [
+        "unchanged"
+      ],
+      "hasBody": true,
+      "assets": [
+        "/src/cms/content/media/cover_da-jeg-brakk-ankelen-i-bangkok.jpg",
+        "cover.jpg"
+      ],
+      "unknownFields": [
+        "featured",
+        "allow_comment"
+      ],
+      "validationErrors": [],
+      "bodySha256": "95fedad8248576c6d70caca347ac942a58661a48bf1a08a5a1931fece233269d",
+      "classificationReason": "dated editorial collection"
+    },
+    {
+      "path": "content-repo/posts/2025/05/drosjefarger-og-hva-de-betyr/index.md",
+      "currentUrl": "/magasin/reise/drosjefarger-og-hva-de-betyr/",
+      "proposedUrl": "/magasin/reise/drosjefarger-og-hva-de-betyr/",
+      "proposedType": "post",
+      "confidence": "high",
+      "issues": [],
+      "categories": [
+        "unchanged"
+      ],
+      "hasBody": true,
+      "assets": [
+        "/src/cms/content/media/cover_drosjefarger-og-hva-de-betyr.jpg",
+        "cover.jpg"
+      ],
+      "unknownFields": [
+        "featured",
+        "allow_comment"
+      ],
+      "validationErrors": [],
+      "bodySha256": "06f555872777a67d063ee81ce6710b3cb7fe36fc0b764c6b4c0006a0b3f82c66",
+      "classificationReason": "dated editorial collection"
+    },
+    {
+      "path": "content-repo/posts/2025/05/innskrenking-av-cannabis-bruk-i-thailand/index.md",
+      "currentUrl": "/magasin/nyheter/innskrenking-av-cannabis-bruk-i-thailand/",
+      "proposedUrl": "/magasin/nyheter/innskrenking-av-cannabis-bruk-i-thailand/",
+      "proposedType": "post",
+      "confidence": "high",
+      "issues": [],
+      "categories": [
+        "unchanged"
+      ],
+      "hasBody": true,
+      "assets": [
+        "/src/cms/content/media/cover_innskrenking-av-cannabis-bruk-i-thailand.jpg",
+        "cover.jpg"
+      ],
+      "unknownFields": [
+        "featured",
+        "allow_comment"
+      ],
+      "validationErrors": [],
+      "bodySha256": "a7c91d2bef7cd0ec7380347f360266fd0a2734e440eebcfea9c207568fa7bfd2",
+      "classificationReason": "dated editorial collection"
+    },
+    {
+      "path": "content-repo/posts/2025/05/kleskoder-og-farger-i-thailand/index.md",
+      "currentUrl": "/magasin/kultur/kleskoder-og-farger-i-thailand/",
+      "proposedUrl": "/magasin/kultur/kleskoder-og-farger-i-thailand/",
+      "proposedType": "post",
+      "confidence": "high",
+      "issues": [],
+      "categories": [
+        "unchanged"
+      ],
+      "hasBody": true,
+      "assets": [
+        "/src/cms/content/media/cover_kleskoder-og-farger-i-thailand.jpg",
+        "cover.jpg"
+      ],
+      "unknownFields": [
+        "featured",
+        "allow_comment"
+      ],
+      "validationErrors": [],
+      "bodySha256": "325b21bdd7e9234128c2e731aad589870e959b9b40388f7956e0cbc8233df1b5",
+      "classificationReason": "dated editorial collection"
+    },
+    {
+      "path": "content-repo/posts/2025/05/phu-soi-dao-nasjonalpark-apner-etter-sesongstenging/index.md",
+      "currentUrl": "/magasin/reise/phu_soi_dao_nasjonalpark_apner_etter_sesongstenging/",
+      "proposedUrl": "/magasin/reise/phu_soi_dao_nasjonalpark_apner_etter_sesongstenging/",
+      "proposedType": "post",
+      "confidence": "high",
+      "issues": [],
+      "categories": [
+        "unchanged"
+      ],
+      "hasBody": true,
+      "assets": [
+        "/src/cms/content/media/cover_phu_soi_dao_nasjonalpark_apner_etter_sesongstenging.jpeg",
+        "cover.jpeg"
+      ],
+      "unknownFields": [
+        "featured",
+        "allow_comment"
+      ],
+      "validationErrors": [],
+      "bodySha256": "0be091093cce2920d2a27f8d39e37ebd675cc5c887cbf2e6aeaae5ec732729df",
+      "classificationReason": "dated editorial collection"
+    },
+    {
+      "path": "content-repo/posts/2025/05/thailand-et-trygt-reisemal-for-kvinner/index.md",
+      "currentUrl": "/magasin/reise/thailand-et-trygt-reisemal-for-kvinner/",
+      "proposedUrl": "/magasin/reise/thailand-et-trygt-reisemal-for-kvinner/",
+      "proposedType": "post",
+      "confidence": "high",
+      "issues": [],
+      "categories": [
+        "unchanged"
+      ],
+      "hasBody": true,
+      "assets": [
+        "/src/cms/content/media/cover_thailand-et-trygt-reisemal-for-kvinner.jpg",
+        "cover.jpg"
+      ],
+      "unknownFields": [
+        "featured",
+        "allow_comment"
+      ],
+      "validationErrors": [],
+      "bodySha256": "fc4e4a86c4cc71bbe5ce222091d5e93350de9e2478acb28232e62d2d42181b3c",
+      "classificationReason": "dated editorial collection"
+    },
+    {
+      "path": "content-repo/posts/2025/05/trenger-jeg-visum-for-a-reise-til-thailand/index.md",
+      "currentUrl": "/magasin/visum/trenger-jeg-visum-for-å-reise-til-thailand/",
+      "proposedUrl": "/magasin/visum/trenger-jeg-visum-for-å-reise-til-thailand/",
+      "proposedType": "post",
+      "confidence": "high",
+      "issues": [],
+      "categories": [
+        "unchanged"
+      ],
+      "hasBody": true,
+      "assets": [
+        "/src/cms/content/media/cover_trenger-jeg-visum-for-å-reise-til-thailand.jpeg",
+        "cover.jpeg"
+      ],
+      "unknownFields": [
+        "featured",
+        "allow_comment"
+      ],
+      "validationErrors": [],
+      "bodySha256": "e28fbec92c4f81a1750cc6fd73c275a0a4b20c58874025cd8e6bb3e91490bb44",
+      "classificationReason": "dated editorial collection"
+    },
+    {
+      "path": "content-repo/posts/2025/06/bangkok-beste-by-digitale-nomader/index.md",
+      "currentUrl": "/magasin/hverdag/bangkok-beste-by-digitale-nomader/",
+      "proposedUrl": "/magasin/hverdag/bangkok-beste-by-digitale-nomader/",
+      "proposedType": "post",
+      "confidence": "high",
+      "issues": [],
+      "categories": [
+        "unchanged"
+      ],
+      "hasBody": true,
+      "assets": [
+        "/src/cms/content/media/cover_bangkok-beste-by-digitale-nomader.jpg",
+        "cover.jpg",
+        "/src/cms/content/media/bangkok-top-for-digital-nomads.png"
+      ],
+      "unknownFields": [
+        "featured",
+        "allow_comment"
+      ],
+      "validationErrors": [],
+      "bodySha256": "6b81426dcf03604b407ad421290d96feea5d55ea4bf00d062aa9fd96d07d8d84",
+      "classificationReason": "dated editorial collection"
+    },
+    {
+      "path": "content-repo/posts/2025/06/cannabis-resept-thailand-2025/index.md",
+      "currentUrl": "/magasin/nyheter/cannabis-resept-thailand-2025/",
+      "proposedUrl": "/magasin/nyheter/cannabis-resept-thailand-2025/",
+      "proposedType": "post",
+      "confidence": "high",
+      "issues": [],
+      "categories": [
+        "unchanged"
+      ],
+      "hasBody": true,
+      "assets": [
+        "/src/cms/content/media/cover_cannabis-resept-thailand-2025.jpg",
+        "cover.jpg",
+        "/src/cms/content/media/cannabis-forbidden-share.jpg"
+      ],
+      "unknownFields": [
+        "featured",
+        "allow_comment"
+      ],
+      "validationErrors": [],
+      "bodySha256": "b2956c5deb3f4292dcab41bca5bb2bc76586ade68d8b2c99c7e6bcd7d29fe77e",
+      "classificationReason": "dated editorial collection"
+    },
+    {
+      "path": "content-repo/posts/2025/06/elefanter-og-etisk-turisme/index.md",
+      "currentUrl": "/magasin/reise/elefanter-og-etisk-turisme/",
+      "proposedUrl": "/magasin/reise/elefanter-og-etisk-turisme/",
+      "proposedType": "post",
+      "confidence": "high",
+      "issues": [],
+      "categories": [
+        "unchanged"
+      ],
+      "hasBody": true,
+      "assets": [
+        "/src/cms/content/media/cover_elefanter-og-etisk-turisme.jpg",
+        "cover.jpg",
+        "/src/cms/content/media/elefanter-som-turistattraksjoner.jpg"
+      ],
+      "unknownFields": [
+        "featured",
+        "allow_comment"
+      ],
+      "validationErrors": [],
+      "bodySha256": "a0f680cacbaa048ed28ac5c176e567725c8fa22736b4994b3f486b29fdd4187e",
+      "classificationReason": "dated editorial collection"
+    },
+    {
+      "path": "content-repo/posts/2025/06/pensjonistsvisum-thailand-2025-2026/index.md",
+      "currentUrl": "/magasin/visum/pensjonistsvisum-thailand-2025-2026/",
+      "proposedUrl": "/magasin/visum/pensjonistsvisum-thailand-2025-2026/",
+      "proposedType": "post",
+      "confidence": "high",
+      "issues": [],
+      "categories": [
+        "unchanged"
+      ],
+      "hasBody": true,
+      "assets": [
+        "/src/cms/content/media/cover_pensjonistsvisum-thailand-2025-2026.jpg",
+        "cover.jpg"
+      ],
+      "unknownFields": [
+        "featured",
+        "allow_comment"
+      ],
+      "validationErrors": [],
+      "bodySha256": "037766dedc92023b8e6c1c5284390640f991bfbf51ada8b147e70ebcc3d44dd8",
+      "classificationReason": "dated editorial collection"
+    },
+    {
+      "path": "content-repo/posts/2025/06/thailand-strammer-inn-hjelmpaabud/index.md",
+      "currentUrl": "/magasin/nyheter/thailand-strammer-inn-hjelmpaabud/",
+      "proposedUrl": "/magasin/nyheter/thailand-strammer-inn-hjelmpaabud/",
+      "proposedType": "post",
+      "confidence": "high",
+      "issues": [],
+      "categories": [
+        "unchanged"
+      ],
+      "hasBody": true,
+      "assets": [
+        "/src/cms/content/media/cover_thailand-strammer-inn-hjelmpaabud.jpg",
+        "cover.jpg"
+      ],
+      "unknownFields": [
+        "featured",
+        "allow_comment"
+      ],
+      "validationErrors": [],
+      "bodySha256": "3af858ecffc559eb39e780d2739baff09ab7d7e96437767b714519feefdf9362",
+      "classificationReason": "dated editorial collection"
+    },
+    {
+      "path": "content-repo/posts/2025/06/ud-avkrefter-stans-passtjenester-bangkok/index.md",
+      "currentUrl": "/magasin/nyheter/ud-avkrefter-stans-passtjenester-bangkok/",
+      "proposedUrl": "/magasin/nyheter/ud-avkrefter-stans-passtjenester-bangkok/",
+      "proposedType": "post",
+      "confidence": "high",
+      "issues": [],
+      "categories": [
+        "unchanged"
+      ],
+      "hasBody": true,
+      "assets": [
+        "/src/cms/content/media/cover_ud-avkrefter-stans-passtjenester-bangkok.jpg",
+        "cover.jpg"
+      ],
+      "unknownFields": [
+        "featured",
+        "allow_comment"
+      ],
+      "validationErrors": [],
+      "bodySha256": "b6cef06409c9641dfeadb0080a45c606ffe4a758a1df6cd056117839761ba28e",
+      "classificationReason": "dated editorial collection"
+    },
+    {
+      "path": "content-repo/posts/2025/07/ny-direkterute-fra-oslo-til-phuket/index.md",
+      "currentUrl": "/magasin/reise/ny-direkterute-fra-Oslo-til-Phuket/",
+      "proposedUrl": "/magasin/reise/ny-direkterute-fra-Oslo-til-Phuket/",
+      "proposedType": "post",
+      "confidence": "high",
+      "issues": [],
+      "categories": [
+        "unchanged"
+      ],
+      "hasBody": true,
+      "assets": [
+        "/src/cms/content/media/cover_ny-direkterute-fra-Oslo-til-Phuket.jpg",
+        "cover.jpg"
+      ],
+      "unknownFields": [
+        "featured",
+        "allow_comment"
+      ],
+      "validationErrors": [],
+      "bodySha256": "7de237cee005ed37823332a73f2165be9ba870e2465fa4731fc46fdc21b5774f",
+      "classificationReason": "dated editorial collection"
+    },
+    {
+      "path": "content-repo/posts/2025/08/stemme-ved-stortingsvalg-2025/index.md",
+      "currentUrl": "/magasin/nyheter/stemme-ved-stortingsvalg-2025/",
+      "proposedUrl": "/magasin/nyheter/stemme-ved-stortingsvalg-2025/",
+      "proposedType": "post",
+      "confidence": "high",
+      "issues": [],
+      "categories": [
+        "unchanged"
+      ],
+      "hasBody": true,
+      "assets": [
+        "/src/cms/content/media/cover_stemme-ved-stortingsvalg-2025.jpeg",
+        "cover.jpeg"
+      ],
+      "unknownFields": [
+        "featured",
+        "allow_comment"
+      ],
+      "validationErrors": [],
+      "bodySha256": "19072d84662a89856ff0858fd56c0ecb662fa50d2ec07ea52812842c8f70a198",
+      "classificationReason": "dated editorial collection"
+    },
+    {
+      "path": "content-repo/posts/2026/02/innreiseregler-thailand-2026/index.md",
+      "currentUrl": "/magasin/visum/innreiseregler-thailand-2026/",
+      "proposedUrl": "/magasin/visum/innreiseregler-thailand-2026/",
+      "proposedType": "post",
+      "confidence": "high",
+      "issues": [],
+      "categories": [
+        "unchanged"
+      ],
+      "hasBody": true,
+      "assets": [
+        "/src/cms/content/media/cover_innreiseregler-thailand-2026.jpg",
+        "cover.jpg",
+        "/src/cms/content/media/innreiseregler_2026.jpg"
+      ],
+      "unknownFields": [
+        "featured",
+        "allow_comment"
+      ],
+      "validationErrors": [],
+      "bodySha256": "c834b50fc15058e27797fbf72b41676ac6d17f8b9ea564f4c282cf95b6fb0f89",
+      "classificationReason": "dated editorial collection"
+    },
+    {
+      "path": "content-repo/posts/2026/05/thailand-avvikler-60-dagers-visumfritt-opphold/index.md",
+      "currentUrl": "/magasin/visum/thailand-avvikler-60-dagers-visumfritt-opphold/",
+      "proposedUrl": "/magasin/visum/thailand-avvikler-60-dagers-visumfritt-opphold/",
+      "proposedType": "post",
+      "confidence": "high",
+      "issues": [],
+      "categories": [
+        "unchanged"
+      ],
+      "hasBody": true,
+      "assets": [
+        "/src/cms/content/media/cover_thailand-avvikler-60-dagers-visumfritt-opphold.jpg",
+        "cover.jpg"
+      ],
+      "unknownFields": [
+        "featured",
+        "allow_comment",
+        "thread_id",
+        "adIds"
+      ],
+      "validationErrors": [],
+      "bodySha256": "9aa16f7731bdb3f43d2d63cd60e41c4a64f6aad6c30a3d8e2250021670157236",
+      "classificationReason": "dated editorial collection"
+    },
+    {
+      "path": "content-repo/posts/2026/05/visumfritt-opphold-i-thailand-hva-gjelder-i-mai2026/index.md",
+      "currentUrl": "/magasin/visum/visumfritt-opphold-i-thailand-hva-gjelder-i-mai2026/",
+      "proposedUrl": "/magasin/visum/visumfritt-opphold-i-thailand-hva-gjelder-i-mai2026/",
+      "proposedType": "post",
+      "confidence": "high",
+      "issues": [],
+      "categories": [
+        "unchanged"
+      ],
+      "hasBody": true,
+      "assets": [
+        "/src/cms/content/media/cover_visumfritt-opphold-i-thailand-hva-gjelder-i-mai2026.jpg",
+        "cover.jpg",
+        "/src/cms/content/media/innreiseregler_2026.jpg"
+      ],
+      "unknownFields": [
+        "featured",
+        "allow_comment",
+        "thread_id"
+      ],
+      "validationErrors": [],
+      "bodySha256": "d2a3e9b44e250e9d10292508daeaf3ec3f93857de2655407cb2b20387733f465",
+      "classificationReason": "dated editorial collection"
+    },
+    {
+      "path": "content-repo/posts/2026/07/brann-rong-beer-na-ladprao-bangkok/index.md",
+      "currentUrl": "/magasin/nyheter/brann-rong-beer-na-ladprao-bangkok/",
+      "proposedUrl": "/magasin/nyheter/brann-rong-beer-na-ladprao-bangkok/",
+      "proposedType": "post",
+      "confidence": "high",
+      "issues": [],
+      "categories": [
+        "unchanged"
+      ],
+      "hasBody": true,
+      "assets": [
+        "/src/cms/content/media/cover_brann-rong-beer-na-ladprao-bangkok.jpg",
+        "cover.jpg",
+        "/src/cms/content/media/some_placeholder.png"
+      ],
+      "unknownFields": [
+        "allow_comment",
+        "thread_id"
+      ],
+      "validationErrors": [],
+      "bodySha256": "a8b976d224096eef6113cb960a084f5a0dd5e831696dc42f6d0aedfdd9968592",
+      "classificationReason": "dated editorial collection"
+    },
+    {
+      "path": "content-repo/posts/2026/07/fem-nord-st-thailandske-provinser-varslet-etter-at-laos-demning-ker-vannuttaket/index.md",
+      "currentUrl": "/magasin/nyheter/fem-nord-st-thailandske-provinser-varslet-etter-at-laos-demning-ker-vannuttaket/",
+      "proposedUrl": "/magasin/nyheter/fem-nord-st-thailandske-provinser-varslet-etter-at-laos-demning-ker-vannuttaket/",
+      "proposedType": "post",
+      "confidence": "high",
+      "issues": [],
+      "categories": [
+        "unchanged"
+      ],
+      "hasBody": true,
+      "assets": [
+        "/src/cms/content/media/cover_mekong-flomvarsel-fem-provinser-laos-demning.jpg",
+        "cover.jpg",
+        "/src/cms/content/media/og_mekong-flomvarsel-fem-provinser-laos-demning.png"
+      ],
+      "unknownFields": [
+        "allow_comment",
+        "thread_id"
+      ],
+      "validationErrors": [],
+      "bodySha256": "8dd83e8db7ffbfe0e2544af20d4d918addf3380a470d7761e8916cef5ad87b71",
+      "classificationReason": "dated editorial collection"
+    },
+    {
+      "path": "content-repo/posts/2026/07/thailand-forlenger-unntakstilstand-sor-oktober-2026/index.md",
+      "currentUrl": "/magasin/nyheter/thailand-forlenger-unntakstilstand-sor-oktober-2026/",
+      "proposedUrl": "/magasin/nyheter/thailand-forlenger-unntakstilstand-sor-oktober-2026/",
+      "proposedType": "post",
+      "confidence": "high",
+      "issues": [],
+      "categories": [
+        "unchanged"
+      ],
+      "hasBody": true,
+      "assets": [
+        "/src/cms/content/media/cover_thailand-forlenger-unntakstilstand-sor-oktober-2026.jpg",
+        "cover.jpg",
+        "/src/cms/content/media/some_placeholder.png"
+      ],
+      "unknownFields": [
+        "allow_comment",
+        "thread_id"
+      ],
+      "validationErrors": [],
+      "bodySha256": "6592402bcb38996adb1574a547d81068a89eaba15ef61668c89c9515d8bb815d",
+      "classificationReason": "dated editorial collection"
+    },
+    {
+      "path": "content-repo/visas/non-b/index.md",
+      "currentUrl": "/visumguiden/non.b/",
+      "proposedUrl": "/visumguiden/non.b/",
+      "proposedType": "visa",
+      "confidence": "high",
+      "issues": [
+        "needs-date-review",
+        "needs-author-review",
+        "needs-source-review"
+      ],
+      "categories": [
+        "needs-date-review",
+        "needs-author-review",
+        "needs-source-review",
+        "unchanged"
+      ],
+      "hasBody": true,
+      "assets": [],
+      "unknownFields": [
+        "prev",
+        "next"
+      ],
+      "validationErrors": [],
+      "bodySha256": "3c5e21f7976ddf5cca6ba75e58e5ce586ecfd56d722b7122a73954acc41e3df9",
+      "classificationReason": "formal visa collection"
+    },
+    {
+      "path": "content-repo/visas/non-ed/index.md",
+      "currentUrl": "/visumguiden/non.ed/",
+      "proposedUrl": "/visumguiden/non.ed/",
+      "proposedType": "visa",
+      "confidence": "high",
+      "issues": [
+        "needs-date-review",
+        "needs-author-review",
+        "needs-source-review"
+      ],
+      "categories": [
+        "needs-date-review",
+        "needs-author-review",
+        "needs-source-review",
+        "unchanged"
+      ],
+      "hasBody": true,
+      "assets": [],
+      "unknownFields": [
+        "prev",
+        "next"
+      ],
+      "validationErrors": [],
+      "bodySha256": "c8315bb139dd87aeaf073d741ad50c56047011594a332a60bab1f1fdd0252d80",
+      "classificationReason": "formal visa collection"
+    },
+    {
+      "path": "content-repo/visas/nono-ekteskap/index.md",
+      "currentUrl": "/visumguiden/nono.ekteskap/",
+      "proposedUrl": "/visumguiden/nono.ekteskap/",
+      "proposedType": "visa",
+      "confidence": "high",
+      "issues": [
+        "needs-date-review",
+        "needs-author-review",
+        "needs-source-review"
+      ],
+      "categories": [
+        "needs-date-review",
+        "needs-author-review",
+        "needs-source-review",
+        "unchanged"
+      ],
+      "hasBody": true,
+      "assets": [],
+      "unknownFields": [
+        "prev",
+        "next"
+      ],
+      "validationErrors": [],
+      "bodySha256": "864279bc8437edacce7fe6ac5bbe0c5b6df19e86a38c246a411cc8fbcff5e783",
+      "classificationReason": "formal visa collection"
+    },
+    {
+      "path": "content-repo/visas/nono-pensjonist/index.md",
+      "currentUrl": "/visumguiden/nono.pensjonist/",
+      "proposedUrl": "/visumguiden/nono.pensjonist/",
+      "proposedType": "visa",
+      "confidence": "high",
+      "issues": [
+        "needs-date-review",
+        "needs-author-review",
+        "needs-source-review"
+      ],
+      "categories": [
+        "needs-date-review",
+        "needs-author-review",
+        "needs-source-review",
+        "unchanged"
+      ],
+      "hasBody": true,
+      "assets": [],
+      "unknownFields": [
+        "prev",
+        "next"
+      ],
+      "validationErrors": [],
+      "bodySha256": "f263782d450b8b8c070b45ac579ca25290c6ad02a8f1bb681aab4e69ab2cfff7",
+      "classificationReason": "formal visa collection"
+    },
+    {
+      "path": "content-repo/visas/nonoa-pensjonist/index.md",
+      "currentUrl": "/visumguiden/nonoa.pensjonist/",
+      "proposedUrl": "/visumguiden/nonoa.pensjonist/",
+      "proposedType": "visa",
+      "confidence": "high",
+      "issues": [
+        "needs-date-review",
+        "needs-author-review",
+        "needs-source-review"
+      ],
+      "categories": [
+        "needs-date-review",
+        "needs-author-review",
+        "needs-source-review",
+        "unchanged"
+      ],
+      "hasBody": true,
+      "assets": [],
+      "unknownFields": [
+        "prev",
+        "next"
+      ],
+      "validationErrors": [],
+      "bodySha256": "a0f57e2dd8c3887d09ca97aa38546977b762b224786f083a34d3ecef951ebe04",
+      "classificationReason": "formal visa collection"
+    },
+    {
+      "path": "content-repo/visas/turist-visum/index.md",
+      "currentUrl": "/visumguiden/turist.visum/",
+      "proposedUrl": "/visumguiden/turist.visum/",
+      "proposedType": "visa",
+      "confidence": "high",
+      "issues": [
+        "needs-date-review",
+        "needs-author-review",
+        "needs-source-review"
+      ],
+      "categories": [
+        "needs-date-review",
+        "needs-author-review",
+        "needs-source-review",
+        "unchanged"
+      ],
+      "hasBody": true,
+      "assets": [],
+      "unknownFields": [
+        "prev",
+        "next"
+      ],
+      "validationErrors": [],
+      "bodySha256": "ab7bca4a2a5c47ee6cb045cc6428cb578c3d8fb50197f161af4a38fe87ac21dd",
+      "classificationReason": "formal visa collection"
+    },
+    {
+      "path": "content-repo/visas/turist-visumfritt/index.md",
+      "currentUrl": "/visumguiden/turist.visumfritt/",
+      "proposedUrl": "/visumguiden/turist.visumfritt/",
+      "proposedType": "visa",
+      "confidence": "high",
+      "issues": [
+        "needs-date-review",
+        "needs-author-review",
+        "needs-source-review"
+      ],
+      "categories": [
+        "needs-date-review",
+        "needs-author-review",
+        "needs-source-review",
+        "unchanged"
+      ],
+      "hasBody": true,
+      "assets": [],
+      "unknownFields": [
+        "prev",
+        "next"
+      ],
+      "validationErrors": [],
+      "bodySha256": "6f179060336b76d68efefa203368ef2ec85438aa15385c475f7d024146fcd62f",
+      "classificationReason": "formal visa collection"
+    }
+  ],
+  "idManifest": {
+    "content-repo/guides/index/index.md": "guide.index",
+    "content-repo/guides/innreisekrav/index.md": "guide.innreisekrav",
+    "content-repo/guides/inntektsbekreftelse/index.md": "guide.inntektsbekreftelse",
+    "content-repo/guides/nono-vs-nonoa/index.md": "guide.nono-vs-nonoa",
+    "content-repo/guides/penger-praktisk/index.md": "guide.penger-praktisk",
+    "content-repo/guides/tm47/index.md": "guide.tm47",
+    "content-repo/guides/turist-index/index.md": "guide.turist-index",
+    "content-repo/posts/2025/05/7-ting-du-kan-gjore-i-regntiden/index.md": "post.2025.7-ting-du-kan-gjore-i-regntiden",
+    "content-repo/posts/2025/05/ambassaden-gir-seg-med-inntektsbekreftelse-mai2026/index.md": "post.2025.ambassaden-gir-seg-med-inntektsbekreftelse-mai2026",
+    "content-repo/posts/2025/05/da-jeg-brakk-ankelen-i-bangkok/index.md": "post.2025.da-jeg-brakk-ankelen-i-bangkok",
+    "content-repo/posts/2025/05/drosjefarger-og-hva-de-betyr/index.md": "post.2025.drosjefarger-og-hva-de-betyr",
+    "content-repo/posts/2025/05/innskrenking-av-cannabis-bruk-i-thailand/index.md": "post.2025.innskrenking-av-cannabis-bruk-i-thailand",
+    "content-repo/posts/2025/05/kleskoder-og-farger-i-thailand/index.md": "post.2025.kleskoder-og-farger-i-thailand",
+    "content-repo/posts/2025/05/phu-soi-dao-nasjonalpark-apner-etter-sesongstenging/index.md": "post.2025.phu-soi-dao-nasjonalpark-apner-etter-sesongstenging",
+    "content-repo/posts/2025/05/thailand-et-trygt-reisemal-for-kvinner/index.md": "post.2025.thailand-et-trygt-reisemal-for-kvinner",
+    "content-repo/posts/2025/05/trenger-jeg-visum-for-a-reise-til-thailand/index.md": "post.2025.trenger-jeg-visum-for-a-reise-til-thailand",
+    "content-repo/posts/2025/06/bangkok-beste-by-digitale-nomader/index.md": "post.2025.bangkok-beste-by-digitale-nomader",
+    "content-repo/posts/2025/06/cannabis-resept-thailand-2025/index.md": "post.2025.cannabis-resept-thailand-2025",
+    "content-repo/posts/2025/06/elefanter-og-etisk-turisme/index.md": "post.2025.elefanter-og-etisk-turisme",
+    "content-repo/posts/2025/06/pensjonistsvisum-thailand-2025-2026/index.md": "post.2025.pensjonistsvisum-thailand-2025-2026",
+    "content-repo/posts/2025/06/thailand-strammer-inn-hjelmpaabud/index.md": "post.2025.thailand-strammer-inn-hjelmpaabud",
+    "content-repo/posts/2025/06/ud-avkrefter-stans-passtjenester-bangkok/index.md": "post.2025.ud-avkrefter-stans-passtjenester-bangkok",
+    "content-repo/posts/2025/07/ny-direkterute-fra-oslo-til-phuket/index.md": "post.2025.ny-direkterute-fra-oslo-til-phuket",
+    "content-repo/posts/2025/08/stemme-ved-stortingsvalg-2025/index.md": "post.2025.stemme-ved-stortingsvalg-2025",
+    "content-repo/posts/2026/02/innreiseregler-thailand-2026/index.md": "post.2026.innreiseregler-thailand-2026",
+    "content-repo/posts/2026/05/thailand-avvikler-60-dagers-visumfritt-opphold/index.md": "post.2026.thailand-avvikler-60-dagers-visumfritt-opphold",
+    "content-repo/posts/2026/05/visumfritt-opphold-i-thailand-hva-gjelder-i-mai2026/index.md": "post.2026.visumfritt-opphold-i-thailand-hva-gjelder-i-mai2026",
+    "content-repo/posts/2026/07/brann-rong-beer-na-ladprao-bangkok/index.md": "post.2026.brann-rong-beer-na-ladprao-bangkok",
+    "content-repo/posts/2026/07/fem-nord-st-thailandske-provinser-varslet-etter-at-laos-demning-ker-vannuttaket/index.md": "post.2026.fem-nord-st-thailandske-provinser-varslet-etter-at-laos-demning-ker-vannuttaket",
+    "content-repo/posts/2026/07/thailand-forlenger-unntakstilstand-sor-oktober-2026/index.md": "post.2026.thailand-forlenger-unntakstilstand-sor-oktober-2026",
+    "content-repo/visas/non-b/index.md": "visa.non-b",
+    "content-repo/visas/non-ed/index.md": "visa.non-ed",
+    "content-repo/visas/nono-ekteskap/index.md": "visa.nono-ekteskap",
+    "content-repo/visas/nono-pensjonist/index.md": "visa.nono-pensjonist",
+    "content-repo/visas/nonoa-pensjonist/index.md": "visa.nonoa-pensjonist",
+    "content-repo/visas/turist-visum/index.md": "visa.turist-visum",
+    "content-repo/visas/turist-visumfritt/index.md": "visa.turist-visumfritt"
+  }
+}
