@@ -11,8 +11,8 @@ content:
   - name: posts
     label: Posts
     type: collection
-    path: 'content/posts'
-    filename: '{primary}.mdx'
+    path: 'content-repo/posts'
+    filename: '{primary}/index.md'
     view:
       fields: [ title, categories, published, allow_comment, date ]
     fields:
@@ -30,8 +30,8 @@ content:
         label: Author
         type: reference
         options:
-          label: "{aname}"
-          value: "{slug}"
+          label: "{name}"
+          value: "{id}"
           collection: authors
       - name: slug
         label: Slug
@@ -41,11 +41,9 @@ content:
         type: string
       - name: categories
         label: Categories
-        type: reference
+        type: select
         options:
-          label: "{title}"
-          value: "{slug}"
-          collection: categories
+          values: [hverdag, kultur, nyheter, reise, visum]
       - name: cover
         label: Cover Image
         type: image
@@ -95,11 +93,11 @@ content:
             type: string
             description: The @username of the content creator
           
-  - name: docs
-    label: Visum Docs
+  - name: visas
+    label: Visas
     type: collection
-    path: 'content/docs'
-    filename: '{primary}.mdx'
+    path: 'content-repo/visas'
+    filename: '{primary}/index.md'
     view:
       fields: [ title, slug, published, date ]
     fields:
@@ -150,8 +148,8 @@ content:
   - name: guides
     label: Guides
     type: collection
-    path: 'content/guides'
-    filename: '{primary}.mdx'
+    path: 'content-repo/guides'
+    filename: '{primary}/index.md'
     view:
       fields: [ title, slug, published, date ]
     fields:
@@ -202,36 +200,18 @@ content:
 
 
 
-  - name: categories
-    label: Categories
-    type:  collection
-    path: 'content/_data/categories'
-    filename: '{primary}.json'
-    format: json
-    fields:
-      - name: title
-        label: Title
-        required: true
-        type: string
-      - name: slug
-        label: Slug
-        required: true
-        type: string
-      - name: description
-        label: Description
-        type: string
-      - name: color
-        label: Color
-        type: string
-
   - name: authors
     label: Authors
     type:  collection
-    path: 'content/_data/authors'
+    path: 'content-repo/authors'
     filename: '{primary}.json'
     format: json
     fields:
-      - name: aname
+      - name: id
+        label: ID
+        required: true
+        type: string
+      - name: name
         label: Name
         required: true
         type: string
@@ -245,6 +225,6 @@ content:
       - name: link
         label: Link
         type: string
-      - name: profile_photo
+      - name: profilePhoto
         label: Profile Photo
         type: image

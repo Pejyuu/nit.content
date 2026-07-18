@@ -1,0 +1,285 @@
+{
+  "generatedAt": "2026-07-18T21:18:13.360Z",
+  "migrated": [
+    {
+      "path": "content-repo/guides/inntektsbekreftelse/index.md",
+      "copied": {
+        "universal": {
+          "file": "social/universal.jpg",
+          "sha256": "adaa4ed6ccb6b93cede03e660f55f3741d833df1c184693b57eac3efe9678fce",
+          "legacyReference": "/src/cms/content/media/innektsbekreftelser_og_alternativer.jpg"
+        }
+      }
+    },
+    {
+      "path": "content-repo/posts/2025/05/7-ting-du-kan-gjore-i-regntiden/index.md",
+      "copied": {
+        "universal": {
+          "file": "social/universal.jpg",
+          "sha256": "b85f6909b670c6f76fa895930a41880f44129f7c7c005052d9f9cd9f9267b5fd",
+          "legacyReference": "/src/cms/content/media/cover_7-ting-du-kan-gjore-i-regntiden.jpg"
+        }
+      }
+    },
+    {
+      "path": "content-repo/posts/2025/05/ambassaden-gir-seg-med-inntektsbekreftelse-mai2026/index.md",
+      "copied": {
+        "universal": {
+          "file": "social/universal.jpeg",
+          "sha256": "5adfd0864938f0df1664b213f55f6ed9a51b03c4e503874381e3d2a83f8b29ee",
+          "legacyReference": "/src/cms/content/media/cover_ambassaden-gir-seg-med-inntektsbekreftelse-mai2026.jpeg"
+        }
+      }
+    },
+    {
+      "path": "content-repo/posts/2025/05/da-jeg-brakk-ankelen-i-bangkok/index.md",
+      "copied": {
+        "universal": {
+          "file": "social/universal.jpg",
+          "sha256": "939e106eb22ed4eb246d99251bbadc0acf54dd421d5fb752df57aa3777d18b63",
+          "legacyReference": "/src/cms/content/media/cover_da-jeg-brakk-ankelen-i-bangkok.jpg"
+        }
+      }
+    },
+    {
+      "path": "content-repo/posts/2025/05/drosjefarger-og-hva-de-betyr/index.md",
+      "copied": {
+        "universal": {
+          "file": "social/universal.jpg",
+          "sha256": "443e5db7cc3a4ef418952734445714af4569025741b6443035cedf8c0632c824",
+          "legacyReference": "/src/cms/content/media/cover_drosjefarger-og-hva-de-betyr.jpg"
+        }
+      }
+    },
+    {
+      "path": "content-repo/posts/2025/05/innskrenking-av-cannabis-bruk-i-thailand/index.md",
+      "copied": {
+        "universal": {
+          "file": "social/universal.jpg",
+          "sha256": "28b3ad669084185d4699914feae3118af4b12020624ca0f96c6705c45992ddff",
+          "legacyReference": "/src/cms/content/media/cover_innskrenking-av-cannabis-bruk-i-thailand.jpg"
+        },
+        "twitter": {
+          "file": "social/universal.jpg",
+          "sha256": "28b3ad669084185d4699914feae3118af4b12020624ca0f96c6705c45992ddff",
+          "legacyReference": "/src/cms/content/media/cover_innskrenking-av-cannabis-bruk-i-thailand.jpg",
+          "sharedWithUniversal": true
+        }
+      }
+    },
+    {
+      "path": "content-repo/posts/2025/05/kleskoder-og-farger-i-thailand/index.md",
+      "copied": {
+        "universal": {
+          "file": "social/universal.jpg",
+          "sha256": "f43367bf59e00d5568c4702404cd021b3eda67b94b8575c2036147c18477d418",
+          "legacyReference": "/src/cms/content/media/cover_kleskoder-og-farger-i-thailand.jpg"
+        }
+      }
+    },
+    {
+      "path": "content-repo/posts/2025/05/phu-soi-dao-nasjonalpark-apner-etter-sesongstenging/index.md",
+      "copied": {
+        "universal": {
+          "file": "social/universal.jpeg",
+          "sha256": "90f8c0589b6dcd60853ea089fd302d9edf49cdd0a93af7de9046be22cca575a5",
+          "legacyReference": "/src/cms/content/media/cover_phu_soi_dao_nasjonalpark_apner_etter_sesongstenging.jpeg"
+        }
+      }
+    },
+    {
+      "path": "content-repo/posts/2025/05/thailand-et-trygt-reisemal-for-kvinner/index.md",
+      "copied": {
+        "universal": {
+          "file": "social/universal.jpg",
+          "sha256": "db263a05cadb2813faed3975ef7781cfcd753d2658c59f75e49a825dcc56684d",
+          "legacyReference": "/src/cms/content/media/cover_thailand-et-trygt-reisemal-for-kvinner.jpg"
+        },
+        "twitter": {
+          "file": "social/universal.jpg",
+          "sha256": "db263a05cadb2813faed3975ef7781cfcd753d2658c59f75e49a825dcc56684d",
+          "legacyReference": "/src/cms/content/media/cover_thailand-et-trygt-reisemal-for-kvinner.jpg",
+          "sharedWithUniversal": true
+        }
+      }
+    },
+    {
+      "path": "content-repo/posts/2025/05/trenger-jeg-visum-for-a-reise-til-thailand/index.md",
+      "copied": {
+        "universal": {
+          "file": "social/universal.jpeg",
+          "sha256": "9db55cf6565770ee885860ada7c83817c6c1591e1764386e5cbea6a861f24d4f",
+          "legacyReference": "/src/cms/content/media/cover_trenger-jeg-visum-for-å-reise-til-thailand.jpeg"
+        }
+      }
+    },
+    {
+      "path": "content-repo/posts/2025/06/bangkok-beste-by-digitale-nomader/index.md",
+      "copied": {
+        "universal": {
+          "file": "social/universal.png",
+          "sha256": "db5e860faefd4bf51fbd4cc2dcbc1dbddb96cd6ff801ff9202290c430db98dd2",
+          "legacyReference": "/src/cms/content/media/bangkok-top-for-digital-nomads.png"
+        }
+      }
+    },
+    {
+      "path": "content-repo/posts/2025/06/cannabis-resept-thailand-2025/index.md",
+      "copied": {
+        "universal": {
+          "file": "social/universal.jpg",
+          "sha256": "8a36e602d96541f10d894ca64e9d5d361376bbf5c86d13af7608c680fa60fdb2",
+          "legacyReference": "/src/cms/content/media/cannabis-forbidden-share.jpg"
+        }
+      }
+    },
+    {
+      "path": "content-repo/posts/2025/06/elefanter-og-etisk-turisme/index.md",
+      "copied": {
+        "universal": {
+          "file": "social/universal.jpg",
+          "sha256": "0e67b6790081dbfebba0eff864482d848985856f7b9fcc4ffa594545ba5d1a91",
+          "legacyReference": "/src/cms/content/media/elefanter-som-turistattraksjoner.jpg"
+        }
+      }
+    },
+    {
+      "path": "content-repo/posts/2025/06/pensjonistsvisum-thailand-2025-2026/index.md",
+      "copied": {
+        "universal": {
+          "file": "social/universal.jpg",
+          "sha256": "055582c8f32d38c6aa0bab6463a92583ffbf929a260be3bf278b850c4122c28d",
+          "legacyReference": "/src/cms/content/media/cover_pensjonistsvisum-thailand-2025-2026.jpg"
+        }
+      }
+    },
+    {
+      "path": "content-repo/posts/2025/06/thailand-strammer-inn-hjelmpaabud/index.md",
+      "copied": {
+        "universal": {
+          "file": "social/universal.jpg",
+          "sha256": "25c4c1555457701d31f7f05b42a8f938f7aec4455b1b39376adbd1513ad04219",
+          "legacyReference": "/src/cms/content/media/cover_thailand-strammer-inn-hjelmpaabud.jpg"
+        }
+      }
+    },
+    {
+      "path": "content-repo/posts/2025/06/ud-avkrefter-stans-passtjenester-bangkok/index.md",
+      "copied": {
+        "universal": {
+          "file": "social/universal.jpg",
+          "sha256": "c548f614e17a98b989244cfb3aff2cb7982860ca0bdf9251bcfadaf9793a81c8",
+          "legacyReference": "/src/cms/content/media/cover_ud-avkrefter-stans-passtjenester-bangkok.jpg"
+        }
+      }
+    },
+    {
+      "path": "content-repo/posts/2025/07/ny-direkterute-fra-oslo-til-phuket/index.md",
+      "copied": {
+        "universal": {
+          "file": "social/universal.jpg",
+          "sha256": "dbc9f7afe24a9d559278b9043876dc8abbaa37528a68d56aaae3cb6a17e074ec",
+          "legacyReference": "/src/cms/content/media/cover_ny-direkterute-fra-Oslo-til-Phuket.jpg"
+        }
+      }
+    },
+    {
+      "path": "content-repo/posts/2025/08/stemme-ved-stortingsvalg-2025/index.md",
+      "copied": {
+        "universal": {
+          "file": "social/universal.jpeg",
+          "sha256": "5adfd0864938f0df1664b213f55f6ed9a51b03c4e503874381e3d2a83f8b29ee",
+          "legacyReference": "/src/cms/content/media/cover_stemme-ved-stortingsvalg-2025.jpeg"
+        }
+      }
+    },
+    {
+      "path": "content-repo/posts/2026/02/innreiseregler-thailand-2026/index.md",
+      "copied": {
+        "universal": {
+          "file": "social/universal.jpg",
+          "sha256": "10fd430b799aba6f6db473cc35c717f6e4d33cb860e94cd9d1e39a59551f1859",
+          "legacyReference": "/src/cms/content/media/innreiseregler_2026.jpg"
+        }
+      }
+    },
+    {
+      "path": "content-repo/posts/2026/05/thailand-avvikler-60-dagers-visumfritt-opphold/index.md",
+      "copied": {
+        "universal": {
+          "file": "social/universal.jpg",
+          "sha256": "78e7040592080fd493f5ed9935b5c9bd39f906a74274993ae60641c917b145a9",
+          "legacyReference": "/src/cms/content/media/cover_thailand-avvikler-60-dagers-visumfritt-opphold.jpg"
+        }
+      }
+    },
+    {
+      "path": "content-repo/posts/2026/05/visumfritt-opphold-i-thailand-hva-gjelder-i-mai2026/index.md",
+      "copied": {
+        "universal": {
+          "file": "social/universal.jpg",
+          "sha256": "10fd430b799aba6f6db473cc35c717f6e4d33cb860e94cd9d1e39a59551f1859",
+          "legacyReference": "/src/cms/content/media/innreiseregler_2026.jpg"
+        }
+      }
+    },
+    {
+      "path": "content-repo/posts/2026/07/brann-rong-beer-na-ladprao-bangkok/index.md",
+      "copied": {
+        "universal": {
+          "file": "social/universal.png",
+          "sha256": "f47965d5a76172dc97fc7244c8b6e70719c1adae8e12a8b2679add4298f41c1b",
+          "legacyReference": "/src/cms/content/media/some_placeholder.png"
+        }
+      }
+    },
+    {
+      "path": "content-repo/posts/2026/07/fem-nord-st-thailandske-provinser-varslet-etter-at-laos-demning-ker-vannuttaket/index.md",
+      "copied": {
+        "universal": {
+          "file": "social/universal.png",
+          "sha256": "09ac220a16362bc820baf7af786d7ffb04166dbb224413031946468eb54af29d",
+          "legacyReference": "/src/cms/content/media/og_mekong-flomvarsel-fem-provinser-laos-demning.png"
+        }
+      }
+    },
+    {
+      "path": "content-repo/posts/2026/07/thailand-forlenger-unntakstilstand-sor-oktober-2026/index.md",
+      "copied": {
+        "universal": {
+          "file": "social/universal.png",
+          "sha256": "f47965d5a76172dc97fc7244c8b6e70719c1adae8e12a8b2679add4298f41c1b",
+          "legacyReference": "/src/cms/content/media/some_placeholder.png"
+        }
+      }
+    }
+  ],
+  "noLegacySocialImage": [
+    "content-repo/guides/index/index.md",
+    "content-repo/guides/innreisekrav/index.md",
+    "content-repo/guides/nono-vs-nonoa/index.md",
+    "content-repo/guides/penger-praktisk/index.md",
+    "content-repo/guides/tm47/index.md",
+    "content-repo/guides/turist-index/index.md",
+    "content-repo/visas/non-b/index.md",
+    "content-repo/visas/non-ed/index.md",
+    "content-repo/visas/nono-ekteskap/index.md",
+    "content-repo/visas/nono-pensjonist/index.md",
+    "content-repo/visas/nonoa-pensjonist/index.md",
+    "content-repo/visas/turist-visum/index.md",
+    "content-repo/visas/turist-visumfritt/index.md"
+  ],
+  "missingSource": [],
+  "placeholders": [
+    {
+      "path": "content-repo/posts/2026/07/brann-rong-beer-na-ladprao-bangkok/index.md",
+      "field": "images.social.universal",
+      "file": "social/universal.png"
+    },
+    {
+      "path": "content-repo/posts/2026/07/thailand-forlenger-unntakstilstand-sor-oktober-2026/index.md",
+      "field": "images.social.universal",
+      "file": "social/universal.png"
+    }
+  ]
+}

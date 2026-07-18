@@ -1,0 +1,70 @@
+---
+published: true
+featured: false
+date: 2026-5-19
+author: marianneh
+slug: thailand-avvikler-60-dagers-visumfritt-opphold
+title: Thailand avvikler 60-dagers visumfritt opphold
+categories: visum
+cover: /src/cms/content/media/cover_thailand-avvikler-60-dagers-visumfritt-opphold.jpg
+allow_comment: false
+thread_id: 0
+excerpt: Thailands kabinett har godkjent avviklingen av 60-dagers visumfritt opphold for rundt 90 nasjoner. Norsk i Thailand ser rolig på selve endringen – de fleste genuine turister reiser hjem innen 30 dager uansett – men stiller spørsmål ved om begrunnelsen myndighetene oppgir egentlig treffer der skoen trykker.
+sharing:
+  og_image: /src/cms/content/media/cover_thailand-avvikler-60-dagers-visumfritt-opphold.jpg
+  twitter_card: summary_large_image
+pipeline:
+  stage: published
+  writing_effort: 0
+  verification_burden: 0
+  hold_until: ''
+  publish_date: '2026-05-19T00:00'
+  content_category: seasonal
+  resurface_cooldown: 6 months
+  last_verified: 2026-5-19
+  last_touched: '2026-07-11T02:15:07.344Z'
+type: post
+adIds:
+  - wise
+  - placeholder
+id: post.2026.thailand-avvikler-60-dagers-visumfritt-opphold
+description: Thailands kabinett har godkjent avviklingen av 60-dagers visumfritt opphold for rundt 90 nasjoner. Norsk i Thailand ser rolig på selve endringen – de fleste genuine turister reiser hjem innen 30 dager uansett – men stiller spørsmål ved om begrunnelsen myndighetene oppgir egentlig treffer der skoen trykker.
+stage: published
+status: published
+publishedAt: 2026-5-19
+category: visum
+topics: []
+audiences: []
+images:
+  cover: cover.jpg
+  social:
+    universal: social/universal.jpg
+sources: []
+relations: []
+affiliateLinks: []
+ads:
+  overrides: {}
+---
+Thailands kabinett har offisielt godkjent avviklingen av den 60-dager lange visumfrie ordningen som i dag gjelder for rundt 90 nasjoner. 
+
+***Ingen endelig dato for når dette trer i kraft er foreløbig annonsert.***
+
+## **Lite problem for genuine turister**
+
+Vi i Norsk i Thailand ser ikke på dette som noe stort problem i praksis. De fleste genuine turister oppholder seg allerede i landet i under 30 dager, så for dem vil hverdagen fortsette omtrent som før. En reduksjon fra 60 til 30 dager visumfritt opphold vil med andre ord ikke merkes av flertallet av besøkende.
+
+### **Begrunnelsen skurrer**
+
+Det vi derimot stiller oss litt mer skeptiske til, er selve begrunnelsen for endringen. Myndighetene trekker frem kriminalitet og sikkerhet som hovedårsaker – men eksemplene de bruker, handler i liten grad om folk med turistvisum eller visumfritak. Problemene de peker på dreier seg snarere om personer med forfalskede thailandske ID-kort, misbruk av Privilege visa og lignende ordninger. Det er altså ikke visumet eller visumfriheten i seg selv som er roten til problemet.
+
+### **Turister som skaper bråk – det er et reelt problem**
+
+Det skal samtidig sies at vi har full forståelse for at thailandske myndigheter ønsker å rydde opp. For det er ingen tvil om at en del turister de senere årene har oppført seg på måter som har skapt bråk og uhygge i lokalsamfunn rundt om i landet. Fra støyende festturisme i strandområder til hensynsløs oppførsel ved templer og i naturområder – det finnes dessverre nok av eksempler på besøkende som ikke viser den respekten Thailand og det thailandske folk fortjener. At myndighetene ønsker å sette ned foten er forståelig, selv om vi mener virkemiddelet ikke nødvendigvis treffer den egentlige roten til problemet.
+
+## **Individuelle vurderinger på vei?**
+
+Det har også vært diskutert at Thailand fremover vil legge mer vekt på å vurdere enkeltnasjoner individuelt, fremfor å behandle alle land under ett. En slik tilnærming kan gi mer nyanserte regler tilpasset faktiske risikovurderinger, og det vil vi følge med på.
+
+## **Vi følger reglene – uansett**
+
+Men dette er tross alt Thailand, og vi har ingenting vi skulle ha sagt i denne saken. Når nye regler kommer, forholder vi oss til dem – og vi vil selvsagt holde våre lesere oppdatert etter hvert som detaljene blir klare på når dette trer i kraft.

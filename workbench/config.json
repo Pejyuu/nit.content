@@ -1,11 +1,11 @@
 {
-  "pipelineDir": "../pipeline",
+  "pipelineDir": "../content-repo/candidates",
   "publishedDirs": {
-    "post": "../content/posts",
-    "guide": "../content/guides",
-    "docs": "../content/docs"
+    "post": "../content-repo/posts",
+    "guide": "../content-repo/guides",
+    "visa": "../content-repo/visas"
   },
-  "types": ["research", "idea", "post", "guide", "docs"],
+  "types": ["research", "idea", "post", "guide", "visa"],
   "siteCategories": ["hverdag", "kultur", "nyheter", "reise", "visum"],
   "stages": ["candidate", "accepted", "drafting", "review", "ready", "published", "archived"],
   "port": 4173

@@ -1,0 +1,93 @@
+---
+published: true
+featured: false
+date: '2025-05-03T08:14'
+author: marianneh
+slug: ambassaden-gir-seg-med-inntektsbekreftelse-mai2026
+title: Ambassaden i Bangkok slutter med innektsbekreftelser fra Mai 2026
+categories: nyheter
+cover: /src/cms/content/media/cover_ambassaden-gir-seg-med-inntektsbekreftelse-mai2026.jpeg
+allow_comment: false
+excerpt: Den Norske Ambassaden i Bangkok slutter med inntektsbekrefelser fra Mai 2026. Hva betyr dette for deg?
+sharing:
+  og_image: /src/cms/content/media/cover_ambassaden-gir-seg-med-inntektsbekreftelse-mai2026.jpeg
+  twitter_card: summary_large_image
+pipeline:
+  stage: ready
+  writing_effort: 0
+  verification_burden: 0
+  hold_until: ''
+  publish_date: '2025-05-03'
+  reject_reason: null
+  content_category: one-off
+  resurface_cooldown: null
+  last_verified: '2025-05-03T08:14'
+  last_touched: '2026-07-11T02:23:51.307Z'
+  source_research: null
+  source_idea: null
+type: post
+id: post.2025.ambassaden-gir-seg-med-inntektsbekreftelse-mai2026
+description: Den Norske Ambassaden i Bangkok slutter med inntektsbekrefelser fra Mai 2026. Hva betyr dette for deg?
+stage: ready
+status: published
+publishedAt: '2025-05-03T08:14'
+category: nyheter
+topics: []
+audiences: []
+images:
+  cover: cover.jpeg
+  social:
+    universal: social/universal.jpeg
+sources: []
+relations: []
+affiliateLinks: []
+ads:
+  overrides: {}
+---
+Den norske ambassaden i Bangkok har kunngjort at de fra og med **mai 2026 ikke lenger vil utstede inntektsbekreftelser** for nordmenn som søker om visumforlengelser i Thailand. Dette gjelder særlig **Non-O visum** for pensjonister og personer som er **gift med en thai-borger**.
+
+Endringen ble bekreftet i april 2025, og følger etter lignende tiltak fra flere andre ambassader, blant annet Storbritannia og USA, som også har trukket seg fra slike tjenester grunnet personvernlovgivning og praktiske utfordringer med å verifisere utenlandsk inntekt.
+
+## **Hva betyr dette for deg?**
+
+Dersom du tidligere har benyttet ambassadens inntektsbekreftelse for å dokumentere økonomiske midler til thailandske Immigrasjonsmyndigheter, må du nå velge én av de alternative dokumentasjonsformene som godkjennes av Immigration.
+
+## **Alternativ 1: Månedlige innskudd i thailandsk bankkonto**
+
+Du kan vise til **regelmessige innskudd** i en thailandsk bankkonto over **12 sammenhengende måneder før søknad** om visumforlengelse.
+
+*   Pensjonist: **65 000 THB i måneden**
+    
+*   Gift med thai: **40 000 THB i måneden**
+    
+
+**Merk:** Det kreves at innskuddene er gjort _hver eneste måned_, uten unntak. Du må dokumentere dette med:
+
+*   Utskrift fra thailandsk bankkonto for siste 12 måneder
+    
+*   Eventuelt et brev fra banken som bekrefter overføringene
+    
+
+## **Alternativ 2: Fast innskudd i thailandsk bank**
+
+Du kan også velge å ha et større beløp stående i bank i Thailand:
+
+*   Pensjonist: **800 000 THB**
+    
+*   Gift med thai: **400 000 THB**
+    
+
+**Krav:**
+
+*   Beløpet må ha stått på konto i **minst 2 måneder før første søknad**, og **3 måneder** før forlengelse av opphold.
+    
+*   For **pensjonister** må saldoen **aldri falle under 400 000 THB** i løpet av resten av året etter visumforlengelsen.
+    
+*   Du må kunne vise både **kontoutskrift** og et **formelt brev fra banken**.
+    
+
+## **Avslutningsvis**
+
+Denne endringen gjør det viktigere enn noen gang å planlegge økonomien sin i god tid før man søker forlengelse av opphold i Thailand. Uten ambassadens bekreftelse, er det **kun bankdokumentasjon** som gjelder.
+
+Ta kontakt med ditt lokale Immigrasjonskontor for oppdatert informasjon tilpasset din situasjon.
