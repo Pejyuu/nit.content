@@ -20,16 +20,16 @@ sharing:
   og_image: null
   twitter_card: summary_large_image
 pipeline:
-  stage: candidate
+  stage: archived
   writing_effort: null
   verification_burden: null
   hold_until: ''
   publish_date: ''
-  reject_reason: ''
+  reject_reason: Not quite relevant yet. Can resurface around December.
   content_category: null
   resurface_cooldown: null
   last_verified: null
-  last_touched: '2026-07-18T11:27:00.425Z'
+  last_touched: '2026-07-19T18:22:46.472Z'
   source_research: null
   source_idea: null
   source_url: 'https://www.thaiembassy.com/thailand-visa/dtv-visa-thailand'
