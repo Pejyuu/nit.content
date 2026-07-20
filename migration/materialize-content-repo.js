@@ -33,7 +33,7 @@ function markdownFiles(directory) {
   return result.sort();
 }
 function coverSource(data) {
-  const value = data.cover || data.images?.cover;
+  const value = data.cover || data.images?.cover || data.sharing?.og_image;
   if (typeof value !== 'string') return null;
   const filename = path.basename(value.replace(/\\/g, '/'));
   const candidate = path.join(ROOT, 'content', 'media', filename);
@@ -49,7 +49,7 @@ if (fs.existsSync(TARGET) && fs.readdirSync(TARGET).length) {
   throw new Error('content-repo already exists and is not empty; refusing to overwrite it');
 }
 
-for (const directory of ['candidates/rejected', 'posts', 'guides', 'visas', 'taxonomies', 'authors']) ensure(path.join(TARGET, directory));
+for (const directory of ['candidates/rejected', 'posts', 'guides', 'visas', 'pages', 'taxonomies', 'authors']) ensure(path.join(TARGET, directory));
 
 for (const file of markdownFiles(path.join(ROOT, 'pipeline'))) {
   const parsed = parse(file);
@@ -66,6 +66,16 @@ for (const file of markdownFiles(path.join(ROOT, 'content', 'posts'))) {
   const month = parts[1];
   const key = stableKey(parsed.data.slug || path.basename(file, path.extname(file)).replace(/^\d{4}-\d{2}-\d{2}-?/, ''));
   const bundle = path.join(TARGET, 'posts', year, month, key);
+  copy(file, path.join(bundle, 'index.md'));
+  const cover = coverSource(parsed.data);
+  if (cover) copy(cover, path.join(bundle, `cover${path.extname(cover).toLowerCase()}`));
+  writePlaceholder(path.join(bundle, 'social'));
+}
+
+for (const file of markdownFiles(path.join(ROOT, 'content', 'pages'))) {
+  const parsed = parse(file);
+  const key = stableKey(parsed.data.slug || path.basename(file, path.extname(file)));
+  const bundle = path.join(TARGET, 'pages', key);
   copy(file, path.join(bundle, 'index.md'));
   const cover = coverSource(parsed.data);
   if (cover) copy(cover, path.join(bundle, `cover${path.extname(cover).toLowerCase()}`));

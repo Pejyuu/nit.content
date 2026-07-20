@@ -99,7 +99,7 @@ function classify(rel, data, overrides) {
   if (/^(content|content-repo)\/posts\//.test(rel)) return { type: 'post', confidence: 'high', reason: 'dated editorial collection' };
   if (/^(content|content-repo)\/guides\//.test(rel)) return { type: 'guide', confidence: 'high', reason: 'maintained practical guide collection' };
   if (/^content-repo\/visas\//.test(rel)) return { type: 'visa', confidence: 'high', reason: 'formal visa collection' };
-  if (rel.startsWith('content/pages/')) return { type: 'singleton', confidence: 'high', reason: 'static page collection' };
+  if (/^(content|content-repo)\/pages\//.test(rel)) return { type: 'singleton', confidence: 'high', reason: 'static page collection' };
   if (PUBLISHABLE.has(data.type)) return { type: data.type, confidence: 'high', reason: 'existing valid type' };
   return { type: 'unresolved', confidence: 'low', reason: 'manual editorial classification required' };
 }
