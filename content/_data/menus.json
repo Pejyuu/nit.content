@@ -49,18 +49,11 @@
           "href": "/kontakt/"
         },
         {
-          "id": "header-tax",
+          "id": "link-mrw6uhdy-p635",
           "kind": "external",
-          "label": "Skattekalkulator",
+          "label": "Gratis Verktøy",
           "children": [],
-          "href": "/verktoy/skatt/"
-        },
-        {
-          "id": "content-mrvtnppe-kufa",
-          "kind": "content",
-          "label": "Ambassaden i Bangkok slutter med innektsbekreftelser fra Mai 2026",
-          "children": [],
-          "contentId": "post.2025.ambassaden-gir-seg-med-inntektsbekreftelse-mai2026"
+          "href": "/verktoy/"
         }
       ]
     },
