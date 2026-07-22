@@ -1,0 +1,106 @@
+---
+slug: tm47
+published: true
+updated: '2025-05-21T09:19'
+title: TM47 - 90 Dagers Rapporteringen
+excerpt: >-
+  En enkel og tydelig forklaring på 90-dagers rapportering (TM47) i Thailand.
+  Lær når og hvordan du rapporterer adressen din, hvilke dokumenter du trenger,
+  og unngå vanlige feil og bøter.
+prev: false
+next: false
+pipeline:
+  stage: published
+  writing_effort: null
+  verification_burden: null
+  hold_until: null
+  publish_date: null
+  reject_reason: null
+  content_category: seasonal
+  resurface_cooldown: 3 months
+  last_verified: '2026-07-21T19:15:06.228Z'
+  last_touched: '2026-07-21T19:15:06.228Z'
+  source_research: null
+  source_idea: null
+type: guide
+id: guide.tm47
+description: >-
+  En enkel og tydelig forklaring på 90-dagers rapportering (TM47) i Thailand.
+  Lær når og hvordan du rapporterer adressen din, hvilke dokumenter du trenger,
+  og unngå vanlige feil og bøter.
+stage: published
+status: published
+updatedAt: '2025-05-21T09:19'
+lastVerifiedAt: '2026-07-21T19:15:06.228Z'
+nextReviewAt: '2026-10-21T19:15:06.228Z'
+revisionHistory:
+  - at: '2026-07-21T19:15:06.228Z'
+    type: manual-review
+    note: >-
+      Approving as-is. But resurfacec in 3 months because I am hoping I will
+      have made my 90 day tool and can link it here.
+topics: []
+audiences: []
+images: {}
+sources: []
+relations: []
+affiliateLinks: []
+ads:
+  overrides: {}
+---
+90-dagers rapportering (TM47) er en prosess der utlendinger som oppholder seg i Thailand kontinuerlig mer enn 90 dager, må informere immigrasjonsmyndighetene om sin nåværende bostedsadresse hver 90. dag.
+
+### Når må du rapportere?
+
+*   Innen 15 dager før eller 7 dager etter den 90. dagen av ditt opphold.
+
+### Dokumentasjon du trenger
+
+1.  **Passet ditt** (original og kopi av følgende sider):
+    
+    *   Personlig informasjonsside
+        
+    *   Gjeldende visumside
+        
+    *   Siste innreisestempel
+        
+2.  **Utfylt TM47-skjema** (fås hos immigrasjonskontoret eller lastes ned på forhånd).
+    
+3.  **Tidligere kvittering** for 90-dagers rapportering (om du har gjort det før).
+    
+
+### Hvordan rapporterer du?
+Det finnes tre måter å levere 90-dagers rapport
+
+#### Personlig
+    
+    *   Dra til ditt lokale immigrasjonskontor.
+        
+    *   Lever inn dokumentene.
+        
+    *   Få kvittering med neste rapporteringsdato.
+        
+#### Online
+    
+    *   Registrer deg og logg inn på [Thai Immigration eServices](https://tm47.immigration.go.th/).
+        
+    *   Følg instruksjonene for å fylle ut skjemaet.
+        
+    *   Vent på bekreftelse og kvittering via e-post.
+        
+#### Via post (ikke like vanlig)
+    
+    *   Send inn alle dokumenter og ferdig utfylt TM47-skjema med returkonvolutt og porto.
+        
+    *   Gjør dette minst 15 dager før fristen.
+        
+
+### Hva skjer hvis du glemmer rapporteringen?
+
+*   Vanligvis en bot på rundt 2000 THB, men dette kan variere.
+
+### Tips
+
+*   Sett en påminnelse i kalenderen din slik at du unngår bøter.
+    
+*   Ta alltid vare på kvitteringen, da den gjør neste rapportering enklere.
