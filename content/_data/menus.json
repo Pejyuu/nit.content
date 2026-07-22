@@ -1,0 +1,250 @@
+{
+  "version": 1,
+  "menus": [
+    {
+      "id": "site-header",
+      "label": "Header",
+      "maxDepth": 2,
+      "items": [
+        {
+          "id": "header-home",
+          "kind": "external",
+          "label": "Hjem",
+          "children": [],
+          "href": "/"
+        },
+        {
+          "id": "header-magazine",
+          "kind": "external",
+          "label": "Magasinet",
+          "children": [],
+          "href": "/magasin/"
+        },
+        {
+          "id": "header-visa",
+          "kind": "external",
+          "label": "Visum",
+          "children": [],
+          "href": "/visumguiden/"
+        },
+        {
+          "id": "header-guides",
+          "kind": "external",
+          "label": "Guider",
+          "children": [],
+          "href": "/guider/"
+        },
+        {
+          "id": "header-about",
+          "kind": "content",
+          "label": "Om oss",
+          "children": [],
+          "contentId": "page.om-oss"
+        },
+        {
+          "id": "header-contact",
+          "kind": "external",
+          "label": "Kontakt",
+          "children": [],
+          "href": "/kontakt/"
+        },
+        {
+          "id": "header-tax",
+          "kind": "external",
+          "label": "Skattekalkulator",
+          "children": [],
+          "href": "/verktoy/skatt/"
+        }
+      ]
+    },
+    {
+      "id": "site-footer",
+      "label": "Footer",
+      "maxDepth": 3,
+      "items": [
+        {
+          "id": "footer-thailand",
+          "kind": "group",
+          "label": "Thailand",
+          "children": [
+            {
+              "id": "footer-entry",
+              "kind": "content",
+              "label": "Innreisekrav",
+              "children": [],
+              "contentId": "guide.innreisekrav"
+            },
+            {
+              "id": "footer-income",
+              "kind": "content",
+              "label": "Inntektsbekreftelse – info",
+              "children": [],
+              "contentId": "guide.inntektsbekreftelse"
+            }
+          ]
+        },
+        {
+          "id": "footer-about",
+          "kind": "group",
+          "label": "Om oss",
+          "children": [
+            {
+              "id": "footer-contact",
+              "kind": "external",
+              "label": "Kontakt",
+              "children": [],
+              "href": "/kontakt/"
+            },
+            {
+              "id": "footer-about-page",
+              "kind": "content",
+              "label": "Om oss",
+              "children": [],
+              "contentId": "page.om-oss"
+            },
+            {
+              "id": "footer-privacy",
+              "kind": "content",
+              "label": "Personvern",
+              "children": [],
+              "contentId": "page.personvern"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "visa-sidebar",
+      "label": "Visumguiden",
+      "maxDepth": 3,
+      "items": [
+        {
+          "id": "visa-overview",
+          "kind": "content",
+          "label": "Oversikt",
+          "children": [],
+          "contentId": "visa.index"
+        },
+        {
+          "id": "visa-tourism",
+          "kind": "group",
+          "label": "Turisme",
+          "children": [
+            {
+              "id": "visa-tourist",
+              "kind": "content",
+              "label": "Turistvisum",
+              "children": [],
+              "contentId": "visa.turist.visum"
+            },
+            {
+              "id": "visa-exempt",
+              "kind": "content",
+              "label": "Visumfritt",
+              "children": [],
+              "contentId": "visa.turist.visumfritt"
+            }
+          ]
+        },
+        {
+          "id": "visa-longstay",
+          "kind": "group",
+          "label": "Langtidsopphold",
+          "children": [
+            {
+              "id": "visa-nono",
+              "kind": "content",
+              "label": "Non-O – pensjonist",
+              "children": [],
+              "contentId": "visa.nono.pensjonist"
+            },
+            {
+              "id": "visa-nonoa",
+              "kind": "content",
+              "label": "Non-OA – pensjonist",
+              "children": [],
+              "contentId": "visa.nonoa.pensjonist"
+            },
+            {
+              "id": "visa-marriage",
+              "kind": "content",
+              "label": "Non-O – ekteskap",
+              "children": [],
+              "contentId": "visa.nono.ekteskap"
+            },
+            {
+              "id": "visa-business",
+              "kind": "content",
+              "label": "Arbeid og business",
+              "children": [],
+              "contentId": "visa.non.b"
+            },
+            {
+              "id": "visa-education",
+              "kind": "content",
+              "label": "Utdanning",
+              "children": [],
+              "contentId": "visa.non.ed"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "guide-sidebar",
+      "label": "Guider",
+      "maxDepth": 3,
+      "items": [
+        {
+          "id": "guide-overview",
+          "kind": "content",
+          "label": "Oversikt",
+          "children": [],
+          "contentId": "guide.index"
+        },
+        {
+          "id": "guide-entry",
+          "kind": "content",
+          "label": "Innreisekrav",
+          "children": [],
+          "contentId": "guide.innreisekrav"
+        },
+        {
+          "id": "guide-income",
+          "kind": "content",
+          "label": "Inntektsbekreftelse",
+          "children": [],
+          "contentId": "guide.inntektsbekreftelse"
+        },
+        {
+          "id": "guide-visa-compare",
+          "kind": "content",
+          "label": "Non-O eller Non-OA",
+          "children": [],
+          "contentId": "guide.nono-vs-nonoa"
+        },
+        {
+          "id": "guide-money",
+          "kind": "content",
+          "label": "Penger",
+          "children": [],
+          "contentId": "guide.penger.praktisk"
+        },
+        {
+          "id": "guide-tourist",
+          "kind": "content",
+          "label": "Turistoversikt",
+          "children": [],
+          "contentId": "guide.turist-index"
+        },
+        {
+          "id": "guide-tm47",
+          "kind": "content",
+          "label": "TM47 – 90-dagersrapport",
+          "children": [],
+          "contentId": "guide.tm47"
+        }
+      ]
+    }
+  ]
+}
