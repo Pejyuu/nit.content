@@ -1,0 +1,75 @@
+---
+published: true
+featured: false
+date: 2026-5-12
+author: marianneh
+slug: visumfritt-opphold-i-thailand-hva-gjelder-i-mai2026
+title: Visumfritt opphold i Thailand – hva gjelder i dag?
+categories: visum
+cover: /src/cms/content/media/cover_visumfritt-opphold-i-thailand-hva-gjelder-i-mai2026.jpg
+allow_comment: false
+thread_id: 0
+excerpt: 'Nordmenn kan reise visumfritt til Thailand i opptil 60 dager – med mulighet for 30 dagers forlengelse på et lokalt immigrasjonskontor. Husk TDAC-skjema før avreise, gyldig pass og utreisebillett. Forslag om å kutte til 30 dager er under diskusjon, men ingen avgjørelse er tatt.'
+sharing:
+  og_image: /src/cms/content/media/innreiseregler_2026.jpg
+  twitter_card: summary_large_image
+pipeline:
+  stage: published
+  writing_effort: null
+  verification_burden: null
+  hold_until: null
+  publish_date: 2026-5-12
+  reject_reason: null
+  content_category: seasonal
+  resurface_cooldown: 6 months
+  last_verified: 2026-5-12
+  last_touched: '2026-07-11T02:15:07.344Z'
+  source_research: null
+  source_idea: null
+type: post
+id: post.2026.visumfritt-opphold-i-thailand-hva-gjelder-i-mai2026
+description: 'Nordmenn kan reise visumfritt til Thailand i opptil 60 dager – med mulighet for 30 dagers forlengelse på et lokalt immigrasjonskontor. Husk TDAC-skjema før avreise, gyldig pass og utreisebillett. Forslag om å kutte til 30 dager er under diskusjon, men ingen avgjørelse er tatt.'
+stage: published
+status: published
+publishedAt: 2026-5-12
+category: visum
+topics: []
+audiences: []
+images:
+  cover: cover.jpg
+  social:
+    universal: social/universal.jpg
+sources: []
+relations: []
+affiliateLinks: []
+ads:
+  overrides: {}
+---
+
+Thailand er et av de aller mest populære reisemålene for nordmenn, og de gode visumreglene gjør landet ekstra tilgjengelig. Her er en oversikt over hva som gjelder akkurat nå.
+
+
+## **60 dager visumfritt**
+
+Innehavere av ordinære norske pass og nødpass som reiser til Thailand på turistbesøk, får for øyeblikket 60 dager visumfritt opphold ved innreise. Den visumfrie perioden ble utvidet fra 30 til 60 dager i juli 2024 for Norske borgere og borgere fra 92 andre nasjoner, noe som betyr at du kan feriere i Thailand i opptil to måneder uten å søke visum på forhånd.
+
+Oppholdet kan utvides med ytterligere 30 dager ved et lokalt immigrasjonskontor – dersom du ønsker å bli lenger enn de opprinnelige 60 dagene.
+
+## **Krav ved innreise**
+
+Det er noen praktiske ting du bør ha i orden før du reiser:
+
+ Passet ditt må være gyldig i minst seks måneder.
+
+Du må ha fylt ut et TDAC-skjema (Thailand Digital Arrival Card) – en obligatorisk digital registrering som alle utenlandske besøkende må fullføre før avreise. TDAC erstatter det gamle papirskjemaet (TM6) som man tidligere fylte ut på flyet. **Skjemaet er gratis**, og du finner det på [tdac.immigration.go.th](https://tdac.immigration.go.th/).
+
+Du må kunne vise til **20 000 baht eller tilsvarende i gangbar valuta, i kontanter.**
+Og du må ha en utreisebillett innen 60 dager.
+
+***Vi bemerker at mange ikke blir spurt om utreisebillett eller kontanter, men det er like fullt  krav som kan bli brukt mot deg ved innreise om du ikke kan vise at du har dette.***
+
+## **Hva med ryktene om endringer til 30 dager?**
+
+Det har sirkulert mye snakk om at Thailand kan komme til å korte ned den visumfrie perioden igjen. Det er kommet klager på utlendinger som oppholder seg i landet med andre formål enn turisme, og det er inne forslag om å gå tilbake til 30 dagers visumfritt opphold.
+
+Per i dag er dette imidlertid kun på diskusjonsstadiet. **Norsk i Thailand** vil komme tilbake med mer informasjon dersom det faktisk vedtas en endring – **foreløpig gjelder 60 dager som normalt.**

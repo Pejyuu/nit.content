@@ -1,0 +1,79 @@
+---
+published: true
+featured: false
+date: '2025-05-17T08:14'
+author: marianneh
+slug: da-jeg-brakk-ankelen-i-bangkok
+title: Da jeg brakk ankelen i Bangkok
+categories: hverdag
+cover: /src/cms/content/media/cover_da-jeg-brakk-ankelen-i-bangkok.jpg
+allow_comment: false
+excerpt: Jeg brakk ankelen i Bangkok. Det kunne gått dårlig – men det private helsevesenet leverte.
+sharing:
+  og_image: /src/cms/content/media/cover_da-jeg-brakk-ankelen-i-bangkok.jpg
+  twitter_card: summary_large_image
+pipeline:
+  stage: published
+  writing_effort: null
+  verification_burden: null
+  hold_until: null
+  publish_date: '2025-05-17T08:14'
+  reject_reason: null
+  content_category: one-off
+  resurface_cooldown: null
+  last_verified: '2025-05-17T08:14'
+  last_touched: '2026-07-11T02:15:07.344Z'
+  source_research: null
+  source_idea: null
+type: post
+id: post.2025.da-jeg-brakk-ankelen-i-bangkok
+description: Jeg brakk ankelen i Bangkok. Det kunne gått dårlig – men det private helsevesenet leverte.
+stage: published
+status: published
+publishedAt: '2025-05-17T08:14'
+category: hverdag
+topics: []
+audiences: []
+images:
+  cover: cover.jpg
+  social:
+    universal: social/universal.jpg
+sources: []
+relations: []
+affiliateLinks: []
+ads:
+  overrides: {}
+---
+## Sykehusbesøk i Thailand – hvordan funker det egentlig?
+
+Det er kanskje ikke midt på natta med en brukket ankel i Bangkok man føler seg mest heldig. Men vet du hva? Det gikk overraskende greit.
+
+### Uhellet kommer sjelden beleilig
+
+Ironisk nok var jeg på vei til apoteket rundt midnatt for å kjøpe noen smertestillende mot noe helt annet, da jeg tråkket skikkelig feil ned fra en kant og brakk ankelen. Ambulanse fungerer ikke helt som i Norge her, så det mest praktiske var rett og slett å ta taxi. Jeg ringte husbonden mens jeg prøvde å ikke svime av i smerte, og han kom løpende for å finne ut hva som hadde skjedd. Heldigvis var jeg ikke langt hjemmefra.
+
+Han fikk tak i en taxi, og sammen stablet vi meg inn i bilen og dro til nærmeste offentlige sykehus. Etter å ha ventet en stund der, bestemte vi oss for å heller dra til et privat sykehus uten behandlingskø.
+
+### Effektiv behandling, med service på hjul
+
+Innsjekk gikk smertefritt begge steder. På det private sykehuset fant de en seng til meg raskt, og fordi det var natt og situasjonen akutt, kom røntgenmaskinen til meg – jeg slapp å bli trillet rundt.
+
+Personalet snakket bra engelsk, og det var ingen store kommunikasjonsproblemer. Bruddet ble bekreftet, og jeg fikk en midlertidig halv-gips som tok høyde for at ankelen fortsatt kunne hovne opp. Medisinene ble gitt på stedet, og hele besøket kom på omtrent 10 000 baht, og beskjed om å komme tilbake etter en uke. Denne gangen på dagtid.
+
+### God oppfølging – så lenge du vil
+
+Oppfølgingen var tålelig tett, med nye timer ca. annenhver uke. Hver kontroll kostet rundt 3500 baht, og det inkluderte både konsultasjon, røngten og medisiner. Her trillet de meg rundt i rullestol til de forskjellige avdelingene jeg måtte til. De ble nesten litt fra seg når jeg etterhvert insisterte å hoppe rundt på krykkene mine selv.
+
+Det eneste jeg har å si noe på, var mangelen på valgmuligheter når det gjald støttemekanisme. Gips var eneste alternativet fra sykehset sin side...  
+Gips gir meg litt noia, og siden bruddet mitt var såpass pent som det var, så kjøpte jeg meg en aircast-klone på Lazada og insisterte på å få bruke denne. Dette hadde ikke legene noe imot.  
+Det var **veldig** ålreit å kunne ta av aircasten for å lufte og tørke føttene med ujevne mellomrom. Det er varmt, og luftfuktigheten er skyhøy. Gjorde det enklere når det skulle dusjes og. Anbefales.
+
+Etter tre måneder sa jeg meg ferdig, selv om de gjerne ville fortsette å følge opp. Jeg visste av erfaring at det ikke var nødvendig – og jeg var uansett midt i et forsikringsbytte.
+
+### Forsikringskrøll, men flinke leger
+
+Det mest kompliserte i hele prosessen var faktisk forsikringsselskapet. De krevde en detaljert legeerklæring om _hvor jeg var og hva jeg gjorde_ da uhellet skjedde. Legene hadde aldri fått en så spesifikk forespørsel før, men de gjorde sitt beste for å oppfylle kravene. Etter litt frem og tilbake fikk vi det til.
+
+### Konklusjon
+
+Alt i alt? 10/10, **anbefaler ikke å brekke ankelen**, men hvis det først skal skje – Bangkok er faktisk et ganske bra sted å få det gjort. Behandlingen var trygg, rask, og profesjonell – og hele regningen ble dekket av forsikringen... til slutt.

@@ -1,0 +1,82 @@
+---
+slug: turist.visumfritt
+published: true
+updated: '2025-05-20T08:16'
+title: Visumfritt
+excerpt: '60 dagers opphold i Thailand, uten visum! '
+prev: false
+next: false
+pipeline:
+  stage: published
+  writing_effort: null
+  verification_burden: null
+  hold_until: null
+  publish_date: null
+  reject_reason: null
+  content_category: seasonal
+  resurface_cooldown: 6 months
+  last_verified: '2025-05-20T08:16'
+  last_touched: '2026-07-11T02:15:07.344Z'
+  source_research: null
+  source_idea: null
+type: visa
+id: visa.turist-visumfritt
+description: '60 dagers opphold i Thailand, uten visum! '
+stage: published
+status: needs-review
+updatedAt: '2025-05-20T08:16'
+lastVerifiedAt: null
+nextReviewAt: null
+revisionHistory: []
+topics: []
+audiences: []
+images: {}
+sources: []
+relations: []
+affiliateLinks: []
+ads:
+  overrides: {}
+---
+Nordmenn som reiser til Thailand har muligheten til å dra nytte av visumfritak, som tillater opphold i landet i inntil 60 dager. Dette gjelder både for nordmenn som ankommer via fly og de som krysser landegrenser inn til Thailand.
+
+Det er viktig å merke seg at visumfritaket kun gjelder for kortere turistopphold, og det tillater ikke arbeid eller forretningsaktiviteter i Thailand. Hvis du har planer om å jobbe eller oppholde deg i landet i mer enn 60 dager, må du søke om et passende visum på forhånd.
+
+| Varighet | Pris | Kan forlenges? |
+| --- | --- | --- |
+| 60 dg | \-  | 30 dg |
+
+### Før Avreise
+
+Når du reiser visumfritt til Thailand **kan** du bli spurt om en **utreisebillett** av flyselskapet du reiser med.  
+Om du ikke har dette kan flyselskapet nekte deg å bli med flyet.  
+Denne utreisebilletten må ha en avreisedato innenfor de 60 visumfrie dagene.
+
+Det kan være en flybillett, bussbillett eller lignende, så lenge det er en bekreftelse på at du reiser ut av landet igjen innen 30 dager.
+
+Du kan også bruke en tjeneste som f.eks. [OnwardTicket](https://go.norskithailand.info/onwardticket) som gir deg en gyldig billett på ønsket dato til en rimelig pris.
+
+### Viktig
+
+Immigrasjons-offiseren **kan** nekte deg adgang til Kongeriket dersom de mistenker du bor i Thailand og regelmessig bruker visumfritt opphold når du ankommer.  
+Noen immigrasjons-offiserer opererer også med en maksperiode på 90 dager i løpet av 6 måneder.
+
+## Utvide oppholdet?
+
+Du kan utvide et visumfritt opphold med ytterligere 30 dager ved å dra til et av Thailands immigrasjonskontorer. **MERK:** I Bangkok må du dra til [IT Square LAK SI](https://g.co/kgs/a6jYky) og **ikke hovedkontoret** for å søke om utvidet opphold når du er i Thailand på visumfritt opphold.
+
+**Krav til dokumentasjon**
+
+*   Kopi av bildesiden i passet
+    
+*   Kopi av innreisestempelet i passet
+    
+*   2x passfoto
+    
+*   Søknadspapirer (finnes hos immigrasjonskontorene)
+    
+*   1900 THB
+    
+*   Og litt tålmodighet og et smil. :)
+    
+
+Det er køsystem, og begrenset antall kølapper hver dag.

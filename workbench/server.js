@@ -29,7 +29,7 @@ function walkMdxFiles(dir, base) {
     var full = path.join(dir, entry.name);
     if (entry.isDirectory()) {
       out = out.concat(walkMdxFiles(full, base));
-    } else if (entry.isFile() && entry.name.endsWith('.mdx')) {
+    } else if (entry.isFile() && /\.mdx?$/.test(entry.name)) {
       out.push(path.relative(base, full).split(path.sep).join('/'));
     }
   });
@@ -75,7 +75,7 @@ function slugifyName(str) {
   return (str || 'untitled')
     .toString()
     .toLowerCase()
-    .replace(/\.mdx$/, '')
+    .replace(/\.mdx?$/, '')
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/(^-|-$)/g, '') || 'untitled';
 }
@@ -90,6 +90,23 @@ function uniqueFilename(dir, base) {
     n += 1;
   }
   return finalName;
+}
+
+function uniqueBundleDir(rootKey, dateStr, base) {
+  var parent = ROOTS[rootKey];
+  if (rootKey === 'post') {
+    var parts = (dateStr || '').split('-');
+    if (!/^\d{4}$/.test(parts[0] || '') || !/^\d{2}$/.test(parts[1] || '')) throw new Error('Posts require a publication date');
+    parent = path.join(parent, parts[0], parts[1]);
+  }
+  if (!fs.existsSync(parent)) fs.mkdirSync(parent, { recursive: true });
+  var key = slugifyName(base);
+  var dir = path.join(parent, key);
+  var n = 2;
+  while (fs.existsSync(path.join(dir, 'index.md'))) dir = path.join(parent, key + '-' + n++);
+  fs.mkdirSync(dir, { recursive: true });
+  fs.mkdirSync(path.join(dir, rootKey === 'post' ? 'social' : rootKey === 'guide' ? 'illustrations' : 'documents'), { recursive: true });
+  return dir;
 }
 
 // The standard shape every file Workbench creates uses: site fields at the
@@ -233,12 +250,14 @@ app.post('/api/cards/move', function (req, res) {
       fs.writeFileSync(oldPath, matter.stringify(body, movedFrontmatter));
       return res.json({ id: id });
     }
-    var targetDir = ROOTS[toRoot];
     var base = slugifyName(filename || frontmatter.slug || frontmatter.title);
-    var finalName = uniqueFilename(targetDir, base);
+    var publishDate = String(frontmatter.publishedAt || frontmatter.date || (frontmatter.pipeline && frontmatter.pipeline.publish_date) || new Date().toISOString()).slice(0, 10);
+    var targetDir = uniqueBundleDir(toRoot, publishDate, base);
+    var finalName = 'index.md';
     fs.writeFileSync(path.join(targetDir, finalName), matter.stringify(body, movedFrontmatter));
     fs.unlinkSync(oldPath);
-    res.json({ id: toRoot + '/' + finalName });
+    var movedRelPath = path.relative(ROOTS[toRoot], path.join(targetDir, finalName)).split(path.sep).join('/');
+    res.json({ id: toRoot + '/' + movedRelPath });
   } catch (e) {
     res.status(400).json({ error: e.message });
   }
@@ -280,18 +299,19 @@ app.post('/api/cards/reschedule', function (req, res) {
     var rootKey = id.slice(0, id.indexOf('/'));
     if (toRoot && !ROOTS[toRoot]) throw new Error('Unknown root: ' + toRoot);
     var finalRoot = toRoot || rootKey;
-    var dir = targetDirForRoot(finalRoot, dateStr);
-    var oldBase = path.basename(oldPath, '.mdx');
+    var oldBase = path.basename(oldPath, path.extname(oldPath));
+    if (oldBase === 'index') oldBase = path.basename(path.dirname(oldPath));
     var desiredBase = dateStr + '-' + stripDatePrefix(oldBase);
-    var desiredPath = path.join(dir, desiredBase + '.mdx');
     var rescheduledFrontmatter = isPublishedRoot(finalRoot) ? pruneNullsDeep(frontmatter) : frontmatter;
+    var dir = finalRoot === 'pipeline' ? ROOTS.pipeline : uniqueBundleDir(finalRoot, dateStr, frontmatter.slug || stripDatePrefix(oldBase) || frontmatter.title);
+    var desiredPath = path.join(dir, finalRoot === 'pipeline' ? desiredBase + '.mdx' : 'index.md');
 
     if (desiredPath === oldPath) {
       fs.writeFileSync(oldPath, matter.stringify(body, rescheduledFrontmatter));
       return res.json({ id: id });
     }
 
-    var finalName = uniqueFilename(dir, desiredBase);
+    var finalName = finalRoot === 'pipeline' ? uniqueFilename(dir, desiredBase) : 'index.md';
     fs.writeFileSync(path.join(dir, finalName), matter.stringify(body, rescheduledFrontmatter));
     fs.unlinkSync(oldPath);
     var relPath = path.relative(ROOTS[finalRoot], path.join(dir, finalName)).split(path.sep).join('/');

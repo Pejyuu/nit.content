@@ -7,7 +7,7 @@ var calMonth = new Date(); calMonth.setDate(1); calMonth.setHours(0, 0, 0, 0);
 
 // Root keys for the three published destinations. A card whose root is one
 // of these has already been physically moved out of the pipeline.
-var PUBLISHED_ROOTS = ['post', 'guide', 'docs'];
+var PUBLISHED_ROOTS = ['post', 'guide', 'visa'];
 
 // ---------- frontmatter field helpers ----------
 // Every visible card is guaranteed to have a pipeline: block (the server's
@@ -90,7 +90,7 @@ var PUBLISH_FIELD_DEFS = {
     { key: 'og_image', label: 'Open Graph image path', get: function (fm) { return fm.sharing && fm.sharing.og_image; }, set: function (fm, v) { fm.sharing = fm.sharing || {}; fm.sharing.og_image = v; }, guess: function (card) { return card.frontmatter.cover || '/src/cms/content/media/some_placeholder.png'; } }
   ]
 };
-PUBLISH_FIELD_DEFS.docs = PUBLISH_FIELD_DEFS.guide;
+PUBLISH_FIELD_DEFS.visa = PUBLISH_FIELD_DEFS.guide;
 
 function isEmptyPublishValue(v) { return v === null || v === undefined || v === ''; }
 function getEmptyPublishFields(card) {
@@ -724,7 +724,7 @@ function wireModalEvents(card) {
     applyStructuredFieldsToCard(card);
     var pub = card.frontmatter.pipeline.publish_date;
     if (!pub) { alert('Set a publish date first.'); return; }
-    if (PUBLISHED_ROOTS.indexOf(card.type) === -1) { alert('Only post/guide/docs cards can be published.'); return; }
+    if (PUBLISHED_ROOTS.indexOf(card.type) === -1) { alert('Only post/guide/visa cards can be published.'); return; }
     // Required site fields must be filled first (see ensurePublishFieldsFilled).
     ensurePublishFieldsFilled(card, function () {
       card.frontmatter.date = pub;

@@ -1,0 +1,141 @@
+---
+slug: inntektsbekreftelse
+published: true
+updated: '2025-05-26T13:05'
+title: Alternativer til Inntektsbekreftelse
+excerpt: Ambassaden utsteder ikke lenger inntektsbekreftelser fra Mai 2026. Slik dokumenterer du økonomi for opphold i Thailand – med eller uten fast inntekt.
+sharing:
+  og_image: /src/cms/content/media/innektsbekreftelser_og_alternativer.jpg
+prev: false
+next: false
+pipeline:
+  stage: published
+  writing_effort: null
+  verification_burden: null
+  hold_until: null
+  publish_date: null
+  reject_reason: null
+  content_category: seasonal
+  resurface_cooldown: 6 months
+  last_verified: '2025-05-26T13:05'
+  last_touched: '2026-07-11T02:15:07.344Z'
+  source_research: null
+  source_idea: null
+type: guide
+id: guide.inntektsbekreftelse
+description: Ambassaden utsteder ikke lenger inntektsbekreftelser fra Mai 2026. Slik dokumenterer du økonomi for opphold i Thailand – med eller uten fast inntekt.
+stage: published
+status: needs-review
+updatedAt: '2025-05-26T13:05'
+lastVerifiedAt: null
+nextReviewAt: null
+revisionHistory: []
+topics: []
+audiences: []
+images:
+  social:
+    universal: social/universal.jpg
+sources: []
+relations: []
+affiliateLinks: []
+ads:
+  overrides: {}
+---
+Siden Norges Ambassade i Thailand nå kommer til å gi seg med Inntektbekreftelse fra Mai 2026 så syns vi det er viktig å komme med oppdatert informasjon om hva som nå gjelder for å dokumentere at man fyller de økonomiske kravene for å kunne søke om forlengelse av opphold i Thailand.
+
+Og komme med noen kreative alternativer til de som nå kanskje ikke når helt opp.
+
+## Hva som gjelder for opphold basert på familie
+
+Dersom du enten er gift med en Thailandsk statsborger eller er forelder til et Thailandsk barn og har opphold i Thailand basert på familieforhold (Non-O), gjelder følgende krav:
+
+### 1\. Bankinnskudd
+
+*   Minimum **400 000 THB** må stå på en thailandsk bankkonto i ditt navn.
+    
+*   Beløpet må ha stått på konto i minst 2 måneder før du søker, og i minst 3 måneder etter.
+    
+*   Per i dag finnes det ingen offisielle begrensninger på bruken av disse midlene etter denne perioden.
+    
+
+### 2\. Månedlige overføringer
+
+*   Du må kunne dokumentere månedlige overføringer på minimum **40 000 THB**.
+    
+*   Overføringene må ha skjedd **hver måned i 12 sammenhengende måneder**.
+    
+*   Det er **ikke krav** om at pengene kommer fra utlandet.
+    
+
+> 💬 **Merk:** Det har i 2025 blitt rapportert at enkelte immigrasjonskontorer har begynt å avslå søknader hvor pengene kommer fra internasjonale overføringer og ikke lokal inntekt. Dette virker å være en ny og ikke-offisielt bekreftet praksis, og det er uklart hvilke kontorer dette gjelder. Vær forberedt på at kravene kan praktiseres ulikt avhengig av hvor du søker.
+
+* * *
+
+## Hva som gjelder for opphold basert på pensjon
+
+Dersom du er over 50 år og har opphold i Thailand basert på pensjoniststatus (Retirement), gjelder følgende økonomiske krav. Du må oppfylle **én** av disse to:
+
+### 1\. Bankinnskudd
+
+*   Minimum **800 000 THB** må stå på en thailandsk bankkonto i ditt navn.
+    
+*   Beløpet må ha stått på konto i minst 2 måneder før du søker, og i minst 3 måneder etter at visumet er fornyet.
+    
+*   Etter denne perioden må kontoen ikke gå under **400 000 THB**.
+    
+
+### 2\. Månedlige overføringer
+
+*   Du må kunne dokumentere månedlige overføringer på minimum **65 000 THB**.
+    
+*   Overføringene må ha skjedd **hver måned i 12 sammenhengende måneder**.
+    
+*   Alle overføringer må være **internasjonale** og komme fra **utlandet**, ikke fra en thailandsk konto.
+    
+
+Dette er de offisielt godkjente metodene for andre nasjonaliteter uten inntektsbekreftelse. Det er ingen grunn til å tro at vi får noen særbehandling på dette.
+
+## Hvordan dokumenteres dette?
+
+Dette dokumenteres med bankbok eller stemplede kontoutskrifter fra banken din, som er signert av banksjef eller tilsvarende. Ofte må kontoutskriften være dagsfersk fra banken når du leverer din søknad på forlengelse av opphold.
+
+Vi anbefaler at du spør banken din om du må ha avtale på forhånd, og å spørre ditt lokale Immigrasjonskontor om hvor fersk kontoutskriften må være.  
+  
+Bankene håndterer trolig dette for andre nasjonaliteter allerede, og vet nok hva de trenger å gi deg av dokumentasjon.  
+Men spør de på forhånd.
+
+## Hva om du ikke når kravene?
+
+Det er mange som har brukt inntektsbekreftelsen fordi de da kommer innenfor grensa fordi den baserer seg på brutto intekt, og ikke netto. Det vil være en del som nå faller utenom på grunn av obligasjoner i Norge, skatt, og variabel valutakrus.
+
+**Sånn rent teknisk så kvalifiserer du da ikke lenger til forlenget opphold og må justere livet deretter.**
+
+### Men hva om vi er litt kreative?
+
+Dette er på ingen måte noe vi kan garantere at fungere, og det er litt på kanten. Men om man er desperat så tenker jeg det kan være noe å forsøke, mens man jobber med å spare opp nok penger så man kan bruke metoden med penger på bankkonto.
+
+Jeg har sett to metoder foreslått så langt.
+
+#### **1. Felleskonto og veksling via Wise (eller lignende):** 
+To personer samarbeider om å oppfylle inntektskravet ved å bruke samme konto som mellomledd. Først overføres nok penger til person A via internasjonal overføring. Deretter sendes et tilsvarende beløp tilbake til mellomkontoen, som igjen brukes for å sende beløpet til person B.
+
+Dette krever nøyaktig timing og medfører ekstra kostnader i form av gebyrer og valutaveksling – men i mangel av andre løsninger, kan det være verdt det.
+
+#### **2. Flere overføringer i samme måned (selvstyrt):** 
+Denne metoden kan fungere dersom immigrasjonskontoret godtar **samlet** dokumentasjon av månedlige overføringer, uten krav om én enkelt sum. Personen overfører først så mye som mulig, deretter sendes deler tilbake til Norge og overføres på nytt litt senere – alt i samme måned. Dette kan «simulere» to overføringer.
+
+#### **3. "Resirkulere" 65 000 baht i måneden**
+Dette er spesielt aktuelt for deg som ikke bor i Thailand hele året – eller som har litt ekstra penger spart opp.
+- Du overfører 65 000 baht til din thailandske bankkonto hver måned.  
+- Deretter sender du hele eller deler av beløpet tilbake til Norge.  
+- Neste måned bruker du de samme pengene igjen – og gjentar prosessen.
+
+På den måten oppfyller du kravet om månedlig inntekt, uten å faktisk bruke så mye hver måned.
+Koster jo litt i overføringsgebyrer totalt, men jeg tenker det kan være verdt det for å beholde og videreføre forlengelse av opphold nå som innektsbekreftelsen blir borte.
+
+
+> 🔁 I alle tilfeller kan det være greit å bruke én konto dedikert til å motta overføringer, og en annen til å sende penger ut igjen. Slik unngår man at tilbakebetalingene dukker opp på kontoutskriftene som vises til immigrasjonsmyndighetene.
+
+Igjen, dette er litt på kanten, men kanskje verdt er forsøk for de som ikke har noe annet valg. Det verste som kan skje er vel at du ikke får godkjent forlengelse av opphold, og da er du jo strengt tatt like langt som om du ikke når kravene. Så ingenting tapt.
+
+Vi kan håpe at Ambassaden ombestemmer seg, men jeg anser ikke det som en reel mulighet.
