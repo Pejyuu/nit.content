@@ -119,54 +119,54 @@
       "maxDepth": 3,
       "items": [
         {
-          "id": "content-mrxycqib-5qyj",
+          "id": "content-mrxyj577-59sm",
           "kind": "content",
-          "label": "Oversikt",
+          "label": "Visumguiden",
           "children": [],
           "contentId": "visa.index"
         },
         {
-          "id": "content-mrxybc0j-fest",
+          "id": "content-mrxyj238-5fgr",
           "kind": "content",
-          "label": "Innreisekrav",
+          "label": "Visum Index",
           "children": [],
-          "contentId": "visa.innreisekrav"
+          "contentId": "visa.visum.alle"
         },
         {
-          "id": "content-mrxybjab-srmp",
+          "id": "content-mrxyjpxg-1szi",
           "kind": "content",
           "label": "Langvarig Opphold",
           "children": [
             {
-              "id": "content-mrxybyzv-gk3l",
+              "id": "content-mrxykkhn-9b4f",
               "kind": "content",
               "label": "Non-O - Pensjonist",
               "children": [],
               "contentId": "visa.nono.pensjonist"
             },
             {
-              "id": "content-mrxybxg3-n5zb",
+              "id": "content-mrxykiw4-vlvh",
               "kind": "content",
               "label": "Non-OA - Pensjonist ( 1 år )",
               "children": [],
               "contentId": "visa.nonoa.pensjonist"
             },
             {
-              "id": "content-mrxybu4z-2l6l",
+              "id": "content-mrxykd98-dvd4",
               "kind": "content",
               "label": "Non-O - Ekteskap",
               "children": [],
               "contentId": "visa.nono.ekteskap"
             },
             {
-              "id": "content-mrxybp17-hedi",
+              "id": "content-mrxykb6z-1kxx",
               "kind": "content",
               "label": "Non-ED - Student",
               "children": [],
               "contentId": "visa.non.ed"
             },
             {
-              "id": "content-mrxybnf7-gyjc",
+              "id": "content-mrxyk63o-j2ng",
               "kind": "content",
               "label": "Non-B - Arbeid eller Business",
               "children": [],
@@ -176,19 +176,19 @@
           "contentId": "visa.nono.index"
         },
         {
-          "id": "content-mrxyc90s-tvbx",
+          "id": "content-mrxyjcln-otrk",
           "kind": "content",
-          "label": "Turisme",
+          "label": "Visum-muligheter for turister",
           "children": [
             {
-              "id": "content-mrxycg3n-k0mv",
+              "id": "content-mrxyjljg-qpem",
               "kind": "content",
               "label": "Visumfritt",
               "children": [],
               "contentId": "visa.turist.visumfritt"
             },
             {
-              "id": "content-mrxyccsk-lp19",
+              "id": "content-mrxyjjtv-qz7a",
               "kind": "content",
               "label": "Turistvisum",
               "children": [],
