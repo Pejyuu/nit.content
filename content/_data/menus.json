@@ -119,76 +119,25 @@
       "maxDepth": 3,
       "items": [
         {
-          "id": "content-mrxyj577-59sm",
-          "kind": "content",
-          "label": "Visumguiden",
-          "children": [],
-          "contentId": "visa.index"
-        },
-        {
-          "id": "content-mrxyj238-5fgr",
-          "kind": "content",
+          "id": "visa-index",
+          "kind": "group",
           "label": "Visum Index",
-          "children": [],
-          "contentId": "visa.visum.alle"
+          "children": []
         },
         {
-          "id": "content-mrxyjpxg-1szi",
-          "kind": "content",
-          "label": "Langvarig Opphold",
-          "children": [
-            {
-              "id": "content-mrxykkhn-9b4f",
-              "kind": "content",
-              "label": "Non-O - Pensjonist",
-              "children": [],
-              "contentId": "visa.nono.pensjonist"
-            },
-            {
-              "id": "content-mrxykiw4-vlvh",
-              "kind": "content",
-              "label": "Non-OA - Pensjonist ( 1 år )",
-              "children": [],
-              "contentId": "visa.nonoa.pensjonist"
-            },
-            {
-              "id": "content-mrxykd98-dvd4",
-              "kind": "content",
-              "label": "Non-O - Ekteskap",
-              "children": [],
-              "contentId": "visa.nono.ekteskap"
-            },
-            {
-              "id": "content-mrxykb6z-1kxx",
-              "kind": "content",
-              "label": "Non-ED - Student",
-              "children": [],
-              "contentId": "visa.non.ed"
-            },
-            {
-              "id": "content-mrxyk63o-j2ng",
-              "kind": "content",
-              "label": "Non-B - Arbeid eller Business",
-              "children": [],
-              "contentId": "visa.non.b"
-            }
-          ],
-          "contentId": "visa.nono.index"
-        },
-        {
-          "id": "content-mrxyjcln-otrk",
+          "id": "content-mrxyz707-nvtk",
           "kind": "content",
           "label": "Visum-muligheter for turister",
           "children": [
             {
-              "id": "content-mrxyjljg-qpem",
+              "id": "visa-exempt",
               "kind": "content",
               "label": "Visumfritt",
               "children": [],
               "contentId": "visa.turist.visumfritt"
             },
             {
-              "id": "content-mrxyjjtv-qz7a",
+              "id": "visa-tourist",
               "kind": "content",
               "label": "Turistvisum",
               "children": [],
@@ -196,6 +145,48 @@
             }
           ],
           "contentId": "visa.turist.index"
+        },
+        {
+          "id": "visa-longstay",
+          "kind": "group",
+          "label": "Langvarig Opphold",
+          "children": [
+            {
+              "id": "visa-nono",
+              "kind": "content",
+              "label": "Non-O - Pensjonist",
+              "children": [],
+              "contentId": "visa.nono.pensjonist"
+            },
+            {
+              "id": "visa-nonoa",
+              "kind": "content",
+              "label": "Non-OA - Pensjonist (1 år)",
+              "children": [],
+              "contentId": "visa.nonoa.pensjonist"
+            },
+            {
+              "id": "visa-marriage",
+              "kind": "content",
+              "label": "Non-O - Ekteskap",
+              "children": [],
+              "contentId": "visa.nono.ekteskap"
+            },
+            {
+              "id": "visa-education",
+              "kind": "content",
+              "label": "Non-ED - Student",
+              "children": [],
+              "contentId": "visa.non.ed"
+            },
+            {
+              "id": "visa-business",
+              "kind": "content",
+              "label": "Non-B - Arbeid eller Business",
+              "children": [],
+              "contentId": "visa.non.b"
+            }
+          ]
         }
       ]
     },
@@ -231,13 +222,6 @@
           "label": "Non-O eller Non-OA",
           "children": [],
           "contentId": "guide.nono-vs-nonoa"
-        },
-        {
-          "id": "guide-money",
-          "kind": "content",
-          "label": "Penger",
-          "children": [],
-          "contentId": "guide.penger.praktisk"
         },
         {
           "id": "guide-tourist",
