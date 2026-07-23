@@ -54,7 +54,7 @@ publishing:
   scheduledBy: 'hermes:odin'
   publishedAt: '2026-07-23T16:15:09.439Z'
   publishedBy: 'hermes:odin'
-  state: committed
+  state: materialized
 id: post.2026.ubon-ratchathani-markerer-125-ar-med-lysfestival
 description: >-
   Ubon Ratchathani feirer 125 år med lysprosesjon 25.–31. juli 2026. Se datoene
