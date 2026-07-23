@@ -119,62 +119,54 @@
       "maxDepth": 3,
       "items": [
         {
-          "id": "content-mrxxwll1-bpmw",
+          "id": "content-mrxycqib-5qyj",
           "kind": "content",
-          "label": "Visum Index",
-          "children": [
-            {
-              "id": "content-mrxxzh38-omma",
-              "kind": "content",
-              "label": "Visumfritt",
-              "children": [],
-              "contentId": "visa.turist.visumfritt"
-            },
-            {
-              "id": "content-mrxxz47g-yp7e",
-              "kind": "content",
-              "label": "Turistvisum",
-              "children": [],
-              "contentId": "visa.turist.visum"
-            }
-          ],
-          "contentId": "visa.visum.alle"
+          "label": "Oversikt",
+          "children": [],
+          "contentId": "visa.index"
         },
         {
-          "id": "content-mrxxxwk5-i4q4",
+          "id": "content-mrxybc0j-fest",
+          "kind": "content",
+          "label": "Innreisekrav",
+          "children": [],
+          "contentId": "visa.innreisekrav"
+        },
+        {
+          "id": "content-mrxybjab-srmp",
           "kind": "content",
           "label": "Langvarig Opphold",
           "children": [
             {
-              "id": "content-mrxxyo64-f7pj",
+              "id": "content-mrxybyzv-gk3l",
               "kind": "content",
               "label": "Non-O - Pensjonist",
               "children": [],
               "contentId": "visa.nono.pensjonist"
             },
             {
-              "id": "content-mrxxycng-irk6",
+              "id": "content-mrxybxg3-n5zb",
               "kind": "content",
               "label": "Non-OA - Pensjonist ( 1 år )",
               "children": [],
               "contentId": "visa.nonoa.pensjonist"
             },
             {
-              "id": "content-mrxxy9qc-vrqk",
+              "id": "content-mrxybu4z-2l6l",
               "kind": "content",
               "label": "Non-O - Ekteskap",
               "children": [],
               "contentId": "visa.nono.ekteskap"
             },
             {
-              "id": "content-mrxxy6f8-2g90",
+              "id": "content-mrxybp17-hedi",
               "kind": "content",
               "label": "Non-ED - Student",
               "children": [],
               "contentId": "visa.non.ed"
             },
             {
-              "id": "content-mrxxy0v2-il38",
+              "id": "content-mrxybnf7-gyjc",
               "kind": "content",
               "label": "Non-B - Arbeid eller Business",
               "children": [],
@@ -182,6 +174,28 @@
             }
           ],
           "contentId": "visa.nono.index"
+        },
+        {
+          "id": "content-mrxyc90s-tvbx",
+          "kind": "content",
+          "label": "Turisme",
+          "children": [
+            {
+              "id": "content-mrxycg3n-k0mv",
+              "kind": "content",
+              "label": "Visumfritt",
+              "children": [],
+              "contentId": "visa.turist.visumfritt"
+            },
+            {
+              "id": "content-mrxyccsk-lp19",
+              "kind": "content",
+              "label": "Turistvisum",
+              "children": [],
+              "contentId": "visa.turist.visum"
+            }
+          ],
+          "contentId": "visa.turist.index"
         }
       ]
     },
