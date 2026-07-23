@@ -1,0 +1,120 @@
+---
+type: post
+title: 'Lysfestivalen i Ubon Ratchathani 2026: Datoer og reiseråd'
+published: true
+date: '2026-07-23T16:15:09.439Z'
+slug: ubon-ratchathani-markerer-125-ar-med-lysfestival
+allow_comment: false
+excerpt: >-
+  Den 125. utgaven av Ubon Ratchathanis lysprosesjon holdes 25.–31. juli 2026,
+  med hovedprogram 28.–30. juli på Thung Si Mueang. Thailands turistmyndighet
+  løfter arrangementet til «Signature Thailand Event»; for norske reisende er
+  den konkrete vinkelen hvordan man kan oppleve et av Isan-regionens største
+  buddhistiske kulturarrangementer, inkludert tidspunkt og sted.
+sharing:
+  twitter_card: summary_large_image
+pipeline:
+  stage: published
+  hold_until: ''
+  publish_date: '2026-07-23T01:00:00.000Z'
+  reject_reason: ''
+  last_touched: '2026-07-23T16:15:09.439Z'
+  source_url: >-
+    https://www.tatnews.org/2026/07/tat-elevates-125th-ubon-ratchathani-candle-procession-as-signature-thailand-event/
+  content_type: post
+writer:
+  hermesSessionId: run_1a1402be6c974c289180ad4b806bb1c8
+  notes: ''
+  draftVersion: 1
+marketing:
+  hermesSessionId: run_044a2e250fe542168d52b77ba5354091
+  lastError: ''
+  seoTitle: 'Lysfestivalen i Ubon Ratchathani 2026: Datoer og reiseråd'
+  slug: ubon-ratchathani-markerer-125-ar-med-lysfestival
+  description: >-
+    Ubon Ratchathani feirer 125 år med lysprosesjon 25.–31. juli 2026. Se
+    datoene for hovedprogrammet og praktiske råd før reisen.
+  social:
+    shared: ''
+    instagram: ''
+    pinterestTitle: ''
+    pinterestDescription: ''
+  showCitations: true
+  offsetMinutes: 30
+  imageDirection: ''
+  last_touched: '2026-07-23T15:55:00.163Z'
+  images:
+    cover: posts/2026/07/ubon-ratchathani-markerer-125-ar-med-lysfestival/cover.jpg
+    social: >-
+      posts/2026/07/ubon-ratchathani-markerer-125-ar-med-lysfestival/social/universal.jpg
+category: reise
+publishing:
+  scheduledAt: '2026-07-23T01:00:00.000Z'
+  scheduledDate: '2026-07-23'
+  scheduledBy: 'hermes:odin'
+  publishedAt: '2026-07-23T16:15:09.439Z'
+  publishedBy: 'hermes:odin'
+  state: committed
+id: post.2026.ubon-ratchathani-markerer-125-ar-med-lysfestival
+description: >-
+  Ubon Ratchathani feirer 125 år med lysprosesjon 25.–31. juli 2026. Se datoene
+  for hovedprogrammet og praktiske råd før reisen.
+status: published
+publishedAt: '2026-07-23T16:15:09.439Z'
+seo:
+  title: 'Lysfestivalen i Ubon Ratchathani 2026: Datoer og reiseråd'
+  description: >-
+    Ubon Ratchathani feirer 125 år med lysprosesjon 25.–31. juli 2026. Se
+    datoene for hovedprogrammet og praktiske råd før reisen.
+images:
+  cover: cover.jpg
+  social:
+    universal: social/universal.jpg
+---
+Ubon Ratchathani gjør seg klar til å markere 125 år med sin berømte lysprosesjon. Festivalen arrangeres fra 25. til 31. juli 2026, mens hovedprogrammet finner sted 28.–30. juli på [Thung Sri Mueang](https://maps.app.goo.gl/M5Eo99HY831muCJJ6) i sentrum av byen.
+
+Arrangementet er blant de største buddhistiske kulturfestivalene i Isan og kan være et godt reisemål for nordmenn som allerede befinner seg i Thailand i slutten av juli.
+
+## En tradisjon med utskårne vokslys
+
+Lysprosesjonen i Ubon Ratchathani er knyttet til inngangen til den buddhistiske fastetiden, kjent som Khao Phansa. Tradisjonen har utviklet seg fra å overrekke lys til templene til en stor offentlig festival med rikt dekorerte vokslys og skulpturer.
+
+Lokale templer, kunstnere og lokalsamfunn bruker betydelig tid på å utforme bidragene. Under prosesjonen fraktes de utskårne voksarbeidene gjennom byen, ledsaget av kulturelle opptredener og deltakere i tradisjonelle drakter.
+
+Festivalen gir dermed mer enn bare et visuelt opptog. For besøkende er den også en inngang til buddhistiske tradisjoner og kulturarven i det nordøstlige Thailand.
+
+## Dette er datoene du bør merke deg
+
+Hele festivalperioden varer **fra 25. til 31. juli 2026**. Hovedprogrammet er lagt til **28.–30. juli, med Thung Si Mueang** som sentralt arrangementsområde.
+
+Det er disse tre dagene som vil være mest aktuelle for reisende som først og fremst ønsker å få med seg festivalens største innslag. Den detaljerte tidsplanen kan imidlertid bli justert, og tidspunktet for selve prosesjonen bør kontrolleres mot lokal arrangementsinformasjon før avreise.
+
+Thailands turistmyndighet, Tourism Authority of Thailand (TAT), har løftet jubileumsutgaven frem som et såkalt «Signature Thailand Event». Betegnelsen er en del av turistmyndighetens markedsføring av arrangementet, men understreker samtidig hvor stor betydning festivalen har fått som reisemål og kulturarrangement.
+
+## Praktisk for deg som vil reise til Ubon Ratchathani
+
+Thung Si Mueang ligger sentralt i Ubon Ratchathani. Under hovedprogrammet må besøkende regne med mye folk, trafikkendringer og begrenset fremkommelighet rundt arrangementsområdet.
+
+Det kan derfor være lurt å:
+
+- [bestille overnatting](https://go.norskithailand.info/agoda) tidlig
+- velge et hotell i eller nær sentrum
+- møte opp i god tid før prosesjoner og større opptredener
+- være forberedt på varme, regn og høy luftfuktighet
+- kontrollere dagsprogram, starttid og eventuelle veisperringer lokalt
+
+**Ubon Ratchathani** kan nås fra Bangkok med [fly, tog eller buss](https://go.norskithailand.info/12goasia). Skal du bare besøke byen i forbindelse med festivalen, er det fornuftig å legge inn litt tidsmargin fremfor å ankomme rett før hovedprogrammet begynner.
+
+Slutten av juli faller i regntiden. En lett regnjakke eller paraply kan være nyttig, men det er samtidig viktig å ha med vann og solbeskyttelse dersom arrangementene foregår i sterk sol.
+
+## Vis hensyn under festivalen
+
+Selv om lysprosesjonen er en stor folkefest og turistattraksjon, har den et buddhistisk utgangspunkt. Besøkende bør opptre respektfullt ved templer og religiøse innslag, følge lokale anvisninger og unngå å sperre veien for prosesjonen eller deltakerne.
+
+Ved tempelbesøk bør skuldre og knær være tildekket. Spør gjerne før du fotograferer munker eller personer som deltar i religiøse seremonier.
+
+## Sjekk programmet før du drar
+
+Datoene og hovedstedet er kunngjort av [Tourism Authority of Thailand](https://www.tatnews.org/2026/07/tat-elevates-125th-ubon-ratchathani-candle-procession-as-signature-thailand-event/). TATs omtale er samtidig markedsføringsmateriale, ikke en uavhengig vurdering av arrangementets kvalitet eller praktiske gjennomføring.
+
+Reisende bør derfor dobbeltsjekke det endelige programmet hos lokale arrangører eller turistmyndigheter i Ubon Ratchathani. Det gjelder særlig klokkeslett for prosesjonen, plassering av de enkelte aktivitetene og eventuelle endringer som følge av været.
