@@ -122,29 +122,22 @@
           "id": "visa-index",
           "kind": "group",
           "label": "Visum Index",
-          "children": []
-        },
-        {
-          "id": "content-mrxyz707-nvtk",
-          "kind": "content",
-          "label": "Visum-muligheter for turister",
           "children": [
             {
               "id": "visa-exempt",
               "kind": "content",
               "label": "Visumfritt",
               "children": [],
-              "contentId": "visa.turist.visumfritt"
+              "contentId": "visa.turist-visumfritt"
             },
             {
               "id": "visa-tourist",
               "kind": "content",
               "label": "Turistvisum",
               "children": [],
-              "contentId": "visa.turist.visum"
+              "contentId": "visa.turist-visum"
             }
-          ],
-          "contentId": "visa.turist.index"
+          ]
         },
         {
           "id": "visa-longstay",
@@ -156,35 +149,35 @@
               "kind": "content",
               "label": "Non-O - Pensjonist",
               "children": [],
-              "contentId": "visa.nono.pensjonist"
+              "contentId": "visa.nono-pensjonist"
             },
             {
               "id": "visa-nonoa",
               "kind": "content",
               "label": "Non-OA - Pensjonist (1 år)",
               "children": [],
-              "contentId": "visa.nonoa.pensjonist"
+              "contentId": "visa.nonoa-pensjonist"
             },
             {
               "id": "visa-marriage",
               "kind": "content",
               "label": "Non-O - Ekteskap",
               "children": [],
-              "contentId": "visa.nono.ekteskap"
+              "contentId": "visa.nono-ekteskap"
             },
             {
               "id": "visa-education",
               "kind": "content",
               "label": "Non-ED - Student",
               "children": [],
-              "contentId": "visa.non.ed"
+              "contentId": "visa.non-ed"
             },
             {
               "id": "visa-business",
               "kind": "content",
               "label": "Non-B - Arbeid eller Business",
               "children": [],
-              "contentId": "visa.non.b"
+              "contentId": "visa.non-b"
             }
           ]
         }
