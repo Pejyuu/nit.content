@@ -119,74 +119,69 @@
       "maxDepth": 3,
       "items": [
         {
-          "id": "visa-overview",
+          "id": "content-mrxxwll1-bpmw",
           "kind": "content",
-          "label": "Oversikt",
-          "children": [],
-          "contentId": "visa.index"
-        },
-        {
-          "id": "visa-tourism",
-          "kind": "group",
-          "label": "Turisme",
+          "label": "Visum Index",
           "children": [
             {
-              "id": "visa-tourist",
-              "kind": "content",
-              "label": "Turistvisum",
-              "children": [],
-              "contentId": "visa.turist.visum"
-            },
-            {
-              "id": "visa-exempt",
+              "id": "content-mrxxzh38-omma",
               "kind": "content",
               "label": "Visumfritt",
               "children": [],
               "contentId": "visa.turist.visumfritt"
+            },
+            {
+              "id": "content-mrxxz47g-yp7e",
+              "kind": "content",
+              "label": "Turistvisum",
+              "children": [],
+              "contentId": "visa.turist.visum"
             }
-          ]
+          ],
+          "contentId": "visa.visum.alle"
         },
         {
-          "id": "visa-longstay",
-          "kind": "group",
-          "label": "Langtidsopphold",
+          "id": "content-mrxxxwk5-i4q4",
+          "kind": "content",
+          "label": "Langvarig Opphold",
           "children": [
             {
-              "id": "visa-nono",
+              "id": "content-mrxxyo64-f7pj",
               "kind": "content",
-              "label": "Non-O – pensjonist",
+              "label": "Non-O - Pensjonist",
               "children": [],
               "contentId": "visa.nono.pensjonist"
             },
             {
-              "id": "visa-nonoa",
+              "id": "content-mrxxycng-irk6",
               "kind": "content",
-              "label": "Non-OA – pensjonist",
+              "label": "Non-OA - Pensjonist ( 1 år )",
               "children": [],
               "contentId": "visa.nonoa.pensjonist"
             },
             {
-              "id": "visa-marriage",
+              "id": "content-mrxxy9qc-vrqk",
               "kind": "content",
-              "label": "Non-O – ekteskap",
+              "label": "Non-O - Ekteskap",
               "children": [],
               "contentId": "visa.nono.ekteskap"
             },
             {
-              "id": "visa-business",
+              "id": "content-mrxxy6f8-2g90",
               "kind": "content",
-              "label": "Arbeid og business",
-              "children": [],
-              "contentId": "visa.non.b"
-            },
-            {
-              "id": "visa-education",
-              "kind": "content",
-              "label": "Utdanning",
+              "label": "Non-ED - Student",
               "children": [],
               "contentId": "visa.non.ed"
+            },
+            {
+              "id": "content-mrxxy0v2-il38",
+              "kind": "content",
+              "label": "Non-B - Arbeid eller Business",
+              "children": [],
+              "contentId": "visa.non.b"
             }
-          ]
+          ],
+          "contentId": "visa.nono.index"
         }
       ]
     },
