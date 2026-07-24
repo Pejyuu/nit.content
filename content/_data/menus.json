@@ -119,11 +119,67 @@
       "maxDepth": 3,
       "items": [
         {
-          "id": "link-mrxzshva-n3wa",
-          "kind": "external",
-          "label": "Bro",
-          "children": [],
-          "href": "https://example.com"
+          "id": "group-mrz1thlj-aoxp",
+          "kind": "group",
+          "label": "Turisme",
+          "children": [
+            {
+              "id": "content-mrz1tl66-9ktp",
+              "kind": "content",
+              "label": "Visumfritt",
+              "children": [],
+              "contentId": "visa.turist-visumfritt"
+            },
+            {
+              "id": "content-mrz1tjw2-y15q",
+              "kind": "content",
+              "label": "Turistvisum",
+              "children": [],
+              "contentId": "visa.turist-visum"
+            }
+          ]
+        },
+        {
+          "id": "group-mrz1tqy6-v0wy",
+          "kind": "group",
+          "label": "Langvarig opphold",
+          "children": [
+            {
+              "id": "content-mrz1u7cu-mdz6",
+              "kind": "content",
+              "label": "Non-O - Pensjonist",
+              "children": [],
+              "contentId": "visa.nono-pensjonist"
+            },
+            {
+              "id": "content-mrz1u4jg-z2ts",
+              "kind": "content",
+              "label": "Non-OA - Pensjonist ( 1 år )",
+              "children": [],
+              "contentId": "visa.nonoa-pensjonist"
+            },
+            {
+              "id": "content-mrz1u2l1-2wsx",
+              "kind": "content",
+              "label": "Non-O - Ekteskap",
+              "children": [],
+              "contentId": "visa.nono-ekteskap"
+            },
+            {
+              "id": "content-mrz1txha-0cyo",
+              "kind": "content",
+              "label": "Non-ED - Student",
+              "children": [],
+              "contentId": "visa.non-ed"
+            },
+            {
+              "id": "content-mrz1tvdp-vhiz",
+              "kind": "content",
+              "label": "Non-B - Arbeid eller Business",
+              "children": [],
+              "contentId": "visa.non-b"
+            }
+          ]
         }
       ]
     },
