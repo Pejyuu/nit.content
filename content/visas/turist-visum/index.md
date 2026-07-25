@@ -3,7 +3,9 @@ slug: turist.visum
 published: true
 updated: '2025-05-20T08:16'
 title: Turistvisum
-excerpt: 'Du kan søke på 60 dagers turistvisum til Thailand. Men du kan og søke på multi-entry visum med gyldighet i 6 måneder. '
+excerpt: >-
+  Du kan søke på 60 dagers turistvisum til Thailand. Men du kan og søke på
+  multi-entry visum med gyldighet i 6 måneder. 
 prev: false
 next: false
 pipeline:
@@ -14,20 +16,25 @@ pipeline:
   publish_date: null
   reject_reason: null
   content_category: seasonal
-  resurface_cooldown: 6 months
-  last_verified: '2025-05-20T08:16'
-  last_touched: '2026-07-11T02:15:07.344Z'
+  resurface_cooldown: 3 months
+  last_verified: '2026-07-25T02:15:51.308Z'
+  last_touched: '2026-07-25T02:15:51.308Z'
   source_research: null
   source_idea: null
 type: visa
 id: visa.turist-visum
-description: 'Du kan søke på 60 dagers turistvisum til Thailand. Men du kan og søke på multi-entry visum med gyldighet i 6 måneder. '
+description: >-
+  Du kan søke på 60 dagers turistvisum til Thailand. Men du kan og søke på
+  multi-entry visum med gyldighet i 6 måneder. 
 stage: published
-status: needs-review
+status: published
 updatedAt: '2025-05-20T08:16'
-lastVerifiedAt: null
-nextReviewAt: null
-revisionHistory: []
+lastVerifiedAt: '2026-07-25T02:15:51.308Z'
+nextReviewAt: '2026-10-25T02:15:51.308Z'
+revisionHistory:
+  - at: '2026-07-25T02:15:51.308Z'
+    type: manual-review
+    note: Content manually reviewed and confirmed.
 topics: []
 audiences: []
 images: {}

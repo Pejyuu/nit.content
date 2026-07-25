@@ -3,7 +3,9 @@ slug: non.b
 published: true
 updated: '2025-06-11T23:43'
 title: Non-B - Arbeid eller Business
-excerpt: 'En oppdatert guide til Non-Immigrant B-visum i Thailand for deg som skal jobbe eller drive forretning. Lær om krav, dokumentasjon og søknadsprosessen.'
+excerpt: >-
+  En oppdatert guide til Non-Immigrant B-visum i Thailand for deg som skal jobbe
+  eller drive forretning. Lær om krav, dokumentasjon og søknadsprosessen.
 prev: false
 next: false
 pipeline:
@@ -14,20 +16,25 @@ pipeline:
   publish_date: null
   reject_reason: null
   content_category: seasonal
-  resurface_cooldown: 6 months
-  last_verified: '2025-06-11T23:43'
-  last_touched: '2026-07-11T02:15:07.344Z'
+  resurface_cooldown: 3 months
+  last_verified: '2026-07-25T02:09:38.036Z'
+  last_touched: '2026-07-25T02:09:38.036Z'
   source_research: null
   source_idea: null
 type: visa
 id: visa.non-b
-description: 'En oppdatert guide til Non-Immigrant B-visum i Thailand for deg som skal jobbe eller drive forretning. Lær om krav, dokumentasjon og søknadsprosessen.'
+description: >-
+  En oppdatert guide til Non-Immigrant B-visum i Thailand for deg som skal jobbe
+  eller drive forretning. Lær om krav, dokumentasjon og søknadsprosessen.
 stage: published
-status: needs-review
+status: published
 updatedAt: '2025-06-11T23:43'
-lastVerifiedAt: null
-nextReviewAt: null
-revisionHistory: []
+lastVerifiedAt: '2026-07-25T02:09:38.036Z'
+nextReviewAt: '2026-10-25T02:09:38.036Z'
+revisionHistory:
+  - at: '2026-07-25T02:09:38.036Z'
+    type: manual-review
+    note: Content manually reviewed and confirmed.
 topics: []
 audiences: []
 images: {}

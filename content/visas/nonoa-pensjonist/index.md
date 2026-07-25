@@ -3,7 +3,9 @@ slug: nonoa.pensjonist
 published: true
 updated: '2025-06-12T00:45'
 title: Non-OA - Pensjonist ( 1 år )
-excerpt: 'En komplett guide til Non-OA visum i Thailand for pensjonister over 50 år. Inkluderer krav til helseforsikring, økonomi og dokumentasjon.'
+excerpt: >-
+  En komplett guide til Non-OA visum i Thailand for pensjonister over 50 år.
+  Inkluderer krav til helseforsikring, økonomi og dokumentasjon.
 prev: false
 next: false
 pipeline:
@@ -14,20 +16,25 @@ pipeline:
   publish_date: null
   reject_reason: null
   content_category: seasonal
-  resurface_cooldown: 6 months
-  last_verified: '2025-06-12T00:45'
-  last_touched: '2026-07-11T02:15:07.344Z'
+  resurface_cooldown: 3 months
+  last_verified: '2026-07-25T02:15:49.220Z'
+  last_touched: '2026-07-25T02:15:49.220Z'
   source_research: null
   source_idea: null
 type: visa
 id: visa.nonoa-pensjonist
-description: 'En komplett guide til Non-OA visum i Thailand for pensjonister over 50 år. Inkluderer krav til helseforsikring, økonomi og dokumentasjon.'
+description: >-
+  En komplett guide til Non-OA visum i Thailand for pensjonister over 50 år.
+  Inkluderer krav til helseforsikring, økonomi og dokumentasjon.
 stage: published
-status: needs-review
+status: published
 updatedAt: '2025-06-12T00:45'
-lastVerifiedAt: null
-nextReviewAt: null
-revisionHistory: []
+lastVerifiedAt: '2026-07-25T02:15:49.220Z'
+nextReviewAt: '2026-10-25T02:15:49.220Z'
+revisionHistory:
+  - at: '2026-07-25T02:15:49.220Z'
+    type: manual-review
+    note: Content manually reviewed and confirmed.
 topics: []
 audiences: []
 images: {}

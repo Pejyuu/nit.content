@@ -3,7 +3,9 @@ slug: non.ed
 published: true
 updated: '2025-06-11T23:18'
 title: Non-ED - Student
-excerpt: 'En oppdatert guide til Non-ED-visum i Thailand for studier og språkkurs. Lær om krav, dokumentasjon og hvordan du søker fra Norge eller i Thailand.'
+excerpt: >-
+  En oppdatert guide til Non-ED-visum i Thailand for studier og språkkurs. Lær
+  om krav, dokumentasjon og hvordan du søker fra Norge eller i Thailand.
 prev: false
 next: false
 pipeline:
@@ -14,20 +16,25 @@ pipeline:
   publish_date: null
   reject_reason: null
   content_category: seasonal
-  resurface_cooldown: 6 months
-  last_verified: '2025-06-11T23:18'
-  last_touched: '2026-07-11T02:15:07.344Z'
+  resurface_cooldown: 3 months
+  last_verified: '2026-07-25T02:09:44.021Z'
+  last_touched: '2026-07-25T02:09:44.021Z'
   source_research: null
   source_idea: null
 type: visa
 id: visa.non-ed
-description: 'En oppdatert guide til Non-ED-visum i Thailand for studier og språkkurs. Lær om krav, dokumentasjon og hvordan du søker fra Norge eller i Thailand.'
+description: >-
+  En oppdatert guide til Non-ED-visum i Thailand for studier og språkkurs. Lær
+  om krav, dokumentasjon og hvordan du søker fra Norge eller i Thailand.
 stage: published
-status: needs-review
+status: published
 updatedAt: '2025-06-11T23:18'
-lastVerifiedAt: null
-nextReviewAt: null
-revisionHistory: []
+lastVerifiedAt: '2026-07-25T02:09:44.021Z'
+nextReviewAt: '2026-10-25T02:09:44.021Z'
+revisionHistory:
+  - at: '2026-07-25T02:09:44.021Z'
+    type: manual-review
+    note: Content manually reviewed and confirmed.
 topics: []
 audiences: []
 images: {}

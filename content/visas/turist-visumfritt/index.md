@@ -14,20 +14,23 @@ pipeline:
   publish_date: null
   reject_reason: null
   content_category: seasonal
-  resurface_cooldown: 6 months
-  last_verified: '2025-05-20T08:16'
-  last_touched: '2026-07-11T02:15:07.344Z'
+  resurface_cooldown: 3 months
+  last_verified: '2026-07-25T02:15:52.293Z'
+  last_touched: '2026-07-25T02:15:52.293Z'
   source_research: null
   source_idea: null
 type: visa
 id: visa.turist-visumfritt
 description: '60 dagers opphold i Thailand, uten visum! '
 stage: published
-status: needs-review
+status: published
 updatedAt: '2025-05-20T08:16'
-lastVerifiedAt: null
-nextReviewAt: null
-revisionHistory: []
+lastVerifiedAt: '2026-07-25T02:15:52.293Z'
+nextReviewAt: '2026-10-25T02:15:52.293Z'
+revisionHistory:
+  - at: '2026-07-25T02:15:52.293Z'
+    type: manual-review
+    note: Content manually reviewed and confirmed.
 topics: []
 audiences: []
 images: {}

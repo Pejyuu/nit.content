@@ -15,19 +15,22 @@ pipeline:
   reject_reason: null
   content_category: seasonal
   resurface_cooldown: 6 months
-  last_verified: '2025-05-20T08:16'
-  last_touched: '2026-07-11T02:15:07.344Z'
+  last_verified: '2026-07-25T02:15:47.093Z'
+  last_touched: '2026-07-25T02:15:47.093Z'
   source_research: null
   source_idea: null
 type: visa
 id: visa.nono-pensjonist
 description: Leve livet som pensjonist i Thailand er ikke komplisert.
 stage: published
-status: needs-review
+status: published
 updatedAt: '2025-05-20T08:16'
-lastVerifiedAt: null
-nextReviewAt: null
-revisionHistory: []
+lastVerifiedAt: '2026-07-25T02:15:47.093Z'
+nextReviewAt: '2027-01-25T02:15:47.093Z'
+revisionHistory:
+  - at: '2026-07-25T02:15:47.093Z'
+    type: manual-review
+    note: Content manually reviewed and confirmed.
 topics: []
 audiences: []
 images: {}
