@@ -3,6 +3,7 @@ type: post
 title: TMD varsler nytt kraftig regnfall 20.–21. juli – flom- og jordskredfare
 published: true
 date: '2026-07-19T12:17:18.814Z'
+author: marianneh
 slug: tmd-varsler-nytt-kraftig-regnfall-20-21-juli-flom-og-jordskredfare
 categories: null
 allow_comment: false
