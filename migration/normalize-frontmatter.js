@@ -99,6 +99,7 @@ function common(type, file, data) {
     status: first(data.status, data.published === true ? 'published' : 'draft'),
     title: data.title,
     description: description(data),
+    excerpt: first(data.excerpt, data.description, data.seo && data.seo.description),
     author: first(data.author, 'marianneh')
   };
 }
