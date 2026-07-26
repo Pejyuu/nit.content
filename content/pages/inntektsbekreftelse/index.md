@@ -2,6 +2,7 @@
 slug: inntektsbekreftelse
 published: true
 updated: '2025-05-26T13:05'
+author: marianneh
 title: Alternativer til Inntektsbekreftelse
 excerpt: >-
   Ambassaden utsteder ikke lenger inntektsbekreftelser fra Mai 2026. Slik
@@ -23,8 +24,7 @@ pipeline:
   last_touched: '2026-07-21T18:57:18.930Z'
   source_research: null
   source_idea: null
-type: guide
-id: guide.inntektsbekreftelse
+id: page.inntektsbekreftelse
 description: >-
   Ambassaden utsteder ikke lenger inntektsbekreftelser fra Mai 2026. Slik
   dokumenterer du økonomi for opphold i Thailand – med eller uten fast inntekt.
