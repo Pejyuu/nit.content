@@ -1,33 +1,12 @@
 ---
+id: visa.nonoa-pensjonist
+type: visa
 slug: nonoa.pensjonist
 published: true
-updated: '2025-06-12T00:45'
-title: Non-OA - Pensjonist ( 1 år )
-excerpt: >-
-  En komplett guide til Non-OA visum i Thailand for pensjonister over 50 år.
-  Inkluderer krav til helseforsikring, økonomi og dokumentasjon.
-prev: false
-next: false
-pipeline:
-  stage: published
-  writing_effort: null
-  verification_burden: null
-  hold_until: null
-  publish_date: null
-  reject_reason: null
-  content_category: seasonal
-  resurface_cooldown: 3 months
-  last_verified: '2026-07-25T02:15:49.220Z'
-  last_touched: '2026-07-25T02:15:49.220Z'
-  source_research: null
-  source_idea: null
-type: visa
-id: visa.nonoa-pensjonist
-description: >-
-  En komplett guide til Non-OA visum i Thailand for pensjonister over 50 år.
-  Inkluderer krav til helseforsikring, økonomi og dokumentasjon.
-stage: published
 status: published
+title: Non-OA - Pensjonist ( 1 år )
+description: 'En komplett guide til Non-OA visum i Thailand for pensjonister over 50 år. Inkluderer krav til helseforsikring, økonomi og dokumentasjon.'
+author: marianneh
 updatedAt: '2025-06-12T00:45'
 lastVerifiedAt: '2026-07-25T02:15:49.220Z'
 nextReviewAt: '2026-10-25T02:15:49.220Z'
@@ -43,6 +22,19 @@ relations: []
 affiliateLinks: []
 ads:
   overrides: {}
+pipeline:
+  stage: published
+  writing_effort: null
+  verification_burden: null
+  hold_until: null
+  publish_date: null
+  reject_reason: null
+  content_category: seasonal
+  resurface_cooldown: 3 months
+  last_verified: '2026-07-25T02:15:49.220Z'
+  last_touched: '2026-07-25T02:15:49.220Z'
+  source_research: null
+  source_idea: null
 ---
 **Non-Immigrant OA-visum** er for personer over 50 år som ønsker å oppholde seg i Thailand i ett år eller mer som pensjonister. Visumet må søkes før avreise i det landet du har permanent oppholdstillatelse i, og gir ett års opphold ved innreise.
 

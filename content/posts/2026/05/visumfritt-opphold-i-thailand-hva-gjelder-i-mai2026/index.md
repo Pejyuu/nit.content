@@ -1,36 +1,12 @@
 ---
-published: true
-featured: false
-date: 2026-5-12
-author: marianneh
-slug: visumfritt-opphold-i-thailand-hva-gjelder-i-mai2026
-title: Visumfritt opphold i Thailand – hva gjelder i dag?
-categories: visum
-cover: /src/cms/content/media/cover_visumfritt-opphold-i-thailand-hva-gjelder-i-mai2026.jpg
-allow_comment: false
-thread_id: 0
-excerpt: 'Nordmenn kan reise visumfritt til Thailand i opptil 60 dager – med mulighet for 30 dagers forlengelse på et lokalt immigrasjonskontor. Husk TDAC-skjema før avreise, gyldig pass og utreisebillett. Forslag om å kutte til 30 dager er under diskusjon, men ingen avgjørelse er tatt.'
-sharing:
-  og_image: /src/cms/content/media/innreiseregler_2026.jpg
-  twitter_card: summary_large_image
-pipeline:
-  stage: published
-  writing_effort: null
-  verification_burden: null
-  hold_until: null
-  publish_date: 2026-5-12
-  reject_reason: null
-  content_category: seasonal
-  resurface_cooldown: 6 months
-  last_verified: 2026-5-12
-  last_touched: '2026-07-11T02:15:07.344Z'
-  source_research: null
-  source_idea: null
-type: post
 id: post.2026.visumfritt-opphold-i-thailand-hva-gjelder-i-mai2026
-description: 'Nordmenn kan reise visumfritt til Thailand i opptil 60 dager – med mulighet for 30 dagers forlengelse på et lokalt immigrasjonskontor. Husk TDAC-skjema før avreise, gyldig pass og utreisebillett. Forslag om å kutte til 30 dager er under diskusjon, men ingen avgjørelse er tatt.'
-stage: published
+type: post
+slug: visumfritt-opphold-i-thailand-hva-gjelder-i-mai2026
+published: true
 status: published
+title: Visumfritt opphold i Thailand – hva gjelder i dag?
+description: 'Nordmenn kan reise visumfritt til Thailand i opptil 60 dager – med mulighet for 30 dagers forlengelse på et lokalt immigrasjonskontor. Husk TDAC-skjema før avreise, gyldig pass og utreisebillett. Forslag om å kutte til 30 dager er under diskusjon, men ingen avgjørelse er tatt.'
+author: marianneh
 publishedAt: 2026-5-12
 category: visum
 topics: []
@@ -44,6 +20,19 @@ relations: []
 affiliateLinks: []
 ads:
   overrides: {}
+pipeline:
+  stage: published
+  writing_effort: null
+  verification_burden: null
+  hold_until: null
+  publish_date: 2026-5-12
+  reject_reason: null
+  content_category: seasonal
+  resurface_cooldown: 6 months
+  last_verified: 2026-5-12
+  last_touched: '2026-07-11T02:15:07.344Z'
+  source_research: null
+  source_idea: null
 ---
 
 Thailand er et av de aller mest populære reisemålene for nordmenn, og de gode visumreglene gjør landet ekstra tilgjengelig. Her er en oversikt over hva som gjelder akkurat nå.

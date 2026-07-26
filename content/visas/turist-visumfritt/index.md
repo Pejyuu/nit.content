@@ -1,29 +1,12 @@
 ---
+id: visa.turist-visumfritt
+type: visa
 slug: turist.visumfritt
 published: true
-updated: '2025-05-20T08:16'
-title: Visumfritt
-excerpt: '60 dagers opphold i Thailand, uten visum! '
-prev: false
-next: false
-pipeline:
-  stage: published
-  writing_effort: null
-  verification_burden: null
-  hold_until: null
-  publish_date: null
-  reject_reason: null
-  content_category: seasonal
-  resurface_cooldown: 3 months
-  last_verified: '2026-07-25T02:15:52.293Z'
-  last_touched: '2026-07-25T02:15:52.293Z'
-  source_research: null
-  source_idea: null
-type: visa
-id: visa.turist-visumfritt
-description: '60 dagers opphold i Thailand, uten visum! '
-stage: published
 status: published
+title: Visumfritt
+description: '60 dagers opphold i Thailand, uten visum! '
+author: marianneh
 updatedAt: '2025-05-20T08:16'
 lastVerifiedAt: '2026-07-25T02:15:52.293Z'
 nextReviewAt: '2026-10-25T02:15:52.293Z'
@@ -39,6 +22,19 @@ relations: []
 affiliateLinks: []
 ads:
   overrides: {}
+pipeline:
+  stage: published
+  writing_effort: null
+  verification_burden: null
+  hold_until: null
+  publish_date: null
+  reject_reason: null
+  content_category: seasonal
+  resurface_cooldown: 3 months
+  last_verified: '2026-07-25T02:15:52.293Z'
+  last_touched: '2026-07-25T02:15:52.293Z'
+  source_research: null
+  source_idea: null
 ---
 Nordmenn som reiser til Thailand har muligheten til å dra nytte av visumfritak, som tillater opphold i landet i inntil 60 dager. Dette gjelder både for nordmenn som ankommer via fly og de som krysser landegrenser inn til Thailand.
 

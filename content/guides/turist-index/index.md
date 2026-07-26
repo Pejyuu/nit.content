@@ -1,11 +1,27 @@
 ---
+id: guide.turist-index
+type: guide
 slug: turist.index
 published: true
-updated: '2025-05-20T08:16'
+status: published
 title: Visum-muligheter for turister
-excerpt: 'Turistvisum eller visum-fritt opphold, hva egnet seg best for deg?'
-prev: false
-next: false
+description: 'Turistvisum eller visum-fritt opphold, hva egnet seg best for deg?'
+author: marianneh
+updatedAt: '2025-05-20T08:16'
+lastVerifiedAt: '2026-07-21T19:16:12.417Z'
+nextReviewAt: '2026-10-21T19:16:12.417Z'
+revisionHistory:
+  - at: '2026-07-21T19:16:12.417Z'
+    type: manual-review
+    note: 'Need to add affiliate banner, but also resurfacing in 3 months to make sure visa exemption stays correct.'
+topics: []
+audiences: []
+images: {}
+sources: []
+relations: []
+affiliateLinks: []
+ads:
+  overrides: {}
 pipeline:
   stage: published
   writing_effort: null
@@ -19,28 +35,6 @@ pipeline:
   last_touched: '2026-07-21T19:16:12.417Z'
   source_research: null
   source_idea: null
-type: guide
-id: guide.turist-index
-description: 'Turistvisum eller visum-fritt opphold, hva egnet seg best for deg?'
-stage: published
-status: published
-updatedAt: '2025-05-20T08:16'
-lastVerifiedAt: '2026-07-21T19:16:12.417Z'
-nextReviewAt: '2026-10-21T19:16:12.417Z'
-revisionHistory:
-  - at: '2026-07-21T19:16:12.417Z'
-    type: manual-review
-    note: >-
-      Need to add affiliate banner, but also resurfacing in 3 months to make
-      sure visa exemption stays correct.
-topics: []
-audiences: []
-images: {}
-sources: []
-relations: []
-affiliateLinks: []
-ads:
-  overrides: {}
 ---
 **Thailand er et populært reisemål blant nordmenn**, kjent for sine vakre strender, spennende kultur, majestetiske templer og gjestfrie befolkning. Landet, ofte omtalt som _Smilets Land_, tiltrekker seg millioner av besøkende hvert år – og med god grunn.
 

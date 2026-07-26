@@ -1,34 +1,12 @@
 ---
-published: true
-featured: false
-date: '2025-06-26T23:41'
-author: marianneh
-slug: cannabis-resept-thailand-2025
-title: Cannabis blir nå reseptbelagt (gjeldende fra juni 2025)
-categories: nyheter
-cover: /src/cms/content/media/cover_cannabis-resept-thailand-2025.jpg
-allow_comment: false
-excerpt: 'Thailand har vedtatt nye regler som reklassifiserer cannabis som et reseptbelagt narkotikum. Fra juni 2025 er rekreasjonsbruk forbudt, og kun medisinsk bruk med godkjent resept er tillatt.'
-sharing:
-  og_image: /src/cms/content/media/cannabis-forbidden-share.jpg
-pipeline:
-  stage: published
-  writing_effort: null
-  verification_burden: null
-  hold_until: null
-  publish_date: '2025-06-26T23:41'
-  reject_reason: null
-  content_category: one-off
-  resurface_cooldown: null
-  last_verified: '2025-06-26T23:41'
-  last_touched: '2026-07-11T02:15:07.344Z'
-  source_research: null
-  source_idea: null
-type: post
 id: post.2025.cannabis-resept-thailand-2025
-description: 'Thailand har vedtatt nye regler som reklassifiserer cannabis som et reseptbelagt narkotikum. Fra juni 2025 er rekreasjonsbruk forbudt, og kun medisinsk bruk med godkjent resept er tillatt.'
-stage: published
+type: post
+slug: cannabis-resept-thailand-2025
+published: true
 status: published
+title: Cannabis blir nå reseptbelagt (gjeldende fra juni 2025)
+description: 'Thailand har vedtatt nye regler som reklassifiserer cannabis som et reseptbelagt narkotikum. Fra juni 2025 er rekreasjonsbruk forbudt, og kun medisinsk bruk med godkjent resept er tillatt.'
+author: marianneh
 publishedAt: '2025-06-26T23:41'
 category: nyheter
 topics: []
@@ -42,6 +20,19 @@ relations: []
 affiliateLinks: []
 ads:
   overrides: {}
+pipeline:
+  stage: published
+  writing_effort: null
+  verification_burden: null
+  hold_until: null
+  publish_date: '2025-06-26T23:41'
+  reject_reason: null
+  content_category: one-off
+  resurface_cooldown: null
+  last_verified: '2025-06-26T23:41'
+  last_touched: '2026-07-11T02:15:07.344Z'
+  source_research: null
+  source_idea: null
 ---
 Etter at cannabis ble avkriminalisert i 2022 og solgt fritt i tusenvis av butikker over hele Thailand, har myndighetene nå valgt å stramme inn. Fra og med juni 2025 er cannabisblomster reklassifisert som et reseptbelagt narkotikum. Her er oversettelsen av den [offisielle kunngjøringen](https://ratchakitcha.soc.go.th/documents/76076.pdf) i [Royal Gazette](https://ratchakitcha.soc.go.th/).
 

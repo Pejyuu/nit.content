@@ -1,13 +1,23 @@
 ---
-published: true
-lastUpdated: 2/19/2026
-author: marianneh
+id: page.om-oss
+type: page
 slug: om-oss
+published: true
+status: published
 title: Om Oss
-description: Dette er en side Om Oss, fra mdx-filen.
-sharing:
-  og_image: /src/cms/content/media/innreiseregler_2026.jpg
-  twitter_card: summary_large_image
+description: 'Dette er en side Om Oss, fra mdx-filen.'
+author: marianneh
+updatedAt: 2/19/2026
+topics: []
+audiences: []
+images:
+  social:
+    universal: /src/cms/content/media/innreiseregler_2026.jpg
+sources: []
+relations: []
+affiliateLinks: []
+ads:
+  overrides: {}
 ---
 
 **Norsk i Thailand** er et uavhengig nettsted laget for og av nordmenn som bor i, besøker eller vurderer å flytte til Thailand.

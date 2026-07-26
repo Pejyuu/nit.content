@@ -1,36 +1,12 @@
 ---
-published: true
-featured: false
-date: 2026-5-19
-author: marianneh
-slug: thailand-avvikler-60-dagers-visumfritt-opphold
-title: Thailand avvikler 60-dagers visumfritt opphold
-categories: visum
-cover: /src/cms/content/media/cover_thailand-avvikler-60-dagers-visumfritt-opphold.jpg
-allow_comment: false
-thread_id: 0
-excerpt: Thailands kabinett har godkjent avviklingen av 60-dagers visumfritt opphold for rundt 90 nasjoner. Norsk i Thailand ser rolig på selve endringen – de fleste genuine turister reiser hjem innen 30 dager uansett – men stiller spørsmål ved om begrunnelsen myndighetene oppgir egentlig treffer der skoen trykker.
-sharing:
-  og_image: /src/cms/content/media/cover_thailand-avvikler-60-dagers-visumfritt-opphold.jpg
-  twitter_card: summary_large_image
-pipeline:
-  stage: published
-  writing_effort: 0
-  verification_burden: 0
-  hold_until: ''
-  publish_date: '2026-05-19T00:00'
-  content_category: seasonal
-  resurface_cooldown: 6 months
-  last_verified: 2026-5-19
-  last_touched: '2026-07-11T02:15:07.344Z'
-type: post
-adIds:
-  - wise
-  - placeholder
 id: post.2026.thailand-avvikler-60-dagers-visumfritt-opphold
-description: Thailands kabinett har godkjent avviklingen av 60-dagers visumfritt opphold for rundt 90 nasjoner. Norsk i Thailand ser rolig på selve endringen – de fleste genuine turister reiser hjem innen 30 dager uansett – men stiller spørsmål ved om begrunnelsen myndighetene oppgir egentlig treffer der skoen trykker.
-stage: published
+type: post
+slug: thailand-avvikler-60-dagers-visumfritt-opphold
+published: true
 status: published
+title: Thailand avvikler 60-dagers visumfritt opphold
+description: Thailands kabinett har godkjent avviklingen av 60-dagers visumfritt opphold for rundt 90 nasjoner. Norsk i Thailand ser rolig på selve endringen – de fleste genuine turister reiser hjem innen 30 dager uansett – men stiller spørsmål ved om begrunnelsen myndighetene oppgir egentlig treffer der skoen trykker.
+author: marianneh
 publishedAt: 2026-5-19
 category: visum
 topics: []
@@ -44,6 +20,16 @@ relations: []
 affiliateLinks: []
 ads:
   overrides: {}
+pipeline:
+  stage: published
+  writing_effort: 0
+  verification_burden: 0
+  hold_until: ''
+  publish_date: '2026-05-19T00:00'
+  content_category: seasonal
+  resurface_cooldown: 6 months
+  last_verified: 2026-5-19
+  last_touched: '2026-07-11T02:15:07.344Z'
 ---
 Thailands kabinett har offisielt godkjent avviklingen av den 60-dager lange visumfrie ordningen som i dag gjelder for rundt 90 nasjoner. 
 

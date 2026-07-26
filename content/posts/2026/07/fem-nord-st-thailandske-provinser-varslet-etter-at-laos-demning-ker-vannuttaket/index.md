@@ -1,31 +1,12 @@
 ---
-type: post
-title: Fem Nordøst-Thailandske provinser varslet etter at Laos-demning øker vannuttaket
-published: true
-date: '2026-07-18T19:00'
-author: marianneh
-slug: fem-nord-st-thailandske-provinser-varslet-etter-at-laos-demning-ker-vannuttaket
-categories: nyheter
-cover: /src/cms/content/media/cover_mekong-flomvarsel-fem-provinser-laos-demning.jpg
-allow_comment: false
-thread_id: 0
-excerpt: 'Thailands kontor for nasjonale vannressurser varsler at Mekong kan stige 0,60–1,30 meter i perioden 17.–20. juli 2026 etter at Nam Theun 1-demningen i Laos økte utslippet til 1 000–2 500 kubikkmeter i sekundet. Fem provinser berøres: Bueng Kan, Nakhon Phanom, Mukdahan, Amnat Charoen og Ubon Ratchathani – særlig lavtliggende områder ved elvebredden.'
-sharing:
-  og_image: /src/cms/content/media/og_mekong-flomvarsel-fem-provinser-laos-demning.png
-  twitter_card: summary_large_image
-pipeline:
-  stage: published
-  writing_effort: 0
-  verification_burden: 0
-  hold_until: ''
-  publish_date: '2026-07-18T19:00'
-  reject_reason: ''
-  last_touched: '2026-07-18T12:10:14.239Z'
-  source_url: 'https://www.nationthailand.com/news/general/40068775'
 id: post.2026.fem-nord-st-thailandske-provinser-varslet-etter-at-laos-demning-ker-vannuttaket
-description: 'Thailands kontor for nasjonale vannressurser varsler at Mekong kan stige 0,60–1,30 meter i perioden 17.–20. juli 2026 etter at Nam Theun 1-demningen i Laos økte utslippet til 1 000–2 500 kubikkmeter i sekundet. Fem provinser berøres: Bueng Kan, Nakhon Phanom, Mukdahan, Amnat Charoen og Ubon Ratchathani – særlig lavtliggende områder ved elvebredden.'
-stage: published
+type: post
+slug: fem-nord-st-thailandske-provinser-varslet-etter-at-laos-demning-ker-vannuttaket
+published: true
 status: published
+title: Fem Nordøst-Thailandske provinser varslet etter at Laos-demning øker vannuttaket
+description: 'Thailands kontor for nasjonale vannressurser varsler at Mekong kan stige 0,60–1,30 meter i perioden 17.–20. juli 2026 etter at Nam Theun 1-demningen i Laos økte utslippet til 1 000–2 500 kubikkmeter i sekundet. Fem provinser berøres: Bueng Kan, Nakhon Phanom, Mukdahan, Amnat Charoen og Ubon Ratchathani – særlig lavtliggende områder ved elvebredden.'
+author: marianneh
 publishedAt: '2026-07-18T19:00'
 category: nyheter
 topics: []
@@ -39,6 +20,15 @@ relations: []
 affiliateLinks: []
 ads:
   overrides: {}
+pipeline:
+  stage: published
+  writing_effort: 0
+  verification_burden: 0
+  hold_until: ''
+  publish_date: '2026-07-18T19:00'
+  reject_reason: ''
+  last_touched: '2026-07-18T12:10:14.239Z'
+  source_url: 'https://www.nationthailand.com/news/general/40068775'
 ---
 Fem provinser i det nordøstlige Thailand er varslet om at Mekong-elven kan stige betydelig de kommende dagene, etter at kraftverket Nam Theun 1 i Laos økte utslippet av vann fra demningen sin som følge av kraftig monsunregn.
 

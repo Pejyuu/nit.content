@@ -1,39 +1,12 @@
 ---
-published: true
-featured: false
-date: '2025-05-21T08:26'
-author: marianneh
-slug: 7-ting-du-kan-gjore-i-regntiden
-title: 7 ting du kan gjøre i regntiden
-categories: hverdag
-cover: /src/cms/content/media/cover_7-ting-du-kan-gjore-i-regntiden.jpg
-allow_comment: false
-excerpt: >-
-  Regntiden i Thailand, når stranden er søkkvåt og flipflopsen sitter fast i
-  søla
-sharing:
-  og_image: /src/cms/content/media/cover_7-ting-du-kan-gjore-i-regntiden.jpg
-  twitter_card: summary_large_image
-pipeline:
-  stage: published
-  writing_effort: null
-  verification_burden: null
-  hold_until: null
-  publish_date: '2025-05-21T08:26'
-  reject_reason: null
-  content_category: seasonal
-  resurface_cooldown: 1 year
-  last_verified: '2025-05-21T08:26'
-  last_touched: '2026-07-26T17:21:45.579Z'
-  source_research: null
-  source_idea: null
-type: post
 id: post.2025.7-ting-du-kan-gjore-i-regntiden
-description: >-
-  Regntiden i Thailand, når stranden er søkkvåt og flipflopsen sitter fast i
-  søla
-stage: published
+type: post
+slug: 7-ting-du-kan-gjore-i-regntiden
+published: true
 status: published
+title: 7 ting du kan gjøre i regntiden
+description: 'Regntiden i Thailand, når stranden er søkkvåt og flipflopsen sitter fast i søla'
+author: marianneh
 publishedAt: '2025-05-21T08:26'
 category: hverdag
 topics: []
@@ -47,6 +20,19 @@ relations: []
 affiliateLinks: []
 ads:
   overrides: {}
+pipeline:
+  stage: published
+  writing_effort: null
+  verification_burden: null
+  hold_until: null
+  publish_date: '2025-05-21T08:26'
+  reject_reason: null
+  content_category: seasonal
+  resurface_cooldown: 1 year
+  last_verified: '2025-05-21T08:26'
+  last_touched: '2026-07-26T17:21:45.579Z'
+  source_research: null
+  source_idea: null
 ---
 Så du kom til Thailand for sol, strand og smoothie bowls – og i stedet fikk du regn som høres ut som et jordskjelv på taket. Fortvil ikke. Her er sju ting du faktisk _kan_ gjøre når himmelen åpner seg:
 

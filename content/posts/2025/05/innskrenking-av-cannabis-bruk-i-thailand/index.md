@@ -1,36 +1,12 @@
 ---
-published: true
-featured: false
-date: '2025-05-23T12:21'
-author: marianneh
-slug: innskrenking-av-cannabis-bruk-i-thailand
-title: Innskrenking av Cannabis-bruk i Thailand?
-categories: nyheter
-cover: /src/cms/content/media/cover_innskrenking-av-cannabis-bruk-i-thailand.jpg
-allow_comment: false
-excerpt: 'Thailand strammer inn cannabislovene: Salg av tørkede cannabisblomster begrenses til medisinsk bruk med resept. Hva betyr dette for rekreasjonell bruk?'
-sharing:
-  og_image: /src/cms/content/media/cover_innskrenking-av-cannabis-bruk-i-thailand.jpg
-  twitter_image: /src/cms/content/media/cover_innskrenking-av-cannabis-bruk-i-thailand.jpg
-  twitter_card: summary_large_image
-pipeline:
-  stage: published
-  writing_effort: null
-  verification_burden: null
-  hold_until: null
-  publish_date: '2025-05-23T12:21'
-  reject_reason: null
-  content_category: seasonal
-  resurface_cooldown: 6 months
-  last_verified: '2025-05-23T12:21'
-  last_touched: '2026-07-11T02:15:07.344Z'
-  source_research: null
-  source_idea: null
-type: post
 id: post.2025.innskrenking-av-cannabis-bruk-i-thailand
-description: 'Thailand strammer inn cannabislovene: Salg av tørkede cannabisblomster begrenses til medisinsk bruk med resept. Hva betyr dette for rekreasjonell bruk?'
-stage: published
+type: post
+slug: innskrenking-av-cannabis-bruk-i-thailand
+published: true
 status: published
+title: Innskrenking av Cannabis-bruk i Thailand?
+description: 'Thailand strammer inn cannabislovene: Salg av tørkede cannabisblomster begrenses til medisinsk bruk med resept. Hva betyr dette for rekreasjonell bruk?'
+author: marianneh
 publishedAt: '2025-05-23T12:21'
 category: nyheter
 topics: []
@@ -45,6 +21,19 @@ relations: []
 affiliateLinks: []
 ads:
   overrides: {}
+pipeline:
+  stage: published
+  writing_effort: null
+  verification_burden: null
+  hold_until: null
+  publish_date: '2025-05-23T12:21'
+  reject_reason: null
+  content_category: seasonal
+  resurface_cooldown: 6 months
+  last_verified: '2025-05-23T12:21'
+  last_touched: '2026-07-11T02:15:07.344Z'
+  source_research: null
+  source_idea: null
 ---
 Ifølge [The Nation](https://www.nationthailand.com/health-wellness/40050336) har Departementet for Tradisjonell Thailandsk og Alternativ Medisin (DTAM) godkjent et revidert forslag for regulering av cannabis. Forslaget innebærer at salget av tørkede cannabisblomster, såkalte "buds", begrenses til personer med gyldig resept – noe som effektivt setter en stopper for rekreasjonelt bruk.
 

@@ -1,33 +1,12 @@
 ---
-type: post
-title: 'Brannen på Rong Beer Na Ladprao: 32 omkomne, grove sikkerhetsbrudd avdekket'
-published: true
-date: '2026-07-16T02:00'
-author: marianneh
-slug: brann-rong-beer-na-ladprao-bangkok
-categories: nyheter
-cover: /src/cms/content/media/cover_brann-rong-beer-na-ladprao-bangkok.jpg
-allow_comment: false
-thread_id: 0
-excerpt: 'Brannen på utestedet Rong Beer Na Ladprao i Bangkok-distriktet Chatuchak har krevd 32 liv. Etterforskningen har avdekket blokkerte nødutganger, manglende sprinkleranlegg og brennbare materialer i lokalet. Politiet undersøker om uaktsomhet fra eierne bidro til omfanget av tragedien.'
-sharing:
-  og_image: /src/cms/content/media/some_placeholder.png
-  twitter_card: summary_large_image
-pipeline:
-  stage: published
-  writing_effort: 3
-  verification_burden: 4
-  hold_until: ''
-  publish_date: '2026-07-16T02:00'
-  reject_reason: ''
-  content_category: one-off
-  last_verified: '2026-07-16'
-  last_touched: '2026-07-15T19:23:46.624Z'
-  source_url: 'https://world.thaipbs.or.th/detail/bangkok-beer-hall-fire-death-toll-reaches-32-all-victims-identified/62045'
 id: post.2026.brann-rong-beer-na-ladprao-bangkok
-description: 'Brannen på utestedet Rong Beer Na Ladprao i Bangkok-distriktet Chatuchak har krevd 32 liv. Etterforskningen har avdekket blokkerte nødutganger, manglende sprinkleranlegg og brennbare materialer i lokalet. Politiet undersøker om uaktsomhet fra eierne bidro til omfanget av tragedien.'
-stage: published
+type: post
+slug: brann-rong-beer-na-ladprao-bangkok
+published: true
 status: published
+title: 'Brannen på Rong Beer Na Ladprao: 32 omkomne, grove sikkerhetsbrudd avdekket'
+description: 'Brannen på utestedet Rong Beer Na Ladprao i Bangkok-distriktet Chatuchak har krevd 32 liv. Etterforskningen har avdekket blokkerte nødutganger, manglende sprinkleranlegg og brennbare materialer i lokalet. Politiet undersøker om uaktsomhet fra eierne bidro til omfanget av tragedien.'
+author: marianneh
 publishedAt: '2026-07-16T02:00'
 category: nyheter
 topics: []
@@ -41,6 +20,17 @@ relations: []
 affiliateLinks: []
 ads:
   overrides: {}
+pipeline:
+  stage: published
+  writing_effort: 3
+  verification_burden: 4
+  hold_until: ''
+  publish_date: '2026-07-16T02:00'
+  reject_reason: ''
+  content_category: one-off
+  last_verified: '2026-07-16'
+  last_touched: '2026-07-15T19:23:46.624Z'
+  source_url: 'https://world.thaipbs.or.th/detail/bangkok-beer-hall-fire-death-toll-reaches-32-all-victims-identified/62045'
 ---
 
 Sent søndag kveld 12. juli, like før midnatt, brøt det ut brann i utestedet Rong Beer Na Ladprao, en populær ølhall og livemusikkscene i Chatuchak-distriktet i Bangkok. Brannen regnes som en av de dødeligste i Bangkok på nesten to tiår, og dødstallet er nå oppe i 32, ifølge det thailandske rettsmedisinske instituttet. 27 personer omkom på stedet, mens fem senere døde av skadene på sykehus. Over 70 personer ble skadd, og et titalls var i kritisk tilstand i dagene etter.

@@ -1,35 +1,12 @@
 ---
-published: true
-featured: false
-date: '2025-05-27T10:22'
-author: marianneh
-slug: phu_soi_dao_nasjonalpark_apner_etter_sesongstenging
-title: Phu Soi Dao nasjonalpark åpner etter sesongstenging
-categories: reise
-cover: /src/cms/content/media/cover_phu_soi_dao_nasjonalpark_apner_etter_sesongstenging.jpeg
-allow_comment: false
-excerpt: Phu Soi Dao åpner 1. juli for fotturer og camping i vakker furuskog med Crested Naga-blomster. Sesongåpent til 10. januar.
-sharing:
-  og_image: /src/cms/content/media/cover_phu_soi_dao_nasjonalpark_apner_etter_sesongstenging.jpeg
-  twitter_card: summary_large_image
-pipeline:
-  stage: published
-  writing_effort: null
-  verification_burden: null
-  hold_until: null
-  publish_date: '2025-05-27T10:22'
-  reject_reason: null
-  content_category: seasonal
-  resurface_cooldown: 1 year
-  last_verified: '2025-05-27T10:22'
-  last_touched: '2026-07-11T02:15:07.344Z'
-  source_research: null
-  source_idea: null
-type: post
 id: post.2025.phu-soi-dao-nasjonalpark-apner-etter-sesongstenging
-description: Phu Soi Dao åpner 1. juli for fotturer og camping i vakker furuskog med Crested Naga-blomster. Sesongåpent til 10. januar.
-stage: published
+type: post
+slug: phu_soi_dao_nasjonalpark_apner_etter_sesongstenging
+published: true
 status: published
+title: Phu Soi Dao nasjonalpark åpner etter sesongstenging
+description: Phu Soi Dao åpner 1. juli for fotturer og camping i vakker furuskog med Crested Naga-blomster. Sesongåpent til 10. januar.
+author: marianneh
 publishedAt: '2025-05-27T10:22'
 category: reise
 topics: []
@@ -43,6 +20,19 @@ relations: []
 affiliateLinks: []
 ads:
   overrides: {}
+pipeline:
+  stage: published
+  writing_effort: null
+  verification_burden: null
+  hold_until: null
+  publish_date: '2025-05-27T10:22'
+  reject_reason: null
+  content_category: seasonal
+  resurface_cooldown: 1 year
+  last_verified: '2025-05-27T10:22'
+  last_touched: '2026-07-11T02:15:07.344Z'
+  source_research: null
+  source_idea: null
 ---
 Etter en lengre pause for naturens skyld, åpner Phu Soi Dao nasjonalpark igjen for turister den 1. juli. Det populære området Larn Paa Son, som ligger 1 630 meter over havet, har vært stengt siden januar for å redusere faren for skogbranner i den tørre årstiden og gi naturen tid til å komme seg.
 

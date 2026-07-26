@@ -1,35 +1,12 @@
 ---
-published: true
-featured: false
-date: '2025-05-24T20:21'
-author: marianneh
-slug: thailand-et-trygt-reisemal-for-kvinner
-title: Thailand i kåring som trygt reisemål for kvinner
-categories: reise
-cover: /src/cms/content/media/cover_thailand-et-trygt-reisemal-for-kvinner.jpg
-allow_comment: false
-excerpt: Thailand er kåret til et av verdens tryggeste reisemål for kvinner som reiser alene – og havner på en solid 8. plass globalt.
-sharing:
-  og_image: /src/cms/content/media/cover_thailand-et-trygt-reisemal-for-kvinner.jpg
-  twitter_image: /src/cms/content/media/cover_thailand-et-trygt-reisemal-for-kvinner.jpg
-pipeline:
-  stage: published
-  writing_effort: null
-  verification_burden: null
-  hold_until: null
-  publish_date: '2025-05-24T20:21'
-  reject_reason: null
-  content_category: one-off
-  resurface_cooldown: null
-  last_verified: '2025-05-24T20:21'
-  last_touched: '2026-07-11T02:15:07.344Z'
-  source_research: null
-  source_idea: null
-type: post
 id: post.2025.thailand-et-trygt-reisemal-for-kvinner
-description: Thailand er kåret til et av verdens tryggeste reisemål for kvinner som reiser alene – og havner på en solid 8. plass globalt.
-stage: published
+type: post
+slug: thailand-et-trygt-reisemal-for-kvinner
+published: true
 status: published
+title: Thailand i kåring som trygt reisemål for kvinner
+description: Thailand er kåret til et av verdens tryggeste reisemål for kvinner som reiser alene – og havner på en solid 8. plass globalt.
+author: marianneh
 publishedAt: '2025-05-24T20:21'
 category: reise
 topics: []
@@ -44,6 +21,19 @@ relations: []
 affiliateLinks: []
 ads:
   overrides: {}
+pipeline:
+  stage: published
+  writing_effort: null
+  verification_burden: null
+  hold_until: null
+  publish_date: '2025-05-24T20:21'
+  reject_reason: null
+  content_category: one-off
+  resurface_cooldown: null
+  last_verified: '2025-05-24T20:21'
+  last_touched: '2026-07-11T02:15:07.344Z'
+  source_research: null
+  source_idea: null
 ---
 ## Thailand blant verdens tryggeste reisemål for kvinner som reiser alene
 

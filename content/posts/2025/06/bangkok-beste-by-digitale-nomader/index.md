@@ -1,34 +1,12 @@
 ---
-published: true
-featured: false
-date: '2025-06-06T23:22'
-author: marianneh
-slug: bangkok-beste-by-digitale-nomader
-title: Bangkok kåret til beste by for digitale nomader
-categories: hverdag
-cover: /src/cms/content/media/cover_bangkok-beste-by-digitale-nomader.jpg
-allow_comment: false
-excerpt: 'Bangkok er kåret til verdens beste by for digitale nomader. Finn ut hvorfor byen topper listen, og hva det betyr for deg som vurderer å jobbe fra Thailand.'
-sharing:
-  og_image: /src/cms/content/media/bangkok-top-for-digital-nomads.png
-pipeline:
-  stage: published
-  writing_effort: null
-  verification_burden: null
-  hold_until: null
-  publish_date: '2025-06-06T23:22'
-  reject_reason: null
-  content_category: one-off
-  resurface_cooldown: null
-  last_verified: '2025-06-06T23:22'
-  last_touched: '2026-07-11T02:15:07.344Z'
-  source_research: null
-  source_idea: null
-type: post
 id: post.2025.bangkok-beste-by-digitale-nomader
-description: 'Bangkok er kåret til verdens beste by for digitale nomader. Finn ut hvorfor byen topper listen, og hva det betyr for deg som vurderer å jobbe fra Thailand.'
-stage: published
+type: post
+slug: bangkok-beste-by-digitale-nomader
+published: true
 status: published
+title: Bangkok kåret til beste by for digitale nomader
+description: 'Bangkok er kåret til verdens beste by for digitale nomader. Finn ut hvorfor byen topper listen, og hva det betyr for deg som vurderer å jobbe fra Thailand.'
+author: marianneh
 publishedAt: '2025-06-06T23:22'
 category: hverdag
 topics: []
@@ -42,6 +20,19 @@ relations: []
 affiliateLinks: []
 ads:
   overrides: {}
+pipeline:
+  stage: published
+  writing_effort: null
+  verification_burden: null
+  hold_until: null
+  publish_date: '2025-06-06T23:22'
+  reject_reason: null
+  content_category: one-off
+  resurface_cooldown: null
+  last_verified: '2025-06-06T23:22'
+  last_touched: '2026-07-11T02:15:07.344Z'
+  source_research: null
+  source_idea: null
 ---
 Bangkok har nylig blitt kåret til verdens beste by for fjernarbeid, ifølge en rapport omtalt i _New York Post_. Indeksen, utviklet av QR Code Generator, vurderte blant annet internett-hastighet, levekostnader og visumtilgang for digitale nomader. Bangkok scoret 69,98 av 100 og slo dermed både Bukarest og andre populære reisemål.
 

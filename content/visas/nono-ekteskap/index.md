@@ -1,29 +1,12 @@
 ---
+id: visa.nono-ekteskap
+type: visa
 slug: nono.ekteskap
 published: true
-updated: '2025-05-20T08:16'
-title: Non-O - Ekteskap
-excerpt: Gift med Thailandsk Statsborger? Bo i Thailand!
-prev: false
-next: false
-pipeline:
-  stage: published
-  writing_effort: null
-  verification_burden: null
-  hold_until: null
-  publish_date: null
-  reject_reason: null
-  content_category: seasonal
-  resurface_cooldown: 3 months
-  last_verified: '2026-07-25T02:12:16.853Z'
-  last_touched: '2026-07-25T02:12:16.853Z'
-  source_research: null
-  source_idea: null
-type: visa
-id: visa.nono-ekteskap
-description: Gift med Thailandsk Statsborger? Bo i Thailand!
-stage: published
 status: published
+title: Non-O - Ekteskap
+description: Gift med Thailandsk Statsborger? Bo i Thailand!
+author: marianneh
 updatedAt: '2025-05-20T08:16'
 lastVerifiedAt: '2026-07-25T02:12:16.853Z'
 nextReviewAt: '2026-10-25T02:12:16.853Z'
@@ -39,6 +22,19 @@ relations: []
 affiliateLinks: []
 ads:
   overrides: {}
+pipeline:
+  stage: published
+  writing_effort: null
+  verification_burden: null
+  hold_until: null
+  publish_date: null
+  reject_reason: null
+  content_category: seasonal
+  resurface_cooldown: 3 months
+  last_verified: '2026-07-25T02:12:16.853Z'
+  last_touched: '2026-07-25T02:12:16.853Z'
+  source_research: null
+  source_idea: null
 ---
 Non-Immigrant O Marriage visum er for deg som er gift med en Thailandsk statsborger og ønsker å bo i Thailand over lengre tid. Visumet gir ett års opphold, og kan fornyes årlig uten at du må forlate landet.
 

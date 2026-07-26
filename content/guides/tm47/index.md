@@ -1,14 +1,27 @@
 ---
+id: guide.tm47
+type: guide
 slug: tm47
 published: true
-updated: '2025-05-21T09:19'
+status: published
 title: TM47 - 90 Dagers Rapporteringen
-excerpt: >-
-  En enkel og tydelig forklaring på 90-dagers rapportering (TM47) i Thailand.
-  Lær når og hvordan du rapporterer adressen din, hvilke dokumenter du trenger,
-  og unngå vanlige feil og bøter.
-prev: false
-next: false
+description: 'En enkel og tydelig forklaring på 90-dagers rapportering (TM47) i Thailand. Lær når og hvordan du rapporterer adressen din, hvilke dokumenter du trenger, og unngå vanlige feil og bøter.'
+author: marianneh
+updatedAt: '2025-05-21T09:19'
+lastVerifiedAt: '2026-07-21T19:15:06.228Z'
+nextReviewAt: '2026-10-21T19:15:06.228Z'
+revisionHistory:
+  - at: '2026-07-21T19:15:06.228Z'
+    type: manual-review
+    note: Approving as-is. But resurfacec in 3 months because I am hoping I will have made my 90 day tool and can link it here.
+topics: []
+audiences: []
+images: {}
+sources: []
+relations: []
+affiliateLinks: []
+ads:
+  overrides: {}
 pipeline:
   stage: published
   writing_effort: null
@@ -22,31 +35,6 @@ pipeline:
   last_touched: '2026-07-21T19:15:06.228Z'
   source_research: null
   source_idea: null
-type: guide
-id: guide.tm47
-description: >-
-  En enkel og tydelig forklaring på 90-dagers rapportering (TM47) i Thailand.
-  Lær når og hvordan du rapporterer adressen din, hvilke dokumenter du trenger,
-  og unngå vanlige feil og bøter.
-stage: published
-status: published
-updatedAt: '2025-05-21T09:19'
-lastVerifiedAt: '2026-07-21T19:15:06.228Z'
-nextReviewAt: '2026-10-21T19:15:06.228Z'
-revisionHistory:
-  - at: '2026-07-21T19:15:06.228Z'
-    type: manual-review
-    note: >-
-      Approving as-is. But resurfacec in 3 months because I am hoping I will
-      have made my 90 day tool and can link it here.
-topics: []
-audiences: []
-images: {}
-sources: []
-relations: []
-affiliateLinks: []
-ads:
-  overrides: {}
 ---
 90-dagers rapportering (TM47) er en prosess der utlendinger som oppholder seg i Thailand kontinuerlig mer enn 90 dager, må informere immigrasjonsmyndighetene om sin nåværende bostedsadresse hver 90. dag.
 

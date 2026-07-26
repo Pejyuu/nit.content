@@ -1,35 +1,12 @@
 ---
-published: true
-featured: false
-date: '2025-06-16T04:12'
-author: marianneh
-slug: ud-avkrefter-stans-passtjenester-bangkok
-title: Blir Pass-tjenestene i Bangkok borte? ... Ikke enda
-categories: nyheter
-cover: /src/cms/content/media/cover_ud-avkrefter-stans-passtjenester-bangkok.jpg
-allow_comment: false
-excerpt: 'UD vurderer nedskalering av passkontorer i utlandet, men sier at ingen kriterier peker mot at Bangkok vil bli rammet.'
-sharing:
-  og_image: /src/cms/content/media/cover_ud-avkrefter-stans-passtjenester-bangkok.jpg
-  twitter_card: summary_large_image
-pipeline:
-  stage: published
-  writing_effort: null
-  verification_burden: null
-  hold_until: null
-  publish_date: '2025-06-16T04:12'
-  reject_reason: null
-  content_category: one-off
-  resurface_cooldown: null
-  last_verified: '2025-06-16T04:12'
-  last_touched: '2026-07-11T02:15:07.344Z'
-  source_research: null
-  source_idea: null
-type: post
 id: post.2025.ud-avkrefter-stans-passtjenester-bangkok
-description: 'UD vurderer nedskalering av passkontorer i utlandet, men sier at ingen kriterier peker mot at Bangkok vil bli rammet.'
-stage: published
+type: post
+slug: ud-avkrefter-stans-passtjenester-bangkok
+published: true
 status: published
+title: Blir Pass-tjenestene i Bangkok borte? ... Ikke enda
+description: 'UD vurderer nedskalering av passkontorer i utlandet, men sier at ingen kriterier peker mot at Bangkok vil bli rammet.'
+author: marianneh
 publishedAt: '2025-06-16T04:12'
 category: nyheter
 topics: []
@@ -43,6 +20,19 @@ relations: []
 affiliateLinks: []
 ads:
   overrides: {}
+pipeline:
+  stage: published
+  writing_effort: null
+  verification_burden: null
+  hold_until: null
+  publish_date: '2025-06-16T04:12'
+  reject_reason: null
+  content_category: one-off
+  resurface_cooldown: null
+  last_verified: '2025-06-16T04:12'
+  last_touched: '2026-07-11T02:15:07.344Z'
+  source_research: null
+  source_idea: null
 ---
 En ny [stortingsmelding](https://www.regjeringen.no/no/dokumenter/meld.-st.-18-20242025/id3094927/) fra Utenriksdepartementet varsler at konsulær bistand til nordmenn i utlandet skal reduseres, inkludert ordinære passtjenester. Dette har naturlig nok skapt bekymring blant mange nordmenn i Thailand.
 

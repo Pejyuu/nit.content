@@ -1,35 +1,12 @@
 ---
-published: true
-featured: false
-date: '2025-06-06T23:07'
-author: marianneh
-slug: thailand-strammer-inn-hjelmpaabud
-title: Thailand strammer inn hjelmpåbudet
-categories: nyheter
-cover: /src/cms/content/media/cover_thailand-strammer-inn-hjelmpaabud.jpg
-allow_comment: false
-excerpt: Thailand innfører hjelmpåbud for alle på motorsykkel fra 1. juni. Bøter og økt kontroll varsles.
-sharing:
-  og_image: /src/cms/content/media/cover_thailand-strammer-inn-hjelmpaabud.jpg
-  twitter_card: summary_large_image
-pipeline:
-  stage: published
-  writing_effort: null
-  verification_burden: null
-  hold_until: null
-  publish_date: '2025-06-06T23:07'
-  reject_reason: null
-  content_category: one-off
-  resurface_cooldown: null
-  last_verified: '2025-06-06T23:07'
-  last_touched: '2026-07-11T02:15:07.344Z'
-  source_research: null
-  source_idea: null
-type: post
 id: post.2025.thailand-strammer-inn-hjelmpaabud
-description: Thailand innfører hjelmpåbud for alle på motorsykkel fra 1. juni. Bøter og økt kontroll varsles.
-stage: published
+type: post
+slug: thailand-strammer-inn-hjelmpaabud
+published: true
 status: published
+title: Thailand strammer inn hjelmpåbudet
+description: Thailand innfører hjelmpåbud for alle på motorsykkel fra 1. juni. Bøter og økt kontroll varsles.
+author: marianneh
 publishedAt: '2025-06-06T23:07'
 category: nyheter
 topics: []
@@ -43,6 +20,19 @@ relations: []
 affiliateLinks: []
 ads:
   overrides: {}
+pipeline:
+  stage: published
+  writing_effort: null
+  verification_burden: null
+  hold_until: null
+  publish_date: '2025-06-06T23:07'
+  reject_reason: null
+  content_category: one-off
+  resurface_cooldown: null
+  last_verified: '2025-06-06T23:07'
+  last_touched: '2026-07-11T02:15:07.344Z'
+  source_research: null
+  source_idea: null
 ---
 Fra og med 1. juni 2025 blir det påbudt for både førere og passasjerer på motorsykkel å bruke hjelm i Thailand – uansett kjørelengde eller område. Bot ved brudd kan bli opptil 2 000 baht, og politiet varsler skjerpet kontroll, særlig i trafikkerte strøk, ved skoler og på ulykkesutsatte veier.
 

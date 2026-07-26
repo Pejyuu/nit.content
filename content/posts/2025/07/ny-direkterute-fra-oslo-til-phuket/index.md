@@ -1,35 +1,12 @@
 ---
-published: true
-featured: false
-date: '2025-07-04T19:49'
-author: marianneh
-slug: ny-direkterute-fra-Oslo-til-Phuket
-title: Ny direkterute fra Oslo til Phuket
-categories: reise
-cover: /src/cms/content/media/cover_ny-direkterute-fra-Oslo-til-Phuket.jpg
-allow_comment: false
-excerpt: Direkterute fra Oslo til Phuket med Norse fra november 2025 – enklere reise til Thailand.
-sharing:
-  og_image: /src/cms/content/media/cover_ny-direkterute-fra-Oslo-til-Phuket.jpg
-  twitter_card: summary_large_image
-pipeline:
-  stage: published
-  writing_effort: null
-  verification_burden: null
-  hold_until: null
-  publish_date: '2025-07-04T19:49'
-  reject_reason: null
-  content_category: one-off
-  resurface_cooldown: null
-  last_verified: '2025-07-04T19:49'
-  last_touched: '2026-07-11T02:15:07.344Z'
-  source_research: null
-  source_idea: null
-type: post
 id: post.2025.ny-direkterute-fra-oslo-til-phuket
-description: Direkterute fra Oslo til Phuket med Norse fra november 2025 – enklere reise til Thailand.
-stage: published
+type: post
+slug: ny-direkterute-fra-Oslo-til-Phuket
+published: true
 status: published
+title: Ny direkterute fra Oslo til Phuket
+description: Direkterute fra Oslo til Phuket med Norse fra november 2025 – enklere reise til Thailand.
+author: marianneh
 publishedAt: '2025-07-04T19:49'
 category: reise
 topics: []
@@ -43,6 +20,19 @@ relations: []
 affiliateLinks: []
 ads:
   overrides: {}
+pipeline:
+  stage: published
+  writing_effort: null
+  verification_burden: null
+  hold_until: null
+  publish_date: '2025-07-04T19:49'
+  reject_reason: null
+  content_category: one-off
+  resurface_cooldown: null
+  last_verified: '2025-07-04T19:49'
+  last_touched: '2026-07-11T02:15:07.344Z'
+  source_research: null
+  source_idea: null
 ---
 # Ny direkterute fra Oslo til Phuket
 

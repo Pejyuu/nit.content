@@ -1,35 +1,12 @@
 ---
-published: true
-featured: false
-date: '2025-06-07T08:19'
-author: marianneh
-slug: pensjonistsvisum-thailand-2025-2026
-title: 'Pensjonistvisum til Thailand: Alt du trenger å vite i 2025–2026'
-categories: visum
-cover: /src/cms/content/media/cover_pensjonistsvisum-thailand-2025-2026.jpg
-allow_comment: false
-excerpt: 'Planlegger du å bo i Thailand som pensjonist? Her får du oversikt over visumregler, krav og hvordan du søker – med eller uten inntektsbekreftelse fra ambassaden.'
-sharing:
-  og_image: /src/cms/content/media/cover_pensjonistsvisum-thailand-2025-2026.jpg
-  twitter_card: summary_large_image
-pipeline:
-  stage: published
-  writing_effort: null
-  verification_burden: null
-  hold_until: null
-  publish_date: '2025-06-07T08:19'
-  reject_reason: null
-  content_category: seasonal
-  resurface_cooldown: 6 months
-  last_verified: '2025-06-07T08:19'
-  last_touched: '2026-07-11T02:15:07.344Z'
-  source_research: null
-  source_idea: null
-type: post
 id: post.2025.pensjonistsvisum-thailand-2025-2026
-description: 'Planlegger du å bo i Thailand som pensjonist? Her får du oversikt over visumregler, krav og hvordan du søker – med eller uten inntektsbekreftelse fra ambassaden.'
-stage: published
+type: post
+slug: pensjonistsvisum-thailand-2025-2026
+published: true
 status: published
+title: 'Pensjonistvisum til Thailand: Alt du trenger å vite i 2025–2026'
+description: 'Planlegger du å bo i Thailand som pensjonist? Her får du oversikt over visumregler, krav og hvordan du søker – med eller uten inntektsbekreftelse fra ambassaden.'
+author: marianneh
 publishedAt: '2025-06-07T08:19'
 category: visum
 topics: []
@@ -43,6 +20,19 @@ relations: []
 affiliateLinks: []
 ads:
   overrides: {}
+pipeline:
+  stage: published
+  writing_effort: null
+  verification_burden: null
+  hold_until: null
+  publish_date: '2025-06-07T08:19'
+  reject_reason: null
+  content_category: seasonal
+  resurface_cooldown: 6 months
+  last_verified: '2025-06-07T08:19'
+  last_touched: '2026-07-11T02:15:07.344Z'
+  source_research: null
+  source_idea: null
 ---
 Visste du at, om du er 50 år eller eldre, så kan du bo i Thailand hele eller deler av året ganske problemfritt? Pensjonert tidlig? Perfekt, Thailand kan være stedet for deg!
 

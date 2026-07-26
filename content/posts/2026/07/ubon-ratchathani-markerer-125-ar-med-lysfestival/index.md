@@ -1,27 +1,14 @@
 ---
+id: post.2026.ubon-ratchathani-markerer-125-ar-med-lysfestival
 type: post
-title: 'Lysfestivalen i Ubon Ratchathani 2026: Datoer og reiseråd'
-published: true
-date: '2026-07-23T16:15:09.439Z'
 slug: ubon-ratchathani-markerer-125-ar-med-lysfestival
-allow_comment: false
-excerpt: >-
-  Den 125. utgaven av Ubon Ratchathanis lysprosesjon holdes 25.–31. juli 2026,
-  med hovedprogram 28.–30. juli på Thung Si Mueang. Thailands turistmyndighet
-  løfter arrangementet til «Signature Thailand Event»; for norske reisende er
-  den konkrete vinkelen hvordan man kan oppleve et av Isan-regionens største
-  buddhistiske kulturarrangementer, inkludert tidspunkt og sted.
-sharing:
-  twitter_card: summary_large_image
-pipeline:
-  stage: published
-  hold_until: ''
-  publish_date: '2026-07-23T01:00:00.000Z'
-  reject_reason: ''
-  last_touched: '2026-07-23T16:15:09.439Z'
-  source_url: >-
-    https://www.tatnews.org/2026/07/tat-elevates-125th-ubon-ratchathani-candle-procession-as-signature-thailand-event/
-  content_type: post
+published: true
+status: published
+title: 'Lysfestivalen i Ubon Ratchathani 2026: Datoer og reiseråd'
+description: Ubon Ratchathani feirer 125 år med lysprosesjon 25.–31. juli 2026. Se datoene for hovedprogrammet og praktiske råd før reisen.
+author: marianneh
+publishedAt: '2026-07-23T16:15:09.439Z'
+category: reise
 writer:
   hermesSessionId: run_1a1402be6c974c289180ad4b806bb1c8
   notes: ''
@@ -31,9 +18,7 @@ marketing:
   lastError: ''
   seoTitle: 'Lysfestivalen i Ubon Ratchathani 2026: Datoer og reiseråd'
   slug: ubon-ratchathani-markerer-125-ar-med-lysfestival
-  description: >-
-    Ubon Ratchathani feirer 125 år med lysprosesjon 25.–31. juli 2026. Se
-    datoene for hovedprogrammet og praktiske råd før reisen.
+  description: Ubon Ratchathani feirer 125 år med lysprosesjon 25.–31. juli 2026. Se datoene for hovedprogrammet og praktiske råd før reisen.
   social:
     shared: ''
     instagram: ''
@@ -45,9 +30,7 @@ marketing:
   last_touched: '2026-07-23T15:55:00.163Z'
   images:
     cover: posts/2026/07/ubon-ratchathani-markerer-125-ar-med-lysfestival/cover.jpg
-    social: >-
-      posts/2026/07/ubon-ratchathani-markerer-125-ar-med-lysfestival/social/universal.jpg
-category: reise
+    social: posts/2026/07/ubon-ratchathani-markerer-125-ar-med-lysfestival/social/universal.jpg
 publishing:
   scheduledAt: '2026-07-23T01:00:00.000Z'
   scheduledDate: '2026-07-23'
@@ -55,21 +38,28 @@ publishing:
   publishedAt: '2026-07-23T16:15:09.439Z'
   publishedBy: 'hermes:odin'
   state: committed
-id: post.2026.ubon-ratchathani-markerer-125-ar-med-lysfestival
-description: >-
-  Ubon Ratchathani feirer 125 år med lysprosesjon 25.–31. juli 2026. Se datoene
-  for hovedprogrammet og praktiske råd før reisen.
-status: published
-publishedAt: '2026-07-23T16:15:09.439Z'
 seo:
   title: 'Lysfestivalen i Ubon Ratchathani 2026: Datoer og reiseråd'
-  description: >-
-    Ubon Ratchathani feirer 125 år med lysprosesjon 25.–31. juli 2026. Se
-    datoene for hovedprogrammet og praktiske råd før reisen.
+  description: Ubon Ratchathani feirer 125 år med lysprosesjon 25.–31. juli 2026. Se datoene for hovedprogrammet og praktiske råd før reisen.
+topics: []
+audiences: []
 images:
   cover: cover.jpg
   social:
     universal: social/universal.jpg
+sources: []
+relations: []
+affiliateLinks: []
+ads:
+  overrides: {}
+pipeline:
+  stage: published
+  hold_until: ''
+  publish_date: '2026-07-23T01:00:00.000Z'
+  reject_reason: ''
+  last_touched: '2026-07-23T16:15:09.439Z'
+  source_url: 'https://www.tatnews.org/2026/07/tat-elevates-125th-ubon-ratchathani-candle-procession-as-signature-thailand-event/'
+  content_type: post
 ---
 Ubon Ratchathani gjør seg klar til å markere 125 år med sin berømte lysprosesjon. Festivalen arrangeres fra 25. til 31. juli 2026, mens hovedprogrammet finner sted 28.–30. juli på [Thung Sri Mueang](https://maps.app.goo.gl/M5Eo99HY831muCJJ6) i sentrum av byen.
 

@@ -1,18 +1,19 @@
 ---
-id: post.${year}.slug
-type: post
+id: visa.slug
+type: visa
 slug: slug
 published: true
 status: published
 title: Title
 description: Short description
 author: marianneh
-publishedAt: ${dateTimeFormat}
-category: nyheter
+updatedAt: ${dateTimeFormat}
+lastVerifiedAt: ${dateTimeFormat}
+nextReviewAt: null
+revisionHistory: []
 topics: []
 audiences: []
 images:
-  cover: cover.jpg
   social:
     universal: social/universal.jpg
 sources: []
@@ -22,9 +23,10 @@ ads:
   overrides: {}
 pipeline:
   stage: published
+  last_verified: ${dateTimeFormat}
   last_touched: ${dateTimeFormat}
 ---
 
 Introduction
 
-## First H2
+## Eligibility

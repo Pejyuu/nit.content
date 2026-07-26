@@ -1,35 +1,12 @@
 ---
-published: true
-featured: false
-date: '2025-05-10T08:14'
-author: marianneh
-slug: kleskoder-og-farger-i-thailand
-title: 'Farang i farger: Hva klær sier om deg i Thailand'
-categories: kultur
-cover: /src/cms/content/media/cover_kleskoder-og-farger-i-thailand.jpg
-allow_comment: false
-excerpt: 'Klær sier mer enn du tror i Thailand. Her er hva farger, stoff og stil kan signalisere – og hvorfor det kanskje mest er en kuriositet i dag.'
-sharing:
-  og_image: /src/cms/content/media/cover_kleskoder-og-farger-i-thailand.jpg
-  twitter_card: summary_large_image
-pipeline:
-  stage: review
-  writing_effort: null
-  verification_burden: null
-  hold_until: null
-  publish_date: '2025-05-10T08:14'
-  reject_reason: null
-  content_category: evergreen
-  resurface_cooldown: null
-  last_verified: '2025-05-10T08:14'
-  last_touched: '2026-07-11T02:24:03.627Z'
-  source_research: null
-  source_idea: null
-type: post
 id: post.2025.kleskoder-og-farger-i-thailand
-description: 'Klær sier mer enn du tror i Thailand. Her er hva farger, stoff og stil kan signalisere – og hvorfor det kanskje mest er en kuriositet i dag.'
-stage: review
+type: post
+slug: kleskoder-og-farger-i-thailand
+published: true
 status: published
+title: 'Farang i farger: Hva klær sier om deg i Thailand'
+description: 'Klær sier mer enn du tror i Thailand. Her er hva farger, stoff og stil kan signalisere – og hvorfor det kanskje mest er en kuriositet i dag.'
+author: marianneh
 publishedAt: '2025-05-10T08:14'
 category: kultur
 topics: []
@@ -43,6 +20,19 @@ relations: []
 affiliateLinks: []
 ads:
   overrides: {}
+pipeline:
+  stage: review
+  writing_effort: null
+  verification_burden: null
+  hold_until: null
+  publish_date: '2025-05-10T08:14'
+  reject_reason: null
+  content_category: evergreen
+  resurface_cooldown: null
+  last_verified: '2025-05-10T08:14'
+  last_touched: '2026-07-11T02:24:03.627Z'
+  source_research: null
+  source_idea: null
 ---
 I Thailand handler klær ikke bare om stil eller vær – de er fulle av symbolikk, sosiale signaler og usagte regler. Og som farang (utlending) er det fort gjort å sende helt feil signal, selv når du bare prøver å holde deg kjølig og komfortabel i tropevarmen.
 

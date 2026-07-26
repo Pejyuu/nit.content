@@ -1,13 +1,29 @@
 ---
+id: guide.nono-vs-nonoa
+type: guide
 slug: nono.vs.nonoa
 published: true
-updated: '2025-06-12T00:16'
+status: published
 title: 'Sammenligning: Non-O mot Non-OA visum (pensjonister)'
-excerpt: >-
-  Hva er forskjellen på Non-O og Non-OA visum for pensjonister i Thailand? Se
-  vår oversikt over krav, fordeler og praktiske hensyn.
-prev: false
-next: false
+description: 'Hva er forskjellen på Non-O og Non-OA visum for pensjonister i Thailand? Se vår oversikt over krav, fordeler og praktiske hensyn.'
+author: marianneh
+updatedAt: '2025-06-12T00:16'
+lastVerifiedAt: '2026-07-21T19:06:44.611Z'
+nextReviewAt: '2026-10-21T19:06:44.611Z'
+revisionHistory:
+  - at: '2026-07-21T19:06:44.611Z'
+    type: manual-review
+    note: |-
+      Edited some wording. 
+      Review again in 3 months to add a page about how to use Non-OA the best way.
+topics: []
+audiences: []
+images: {}
+sources: []
+relations: []
+affiliateLinks: []
+ads:
+  overrides: {}
 pipeline:
   stage: published
   writing_effort: null
@@ -21,32 +37,6 @@ pipeline:
   last_touched: '2026-07-21T19:06:44.611Z'
   source_research: null
   source_idea: null
-type: guide
-id: guide.nono-vs-nonoa
-description: >-
-  Hva er forskjellen på Non-O og Non-OA visum for pensjonister i Thailand? Se
-  vår oversikt over krav, fordeler og praktiske hensyn.
-stage: published
-status: published
-updatedAt: '2025-06-12T00:16'
-lastVerifiedAt: '2026-07-21T19:06:44.611Z'
-nextReviewAt: '2026-10-21T19:06:44.611Z'
-revisionHistory:
-  - at: '2026-07-21T19:06:44.611Z'
-    type: manual-review
-    note: >-
-      Edited some wording. 
-
-      Review again in 3 months to add a page about how to use Non-OA the best
-      way.
-topics: []
-audiences: []
-images: {}
-sources: []
-relations: []
-affiliateLinks: []
-ads:
-  overrides: {}
 ---
 
 |                      | **Non-O (pensjonist)**                          | **Non-OA**                                      |

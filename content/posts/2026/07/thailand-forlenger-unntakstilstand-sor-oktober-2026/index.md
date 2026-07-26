@@ -1,33 +1,12 @@
 ---
-type: post
-title: Thailand forlenger unntakstilstanden i sør til 19. oktober
-published: true
-date: '2026-07-16T02:30'
-author: marianneh
-slug: thailand-forlenger-unntakstilstand-sor-oktober-2026
-categories: nyheter
-cover: /src/cms/content/media/cover_thailand-forlenger-unntakstilstand-sor-oktober-2026.jpg
-allow_comment: false
-thread_id: 0
-excerpt: 'Regjeringen i Thailand har forlenget unntakstilstanden i de tre sørlige grenseprovinsene Narathiwat, Pattani og Yala med tre måneder, fra 20. juli til 19. oktober 2026. Volden har tiltatt kraftig det siste året, og norske myndigheter fraråder fortsatt reiser dit som ikke er strengt nødvendige.'
-sharing:
-  og_image: /src/cms/content/media/some_placeholder.png
-  twitter_card: summary_large_image
-pipeline:
-  stage: published
-  writing_effort: 4
-  verification_burden: 3
-  hold_until: ''
-  publish_date: '2026-07-16T02:30'
-  reject_reason: ''
-  content_category: seasonal
-  last_verified: '2026-07-16'
-  last_touched: '2026-07-15T19:31:16.760Z'
-  source_url: 'https://world.thaipbs.or.th/detail/cabinet-extends-deep-south-emergency-decree-to-midoctober/62037'
 id: post.2026.thailand-forlenger-unntakstilstand-sor-oktober-2026
-description: 'Regjeringen i Thailand har forlenget unntakstilstanden i de tre sørlige grenseprovinsene Narathiwat, Pattani og Yala med tre måneder, fra 20. juli til 19. oktober 2026. Volden har tiltatt kraftig det siste året, og norske myndigheter fraråder fortsatt reiser dit som ikke er strengt nødvendige.'
-stage: published
+type: post
+slug: thailand-forlenger-unntakstilstand-sor-oktober-2026
+published: true
 status: published
+title: Thailand forlenger unntakstilstanden i sør til 19. oktober
+description: 'Regjeringen i Thailand har forlenget unntakstilstanden i de tre sørlige grenseprovinsene Narathiwat, Pattani og Yala med tre måneder, fra 20. juli til 19. oktober 2026. Volden har tiltatt kraftig det siste året, og norske myndigheter fraråder fortsatt reiser dit som ikke er strengt nødvendige.'
+author: marianneh
 publishedAt: '2026-07-16T02:30'
 category: nyheter
 topics: []
@@ -41,6 +20,17 @@ relations: []
 affiliateLinks: []
 ads:
   overrides: {}
+pipeline:
+  stage: published
+  writing_effort: 4
+  verification_burden: 3
+  hold_until: ''
+  publish_date: '2026-07-16T02:30'
+  reject_reason: ''
+  content_category: seasonal
+  last_verified: '2026-07-16'
+  last_touched: '2026-07-15T19:31:16.760Z'
+  source_url: 'https://world.thaipbs.or.th/detail/cabinet-extends-deep-south-emergency-decree-to-midoctober/62037'
 ---
 
 Thailands regjering har på nytt forlenget unntakstilstanden (Emergency Decree) i de tre sørligste grenseprovinsene Narathiwat, Pattani og Yala. Forlengelsen ble godkjent av regjeringen denne uken og gjelder fra 20. juli til 19. oktober 2026 – en rutinemessig, men langt fra ufarlig, forlengelse med tre måneder som har skjedd svært mange ganger siden loven først ble tatt i bruk i juli 2005.

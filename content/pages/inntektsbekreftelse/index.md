@@ -1,36 +1,12 @@
 ---
+id: page.inntektsbekreftelse
+type: page
 slug: inntektsbekreftelse
 published: true
-updated: '2025-05-26T13:05'
-author: marianneh
-title: Alternativer til Inntektsbekreftelse
-lastUpdated: '2026-07-21T18:57:18.930Z'
-excerpt: >-
-  Ambassaden utsteder ikke lenger inntektsbekreftelser fra Mai 2026. Slik
-  dokumenterer du økonomi for opphold i Thailand – med eller uten fast inntekt.
-sharing:
-  og_image: /src/cms/content/media/innektsbekreftelser_og_alternativer.jpg
-prev: false
-next: false
-pipeline:
-  stage: published
-  writing_effort: null
-  verification_burden: null
-  hold_until: null
-  publish_date: null
-  reject_reason: null
-  content_category: seasonal
-  resurface_cooldown: 6 months
-  last_verified: '2026-07-21T18:57:18.930Z'
-  last_touched: '2026-07-21T18:57:18.930Z'
-  source_research: null
-  source_idea: null
-id: page.inntektsbekreftelse
-description: >-
-  Ambassaden utsteder ikke lenger inntektsbekreftelser fra Mai 2026. Slik
-  dokumenterer du økonomi for opphold i Thailand – med eller uten fast inntekt.
-stage: published
 status: published
+title: Alternativer til Inntektsbekreftelse
+description: Ambassaden utsteder ikke lenger inntektsbekreftelser fra Mai 2026. Slik dokumenterer du økonomi for opphold i Thailand – med eller uten fast inntekt.
+author: marianneh
 updatedAt: '2025-05-26T13:05'
 lastVerifiedAt: '2026-07-21T18:57:18.930Z'
 nextReviewAt: '2027-01-21T18:57:18.930Z'
@@ -48,6 +24,19 @@ relations: []
 affiliateLinks: []
 ads:
   overrides: {}
+pipeline:
+  stage: published
+  writing_effort: null
+  verification_burden: null
+  hold_until: null
+  publish_date: null
+  reject_reason: null
+  content_category: seasonal
+  resurface_cooldown: 6 months
+  last_verified: '2026-07-21T18:57:18.930Z'
+  last_touched: '2026-07-21T18:57:18.930Z'
+  source_research: null
+  source_idea: null
 ---
 Siden Norges Ambassade i Thailand nå har gitt seg med Inntektbekreftelse fra Mai 2026 så syns vi det er viktig å komme med oppdatert informasjon om hva som nå gjelder for å dokumentere at man fyller de økonomiske kravene for å kunne søke om forlengelse av opphold i Thailand.
 

@@ -1,33 +1,12 @@
 ---
+id: guide.innreisekrav
+type: guide
 slug: innreisekrav
 published: true
-updated: '2025-05-20T08:15'
-title: Innreisekrav
-excerpt: >-
-  Få oversikt over dagens innreiseregler til Thailand. Informasjon om visum,
-  vaksinekrav, covid-19 og andre nødvendige dokumenter for norske reisende.
-prev: false
-next: false
-pipeline:
-  stage: published
-  writing_effort: null
-  verification_burden: null
-  hold_until: null
-  publish_date: null
-  reject_reason: null
-  content_category: seasonal
-  resurface_cooldown: 3 months
-  last_verified: '2026-07-21T18:53:08.792Z'
-  last_touched: '2026-07-21T18:53:08.792Z'
-  source_research: null
-  source_idea: null
-type: guide
-id: guide.innreisekrav
-description: >-
-  Få oversikt over dagens innreiseregler til Thailand. Informasjon om visum,
-  vaksinekrav, covid-19 og andre nødvendige dokumenter for norske reisende.
-stage: published
 status: published
+title: Innreisekrav
+description: 'Få oversikt over dagens innreiseregler til Thailand. Informasjon om visum, vaksinekrav, covid-19 og andre nødvendige dokumenter for norske reisende.'
+author: marianneh
 updatedAt: '2025-05-20T08:15'
 lastVerifiedAt: '2026-07-21T18:53:08.792Z'
 nextReviewAt: '2026-10-21T18:53:08.792Z'
@@ -46,6 +25,19 @@ relations: []
 affiliateLinks: []
 ads:
   overrides: {}
+pipeline:
+  stage: published
+  writing_effort: null
+  verification_burden: null
+  hold_until: null
+  publish_date: null
+  reject_reason: null
+  content_category: seasonal
+  resurface_cooldown: 3 months
+  last_verified: '2026-07-21T18:53:08.792Z'
+  last_touched: '2026-07-21T18:53:08.792Z'
+  source_research: null
+  source_idea: null
 ---
 ## TDAC - Thailand Digital Arrival Card
 

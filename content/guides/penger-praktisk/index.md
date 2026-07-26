@@ -1,14 +1,30 @@
 ---
+id: guide.penger-praktisk
+type: guide
 slug: penger.praktisk
 published: true
-updated: '2025-05-26T16:02'
+status: published
 title: Ta ut penger i Thailand
-excerpt: >-
-  Skal du ta ut penger i Thailand? Unngå unødvendige gebyrer og få bedre
-  vekslingskurs med våre tips. Lær hvorfor Wise og Revolut er smarte valg for
-  nordmenn.
-prev: false
-next: false
+description: Skal du ta ut penger i Thailand? Unngå unødvendige gebyrer og få bedre vekslingskurs med våre tips. Lær hvorfor Wise og Revolut er smarte valg for nordmenn.
+author: marianneh
+updatedAt: '2025-05-26T16:02'
+lastVerifiedAt: '2026-07-21T19:13:28.628Z'
+nextReviewAt: '2026-10-21T19:13:28.628Z'
+revisionHistory:
+  - at: '2026-07-21T19:13:28.628Z'
+    type: manual-review
+    note: |-
+      Will resuface in 3 months, hoping I have a global affiliate disclaimer then and can remove the one in-article.
+
+      Other info is fine.
+topics: []
+audiences: []
+images: {}
+sources: []
+relations: []
+affiliateLinks: []
+ads:
+  overrides: {}
 pipeline:
   stage: published
   writing_effort: null
@@ -22,34 +38,6 @@ pipeline:
   last_touched: '2026-07-21T19:13:28.628Z'
   source_research: null
   source_idea: null
-type: guide
-id: guide.penger-praktisk
-description: >-
-  Skal du ta ut penger i Thailand? Unngå unødvendige gebyrer og få bedre
-  vekslingskurs med våre tips. Lær hvorfor Wise og Revolut er smarte valg for
-  nordmenn.
-stage: published
-status: published
-updatedAt: '2025-05-26T16:02'
-lastVerifiedAt: '2026-07-21T19:13:28.628Z'
-nextReviewAt: '2026-10-21T19:13:28.628Z'
-revisionHistory:
-  - at: '2026-07-21T19:13:28.628Z'
-    type: manual-review
-    note: >-
-      Will resuface in 3 months, hoping I have a global affiliate disclaimer
-      then and can remove the one in-article. 
-
-
-      Other info is fine.
-topics: []
-audiences: []
-images: {}
-sources: []
-relations: []
-affiliateLinks: []
-ads:
-  overrides: {}
 ---
 > Artikkelen inneholder Affiliate-lenker. Nettsiden får en ørliten kommisjon om du velger å bruke produktet vi lenker til. Når det er sagt, så stiller vi oss bak produktene vi lenker, og vil aldri lenke til produkter vi selv ikke har trua på.
 

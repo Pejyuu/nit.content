@@ -1,21 +1,60 @@
 ---
+id: post.2026.tmd-varsler-nytt-kraftig-regnfall-20-21-juli-flom-og-jordskredfare
 type: post
-title: TMD varsler nytt kraftig regnfall 20.–21. juli – flom- og jordskredfare
-published: true
-date: '2026-07-19T12:17:18.814Z'
-author: marianneh
 slug: tmd-varsler-nytt-kraftig-regnfall-20-21-juli-flom-og-jordskredfare
-categories: null
-allow_comment: false
-excerpt: >-
-  Det thailandske meteorologiske instituttet (TMD) melder at regnet letter
-  16.–19. juli, før det intensiveres igjen 20.–21. juli med kraftig til svært
-  kraftig regn i Nord- og Vest-Sentral-Thailand (15. juli 2026). Nordmenn som
-  reiser da bør regne med forstyrret transport, grov sjø og flom-/jordskredfare
-  – dette er et nytt varsel, atskilt fra den 16. juli-dekning som allerede er
-  arkivført.
-sharing:
-  twitter_card: summary_large_image
+published: true
+status: published
+title: TMD varsler nytt kraftig regnfall 20.–21. juli – flom- og jordskredfare
+description: TMD varsler nytt kraftig regnfall 20.–21. juli – flom- og jordskredfare enkelte steder i landet.
+author: marianneh
+publishedAt: '2026-07-19T12:17:18.814Z'
+category: nyheter
+writer:
+  hermesSessionId: run_32bb0302445a4fc7b3ea06b0b9d41d3b
+  notes: ''
+  draftVersion: 1
+  lastFailedRunId: run_aa23626493124490b01488d7ab82d61b
+  lastError: 'Run not found: run_aa23626493124490b01488d7ab82d61b'
+marketing:
+  hermesSessionId: run_70255d34616047cb8c13db267ae8266c
+  lastError: ''
+  images:
+    cover: posts/2026/07/tmd-varsler-nytt-kraftig-regnfall-20-21-juli-flom-og-jordskredfare/cover.jpg
+    social: posts/2026/07/tmd-varsler-nytt-kraftig-regnfall-20-21-juli-flom-og-jordskredfare/social/universal.png
+  last_touched: '2026-07-19T11:39:47.330Z'
+  seoTitle: TMD varsler nytt kraftig regnfall 20.–21. juli – flom- og jordskredfare
+  slug: tmd-varsler-nytt-kraftig-regnfall-20-21-juli-flom-og-jordskredfare
+  description: TMD varsler nytt kraftig regnfall 20.–21. juli – flom- og jordskredfare enkelte steder i landet.
+  social:
+    shared: 'New on Norsk i Thailand: TMD varsler nytt kraftig regnfall 20.–21. juli – flom- og jordskredfare. Here is the practical context, details and next steps.'
+    instagram: "TMD varsler nytt kraftig regnfall 20.–21. juli – flom- og jordskredfare \U0001F1F9\U0001F1ED Our latest practical guide for Norwegians in Thailand. Link in bio. #norskitthailand #thailand"
+    pinterestTitle: TMD varsler nytt kraftig regnfall 20.–21. juli – flom- og jordskredfare
+    pinterestDescription: 'Det thailandske meteorologiske instituttet (TMD) melder at regnet letter 16.–19. juli, før det intensiveres igjen 20.–21. juli med kraftig til svært kraftig regn i Nord- og Vest-Sentral-Thailand (15. juli 2026). Nordmenn som reiser da bør regne med forstyrret transport, grov sjø og flom-/jordskredfare – dette er et nytt varsel, atskilt fra den 16. juli-dekning som allerede er arkivført.'
+  showCitations: true
+  offsetMinutes: 30
+  imageDirection: ''
+publishing:
+  scheduledAt: '2026-07-19T02:00:00.000Z'
+  scheduledDate: '2026-07-19'
+  scheduledBy: 'hermes:odin'
+  error: null
+  publishedAt: '2026-07-19T12:17:18.814Z'
+  publishedBy: 'hermes:odin'
+  state: materialized
+seo:
+  title: TMD varsler nytt kraftig regnfall 20.–21. juli – flom- og jordskredfare
+  description: TMD varsler nytt kraftig regnfall 20.–21. juli – flom- og jordskredfare enkelte steder i landet.
+topics: []
+audiences: []
+images:
+  cover: cover.jpg
+  social:
+    universal: social/universal.png
+sources: []
+relations: []
+affiliateLinks: []
+ads:
+  overrides: {}
 pipeline:
   stage: published
   writing_effort: null
@@ -29,69 +68,7 @@ pipeline:
   last_touched: '2026-07-19T12:17:18.814Z'
   source_research: null
   source_idea: null
-  source_url: >-
-    https://www.khaosodenglish.com/news/2026/07/15/flash-flood-warning-as-thailand-braces-for-heavy-rain/
-writer:
-  hermesSessionId: run_32bb0302445a4fc7b3ea06b0b9d41d3b
-  notes: ''
-  draftVersion: 1
-  lastFailedRunId: run_aa23626493124490b01488d7ab82d61b
-  lastError: 'Run not found: run_aa23626493124490b01488d7ab82d61b'
-marketing:
-  hermesSessionId: run_70255d34616047cb8c13db267ae8266c
-  lastError: ''
-  images:
-    cover: >-
-      posts/2026/07/tmd-varsler-nytt-kraftig-regnfall-20-21-juli-flom-og-jordskredfare/cover.jpg
-    social: >-
-      posts/2026/07/tmd-varsler-nytt-kraftig-regnfall-20-21-juli-flom-og-jordskredfare/social/universal.png
-  last_touched: '2026-07-19T11:39:47.330Z'
-  seoTitle: TMD varsler nytt kraftig regnfall 20.–21. juli – flom- og jordskredfare
-  slug: tmd-varsler-nytt-kraftig-regnfall-20-21-juli-flom-og-jordskredfare
-  description: >-
-    TMD varsler nytt kraftig regnfall 20.–21. juli – flom- og jordskredfare
-    enkelte steder i landet.
-  social:
-    shared: >-
-      New on Norsk i Thailand: TMD varsler nytt kraftig regnfall 20.–21. juli –
-      flom- og jordskredfare. Here is the practical context, details and next
-      steps.
-    instagram: "TMD varsler nytt kraftig regnfall 20.–21. juli – flom- og jordskredfare \U0001F1F9\U0001F1ED Our latest practical guide for Norwegians in Thailand. Link in bio. #norskitthailand #thailand"
-    pinterestTitle: TMD varsler nytt kraftig regnfall 20.–21. juli – flom- og jordskredfare
-    pinterestDescription: >-
-      Det thailandske meteorologiske instituttet (TMD) melder at regnet letter
-      16.–19. juli, før det intensiveres igjen 20.–21. juli med kraftig til
-      svært kraftig regn i Nord- og Vest-Sentral-Thailand (15. juli 2026).
-      Nordmenn som reiser da bør regne med forstyrret transport, grov sjø og
-      flom-/jordskredfare – dette er et nytt varsel, atskilt fra den 16.
-      juli-dekning som allerede er arkivført.
-  showCitations: true
-  offsetMinutes: 30
-  imageDirection: ''
-category: nyheter
-publishing:
-  scheduledAt: '2026-07-19T02:00:00.000Z'
-  scheduledDate: '2026-07-19'
-  scheduledBy: 'hermes:odin'
-  error: null
-  publishedAt: '2026-07-19T12:17:18.814Z'
-  publishedBy: 'hermes:odin'
-  state: materialized
-id: post.2026.tmd-varsler-nytt-kraftig-regnfall-20-21-juli-flom-og-jordskredfare
-description: >-
-  TMD varsler nytt kraftig regnfall 20.–21. juli – flom- og jordskredfare
-  enkelte steder i landet.
-status: published
-publishedAt: '2026-07-19T12:17:18.814Z'
-seo:
-  title: TMD varsler nytt kraftig regnfall 20.–21. juli – flom- og jordskredfare
-  description: >-
-    TMD varsler nytt kraftig regnfall 20.–21. juli – flom- og jordskredfare
-    enkelte steder i landet.
-images:
-  cover: cover.jpg
-  social:
-    universal: social/universal.png
+  source_url: 'https://www.khaosodenglish.com/news/2026/07/15/flash-flood-warning-as-thailand-braces-for-heavy-rain/'
 ---
 Det [**Thailandske Meteorologiske Instituttet (TMD)**](https://www.tmd.go.th/en) varsler at regnet vil tilta igjen 20.–21. juli. Nord-Thailand og den vestlige delen av den sentrale regionen ventes å bli hardest rammet, med fare for styrtflom, overvann og elver som går over sine bredder.
 

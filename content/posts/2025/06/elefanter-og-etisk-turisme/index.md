@@ -1,34 +1,12 @@
 ---
-published: true
-featured: false
-date: '2025-06-11T17:43'
-author: marianneh
-slug: elefanter-og-etisk-turisme
-title: 'Når respekt går foran opplevelse : Elefanter og etisk turisme'
-categories: reise
-cover: /src/cms/content/media/cover_elefanter-og-etisk-turisme.jpg
-allow_comment: false
-excerpt: Mange elefanter lider i turistindustrien i Thailand. Lær hvordan du kan støtte etiske alternativer med ekte dyrevelferd
-sharing:
-  og_image: /src/cms/content/media/elefanter-som-turistattraksjoner.jpg
-pipeline:
-  stage: published
-  writing_effort: null
-  verification_burden: null
-  hold_until: null
-  publish_date: '2025-06-11T17:43'
-  reject_reason: null
-  content_category: evergreen
-  resurface_cooldown: null
-  last_verified: '2025-06-11T17:43'
-  last_touched: '2026-07-11T02:15:07.344Z'
-  source_research: null
-  source_idea: null
-type: post
 id: post.2025.elefanter-og-etisk-turisme
-description: Mange elefanter lider i turistindustrien i Thailand. Lær hvordan du kan støtte etiske alternativer med ekte dyrevelferd
-stage: published
+type: post
+slug: elefanter-og-etisk-turisme
+published: true
 status: published
+title: 'Når respekt går foran opplevelse : Elefanter og etisk turisme'
+description: Mange elefanter lider i turistindustrien i Thailand. Lær hvordan du kan støtte etiske alternativer med ekte dyrevelferd
+author: marianneh
 publishedAt: '2025-06-11T17:43'
 category: reise
 topics: []
@@ -42,6 +20,19 @@ relations: []
 affiliateLinks: []
 ads:
   overrides: {}
+pipeline:
+  stage: published
+  writing_effort: null
+  verification_burden: null
+  hold_until: null
+  publish_date: '2025-06-11T17:43'
+  reject_reason: null
+  content_category: evergreen
+  resurface_cooldown: null
+  last_verified: '2025-06-11T17:43'
+  last_touched: '2026-07-11T02:15:07.344Z'
+  source_research: null
+  source_idea: null
 ---
 *Denne artikkelen er inspirert av [en reportasje fra The Nation Thailand](https://www.nationthailand.com/news/tourism/40051077) om hvordan elefantparker i Chiang Mai forsøker å overleve gjennom turisme. Vi mener imidlertid at praksiser som bading, ridning og forestillinger fortsatt ikke kan regnes som etisk forsvarlige, uavhengig av intensjon eller presentasjon.*
 

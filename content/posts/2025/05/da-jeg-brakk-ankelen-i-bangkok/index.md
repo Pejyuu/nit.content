@@ -1,35 +1,12 @@
 ---
-published: true
-featured: false
-date: '2025-05-17T08:14'
-author: marianneh
-slug: da-jeg-brakk-ankelen-i-bangkok
-title: Da jeg brakk ankelen i Bangkok
-categories: hverdag
-cover: /src/cms/content/media/cover_da-jeg-brakk-ankelen-i-bangkok.jpg
-allow_comment: false
-excerpt: Jeg brakk ankelen i Bangkok. Det kunne gått dårlig – men det private helsevesenet leverte.
-sharing:
-  og_image: /src/cms/content/media/cover_da-jeg-brakk-ankelen-i-bangkok.jpg
-  twitter_card: summary_large_image
-pipeline:
-  stage: published
-  writing_effort: null
-  verification_burden: null
-  hold_until: null
-  publish_date: '2025-05-17T08:14'
-  reject_reason: null
-  content_category: one-off
-  resurface_cooldown: null
-  last_verified: '2025-05-17T08:14'
-  last_touched: '2026-07-11T02:15:07.344Z'
-  source_research: null
-  source_idea: null
-type: post
 id: post.2025.da-jeg-brakk-ankelen-i-bangkok
-description: Jeg brakk ankelen i Bangkok. Det kunne gått dårlig – men det private helsevesenet leverte.
-stage: published
+type: post
+slug: da-jeg-brakk-ankelen-i-bangkok
+published: true
 status: published
+title: Da jeg brakk ankelen i Bangkok
+description: Jeg brakk ankelen i Bangkok. Det kunne gått dårlig – men det private helsevesenet leverte.
+author: marianneh
 publishedAt: '2025-05-17T08:14'
 category: hverdag
 topics: []
@@ -43,6 +20,19 @@ relations: []
 affiliateLinks: []
 ads:
   overrides: {}
+pipeline:
+  stage: published
+  writing_effort: null
+  verification_burden: null
+  hold_until: null
+  publish_date: '2025-05-17T08:14'
+  reject_reason: null
+  content_category: one-off
+  resurface_cooldown: null
+  last_verified: '2025-05-17T08:14'
+  last_touched: '2026-07-11T02:15:07.344Z'
+  source_research: null
+  source_idea: null
 ---
 ## Sykehusbesøk i Thailand – hvordan funker det egentlig?
 

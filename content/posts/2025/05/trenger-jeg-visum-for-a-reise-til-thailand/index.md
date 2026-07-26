@@ -1,35 +1,12 @@
 ---
-published: true
-featured: false
-date: '2025-05-14T08:15'
-author: marianneh
-slug: trenger-jeg-visum-for-å-reise-til-thailand
-title: Trenger jeg visum for å reise til Thailand?
-categories: visum
-cover: /src/cms/content/media/cover_trenger-jeg-visum-for-å-reise-til-thailand.jpeg
-allow_comment: false
-excerpt: Om du trenger visum eller ikke kommer helt ann på hva du skal og hvor lenge du ønsker å bli i Thailand.
-sharing:
-  og_image: /src/cms/content/media/cover_trenger-jeg-visum-for-å-reise-til-thailand.jpeg
-  twitter_card: summary_large_image
-pipeline:
-  stage: published
-  writing_effort: null
-  verification_burden: null
-  hold_until: null
-  publish_date: '2025-05-14T08:15'
-  reject_reason: null
-  content_category: seasonal
-  resurface_cooldown: 6 months
-  last_verified: '2025-05-14T08:15'
-  last_touched: '2026-07-11T02:15:07.344Z'
-  source_research: null
-  source_idea: null
-type: post
 id: post.2025.trenger-jeg-visum-for-a-reise-til-thailand
-description: Om du trenger visum eller ikke kommer helt ann på hva du skal og hvor lenge du ønsker å bli i Thailand.
-stage: published
+type: post
+slug: trenger-jeg-visum-for-å-reise-til-thailand
+published: true
 status: published
+title: Trenger jeg visum for å reise til Thailand?
+description: Om du trenger visum eller ikke kommer helt ann på hva du skal og hvor lenge du ønsker å bli i Thailand.
+author: marianneh
 publishedAt: '2025-05-14T08:15'
 category: visum
 topics: []
@@ -43,6 +20,19 @@ relations: []
 affiliateLinks: []
 ads:
   overrides: {}
+pipeline:
+  stage: published
+  writing_effort: null
+  verification_burden: null
+  hold_until: null
+  publish_date: '2025-05-14T08:15'
+  reject_reason: null
+  content_category: seasonal
+  resurface_cooldown: 6 months
+  last_verified: '2025-05-14T08:15'
+  last_touched: '2026-07-11T02:15:07.344Z'
+  source_research: null
+  source_idea: null
 ---
 ## **Kort oppsummert**
 

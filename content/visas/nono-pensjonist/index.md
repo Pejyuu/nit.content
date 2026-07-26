@@ -1,29 +1,12 @@
 ---
+id: visa.nono-pensjonist
+type: visa
 slug: nono.pensjonist
 published: true
-updated: '2025-05-20T08:16'
-title: Non-O - Pensjonist
-excerpt: Leve livet som pensjonist i Thailand er ikke komplisert.
-prev: false
-next: false
-pipeline:
-  stage: published
-  writing_effort: null
-  verification_burden: null
-  hold_until: null
-  publish_date: null
-  reject_reason: null
-  content_category: seasonal
-  resurface_cooldown: 6 months
-  last_verified: '2026-07-25T02:15:47.093Z'
-  last_touched: '2026-07-25T02:15:47.093Z'
-  source_research: null
-  source_idea: null
-type: visa
-id: visa.nono-pensjonist
-description: Leve livet som pensjonist i Thailand er ikke komplisert.
-stage: published
 status: published
+title: Non-O - Pensjonist
+description: Leve livet som pensjonist i Thailand er ikke komplisert.
+author: marianneh
 updatedAt: '2025-05-20T08:16'
 lastVerifiedAt: '2026-07-25T02:15:47.093Z'
 nextReviewAt: '2027-01-25T02:15:47.093Z'
@@ -39,6 +22,19 @@ relations: []
 affiliateLinks: []
 ads:
   overrides: {}
+pipeline:
+  stage: published
+  writing_effort: null
+  verification_burden: null
+  hold_until: null
+  publish_date: null
+  reject_reason: null
+  content_category: seasonal
+  resurface_cooldown: 6 months
+  last_verified: '2026-07-25T02:15:47.093Z'
+  last_touched: '2026-07-25T02:15:47.093Z'
+  source_research: null
+  source_idea: null
 ---
 Non-Immigrant O Retirement Visa passer for deg som er over 50 år og ønsker å bo i Thailand over lengre tid uten å jobbe. Visumet gir i utgangspunktet 90 dagers opphold, men kan forlenges med et år om gangen, så lenge du oppfyller kravene.
 

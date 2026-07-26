@@ -1,35 +1,12 @@
 ---
-published: true
-featured: false
-date: '2025-05-18T08:15'
-author: marianneh
-slug: drosjefarger-og-hva-de-betyr
-title: Et hav av farger?  Hva Taxi-fargene egentlig betyr i Thailand
-categories: reise
-cover: /src/cms/content/media/cover_drosjefarger-og-hva-de-betyr.jpg
-allow_comment: false
-excerpt: Fargene på Taxiene i Thailand er ikke tilfeldig. Vet du hva de forskjellige fargene betyr?
-sharing:
-  og_image: /src/cms/content/media/cover_drosjefarger-og-hva-de-betyr.jpg
-  twitter_card: summary_large_image
-pipeline:
-  stage: published
-  writing_effort: null
-  verification_burden: null
-  hold_until: null
-  publish_date: '2025-05-18T08:15'
-  reject_reason: null
-  content_category: evergreen
-  resurface_cooldown: null
-  last_verified: '2025-05-18T08:15'
-  last_touched: '2026-07-11T02:15:07.344Z'
-  source_research: null
-  source_idea: null
-type: post
 id: post.2025.drosjefarger-og-hva-de-betyr
-description: Fargene på Taxiene i Thailand er ikke tilfeldig. Vet du hva de forskjellige fargene betyr?
-stage: published
+type: post
+slug: drosjefarger-og-hva-de-betyr
+published: true
 status: published
+title: Et hav av farger?  Hva Taxi-fargene egentlig betyr i Thailand
+description: Fargene på Taxiene i Thailand er ikke tilfeldig. Vet du hva de forskjellige fargene betyr?
+author: marianneh
 publishedAt: '2025-05-18T08:15'
 category: reise
 topics: []
@@ -43,6 +20,19 @@ relations: []
 affiliateLinks: []
 ads:
   overrides: {}
+pipeline:
+  stage: published
+  writing_effort: null
+  verification_burden: null
+  hold_until: null
+  publish_date: '2025-05-18T08:15'
+  reject_reason: null
+  content_category: evergreen
+  resurface_cooldown: null
+  last_verified: '2025-05-18T08:15'
+  last_touched: '2026-07-11T02:15:07.344Z'
+  source_research: null
+  source_idea: null
 ---
 > Denne artikkelen er opprinnelig publisert i [TheNation](https://nationthailand.com). Jeg har oversatt og tilpasset den for et norsk publikum fordi jeg synes temaet er relevant og interessant også her hos oss.
 

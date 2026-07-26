@@ -1,35 +1,12 @@
 ---
-published: true
-featured: false
-date: '2026-02-13T18:56'
-author: marianneh
-slug: innreiseregler-thailand-2026
-title: Innreiseregler for turister til Thailand 2026
-categories: visum
-cover: /src/cms/content/media/cover_innreiseregler-thailand-2026.jpg
-allow_comment: false
-excerpt: Innreisereglene for Thailand sies å være i stadig forandring. Dette er reglene som gjelder nå i 2026
-sharing:
-  og_image: /src/cms/content/media/innreiseregler_2026.jpg
-  twitter_card: summary_large_image
-pipeline:
-  stage: published
-  writing_effort: null
-  verification_burden: null
-  hold_until: null
-  publish_date: '2026-02-13T18:56'
-  reject_reason: null
-  content_category: seasonal
-  resurface_cooldown: 6 months
-  last_verified: '2026-02-13T18:56'
-  last_touched: '2026-07-11T02:15:07.344Z'
-  source_research: null
-  source_idea: null
-type: post
 id: post.2026.innreiseregler-thailand-2026
-description: Innreisereglene for Thailand sies å være i stadig forandring. Dette er reglene som gjelder nå i 2026
-stage: published
+type: post
+slug: innreiseregler-thailand-2026
+published: true
 status: published
+title: Innreiseregler for turister til Thailand 2026
+description: Innreisereglene for Thailand sies å være i stadig forandring. Dette er reglene som gjelder nå i 2026
+author: marianneh
 publishedAt: '2026-02-13T18:56'
 category: visum
 topics: []
@@ -43,6 +20,19 @@ relations: []
 affiliateLinks: []
 ads:
   overrides: {}
+pipeline:
+  stage: published
+  writing_effort: null
+  verification_burden: null
+  hold_until: null
+  publish_date: '2026-02-13T18:56'
+  reject_reason: null
+  content_category: seasonal
+  resurface_cooldown: 6 months
+  last_verified: '2026-02-13T18:56'
+  last_touched: '2026-07-11T02:15:07.344Z'
+  source_research: null
+  source_idea: null
 ---
 
 Thailand er fortsatt et av verdens mest populære reisemål, og for nordmenn er det relativt enkelt å reise inn som turist. Her er en oppdatert oversikt over hva som gjelder i 2026.

@@ -1,35 +1,12 @@
 ---
-published: true
-featured: false
-date: '2025-05-03T08:14'
-author: marianneh
-slug: ambassaden-gir-seg-med-inntektsbekreftelse-mai2026
-title: Ambassaden i Bangkok slutter med innektsbekreftelser fra Mai 2026
-categories: nyheter
-cover: /src/cms/content/media/cover_ambassaden-gir-seg-med-inntektsbekreftelse-mai2026.jpeg
-allow_comment: false
-excerpt: Den Norske Ambassaden i Bangkok slutter med inntektsbekrefelser fra Mai 2026. Hva betyr dette for deg?
-sharing:
-  og_image: /src/cms/content/media/cover_ambassaden-gir-seg-med-inntektsbekreftelse-mai2026.jpeg
-  twitter_card: summary_large_image
-pipeline:
-  stage: ready
-  writing_effort: 0
-  verification_burden: 0
-  hold_until: ''
-  publish_date: '2025-05-03'
-  reject_reason: null
-  content_category: one-off
-  resurface_cooldown: null
-  last_verified: '2025-05-03T08:14'
-  last_touched: '2026-07-11T02:23:51.307Z'
-  source_research: null
-  source_idea: null
-type: post
 id: post.2025.ambassaden-gir-seg-med-inntektsbekreftelse-mai2026
-description: Den Norske Ambassaden i Bangkok slutter med inntektsbekrefelser fra Mai 2026. Hva betyr dette for deg?
-stage: ready
+type: post
+slug: ambassaden-gir-seg-med-inntektsbekreftelse-mai2026
+published: true
 status: published
+title: Ambassaden i Bangkok slutter med innektsbekreftelser fra Mai 2026
+description: Den Norske Ambassaden i Bangkok slutter med inntektsbekrefelser fra Mai 2026. Hva betyr dette for deg?
+author: marianneh
 publishedAt: '2025-05-03T08:14'
 category: nyheter
 topics: []
@@ -43,6 +20,19 @@ relations: []
 affiliateLinks: []
 ads:
   overrides: {}
+pipeline:
+  stage: ready
+  writing_effort: 0
+  verification_burden: 0
+  hold_until: ''
+  publish_date: '2025-05-03'
+  reject_reason: null
+  content_category: one-off
+  resurface_cooldown: null
+  last_verified: '2025-05-03T08:14'
+  last_touched: '2026-07-11T02:23:51.307Z'
+  source_research: null
+  source_idea: null
 ---
 Den norske ambassaden i Bangkok har kunngjort at de fra og med **mai 2026 ikke lenger vil utstede inntektsbekreftelser** for nordmenn som søker om visumforlengelser i Thailand. Dette gjelder særlig **Non-O visum** for pensjonister og personer som er **gift med en thai-borger**.
 

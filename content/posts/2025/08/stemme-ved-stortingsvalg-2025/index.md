@@ -1,35 +1,12 @@
 ---
-published: true
-featured: true
-date: '2025-08-14T02:29'
-author: marianneh
-slug: stemme-ved-stortingsvalg-2025
-title: Slik stemmer du ved stortingsvalget 2025 når du bor i Thailand
-categories: nyheter
-cover: /src/cms/content/media/cover_stemme-ved-stortingsvalg-2025.jpeg
-allow_comment: false
-excerpt: 'Bor du i Thailand under stortingsvalget 2025, kan du forhåndsstemme på ambassaden eller et konsulat – eller sende stemmen per post.'
-sharing:
-  og_image: /src/cms/content/media/cover_stemme-ved-stortingsvalg-2025.jpeg
-  twitter_card: summary_large_image
-pipeline:
-  stage: published
-  writing_effort: null
-  verification_burden: null
-  hold_until: null
-  publish_date: '2025-08-14T02:29'
-  reject_reason: null
-  content_category: one-off
-  resurface_cooldown: null
-  last_verified: '2025-08-14T02:29'
-  last_touched: '2026-07-11T02:15:07.344Z'
-  source_research: null
-  source_idea: null
-type: post
 id: post.2025.stemme-ved-stortingsvalg-2025
-description: 'Bor du i Thailand under stortingsvalget 2025, kan du forhåndsstemme på ambassaden eller et konsulat – eller sende stemmen per post.'
-stage: published
+type: post
+slug: stemme-ved-stortingsvalg-2025
+published: true
 status: published
+title: Slik stemmer du ved stortingsvalget 2025 når du bor i Thailand
+description: 'Bor du i Thailand under stortingsvalget 2025, kan du forhåndsstemme på ambassaden eller et konsulat – eller sende stemmen per post.'
+author: marianneh
 publishedAt: '2025-08-14T02:29'
 category: nyheter
 topics: []
@@ -43,6 +20,19 @@ relations: []
 affiliateLinks: []
 ads:
   overrides: {}
+pipeline:
+  stage: published
+  writing_effort: null
+  verification_burden: null
+  hold_until: null
+  publish_date: '2025-08-14T02:29'
+  reject_reason: null
+  content_category: one-off
+  resurface_cooldown: null
+  last_verified: '2025-08-14T02:29'
+  last_touched: '2026-07-11T02:15:07.344Z'
+  source_research: null
+  source_idea: null
 ---
 Å stemme er en av de viktigste måtene du kan være med på å påvirke Norges fremtid, selv om du ikke lenger bor der selv. 
 Din stemme bidrar til å bestemme hvem som styrer landet, og hvilke saker og verdier som får gjennomslag i Stortinget. 

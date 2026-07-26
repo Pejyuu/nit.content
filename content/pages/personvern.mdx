@@ -1,13 +1,23 @@
 ---
-published: true
-lastUpdated: 2/19/2026
-author: marianneh
+id: page.personvern
+type: page
 slug: personvern
+published: true
+status: published
 title: Personvernserklæring
 description: Norsk i Thailand tar ditt personvern på alvor
-sharing:
-  og_image: /src/cms/content/media/innreiseregler_2026.jpg
-  twitter_card: summary_large_image
+author: marianneh
+updatedAt: 2/19/2026
+topics: []
+audiences: []
+images:
+  social:
+    universal: /src/cms/content/media/innreiseregler_2026.jpg
+sources: []
+relations: []
+affiliateLinks: []
+ads:
+  overrides: {}
 ---
 
 Vi tar personvern på alvor, og denne erklæringen forklarer hvordan vi samler inn og bruker data når du besøker **Norsk i Thailand**.

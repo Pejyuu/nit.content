@@ -1,13 +1,23 @@
 ---
-published: true
-lastUpdated: 2/19/2026
-author: marianneh
+id: page.tjenestevilkar
+type: page
 slug: tjenestevilkar
+published: true
+status: published
 title: Tjenestevilkår
 description: Vilkår for bruk av Norsk i Thailand. Les nøye gjennom våre retningslinjer for bruk av nettstedet og forumet.
-sharing:
-  og_image: /src/cms/content/media/innreiseregler_2026.jpg
-  twitter_card: summary_large_image
+author: marianneh
+updatedAt: 2/19/2026
+topics: []
+audiences: []
+images:
+  social:
+    universal: /src/cms/content/media/innreiseregler_2026.jpg
+sources: []
+relations: []
+affiliateLinks: []
+ads:
+  overrides: {}
 ---
 
 Ved å bruke **Norsk i Thailand** godtar du disse vilkårene for bruk. Les nøye gjennom retningslinjene før du benytter deg av nettstedet eller forumet.
