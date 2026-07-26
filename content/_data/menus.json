@@ -68,18 +68,18 @@
           "label": "Thailand",
           "children": [
             {
-              "id": "footer-entry",
-              "kind": "content",
+              "id": "link-ms22k9hq-9kb7",
+              "kind": "external",
               "label": "Innreisekrav",
               "children": [],
-              "contentId": "guide.innreisekrav"
+              "href": "/inneisekrav/"
             },
             {
-              "id": "footer-income",
-              "kind": "content",
-              "label": "Inntektsbekreftelse – info",
+              "id": "link-ms22jxii-btah",
+              "kind": "external",
+              "label": "Innteksbekreftelsen",
               "children": [],
-              "contentId": "guide.inntektsbekreftelse"
+              "href": "/inntektsbekreftelsen/"
             }
           ]
         },
