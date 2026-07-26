@@ -196,20 +196,6 @@
           "contentId": "guide.index"
         },
         {
-          "id": "guide-entry",
-          "kind": "content",
-          "label": "Innreisekrav",
-          "children": [],
-          "contentId": "guide.innreisekrav"
-        },
-        {
-          "id": "guide-income",
-          "kind": "content",
-          "label": "Inntektsbekreftelse",
-          "children": [],
-          "contentId": "guide.inntektsbekreftelse"
-        },
-        {
           "id": "guide-visa-compare",
           "kind": "content",
           "label": "Non-O eller Non-OA",
