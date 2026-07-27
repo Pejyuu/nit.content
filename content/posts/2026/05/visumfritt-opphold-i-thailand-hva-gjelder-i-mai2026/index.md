@@ -30,15 +30,15 @@ pipeline:
   content_category: seasonal
   resurface_cooldown: 6 months
   last_verified: 2026-5-12
-  last_touched: '2026-07-27T16:38:24.824Z'
+  last_touched: '2026-07-27T16:40:33.319Z'
   source_research: null
   source_idea: null
 excerpt: 'Nordmenn kan reise visumfritt til Thailand i opptil 60 dager – med mulighet for 30 dagers forlengelse på et lokalt immigrasjonskontor. Husk TDAC-skjema før avreise, gyldig pass og utreisebillett. Forslag om å kutte til 30 dager er under diskusjon, men ingen avgjørelse er tatt.'
-updatedAt: '2026-07-27T16:38:24.824Z'
+updatedAt: '2026-07-27T16:40:33.319Z'
 ---
 Thailand er et av de aller mest populære reisemålene for nordmenn, og de gode visumreglene gjør landet ekstra tilgjengelig. Her er en oversikt over hva som gjelder akkurat nå.
 
-Sjekk [Innreiseregler](/innreiseregler/) for alltid oppdatert status på hva kravene er.
+Sjekk [Innreiseregler](/innreisekrav/) for alltid oppdatert status på hva kravene er.
 
 
 ## **60 dager visumfritt**
