@@ -12,7 +12,7 @@ startDate: '2026-08-07'
 endDate: '2026-08-09'
 startTime: null
 endTime: null
-allDay: null
+allDay: false
 timezone: Asia/Bangkok
 location:
   name: Lan Maharaj
@@ -59,7 +59,7 @@ research:
   score: 7
   confidence: high
 pipeline:
-  stage: drafting
+  stage: review
   writing_effort: null
   verification_burden: null
   hold_until: ''
@@ -68,18 +68,32 @@ pipeline:
   content_category: event
   resurface_cooldown: null
   last_verified: null
-  last_touched: '2026-07-28T16:37:42.881Z'
+  last_touched: '2026-07-28T16:46:57.921Z'
   source_research: 'hermes:huginn'
   source_idea: monthly-event-research
   source_url: 'https://www.tatnews.org/2026/07/august-2026-event-and-calendar/'
   content_type: event
 writer:
-  hermesSessionId: run_df11869d8242409799208af85893658d
-  notes: Please try to find more sources and information
-  draftVersion: 1
+  hermesSessionId: run_33b4ea5dc910450096e05788bb7466bc
+  notes: Please research more sources for this and add more information
+  draftVersion: 2
+  lastFailedRunId: run_df11869d8242409799208af85893658d
+  lastError: Recovered from newsroom UI — drafting run appeared stuck.
 ---
-Mini Balloon Festival samler fargerike mini-varmluftballonger, stemningsfull kveldsbelysning og livemusikk ved stranden i Pran Buri. Arrangementet passer særlig godt for familier og andre som ønsker en hyggelig kveldsutflukt fra Hua Hin-området.
+Mini Balloon Festival arrangeres 7.–9. august 2026 på Lan Maharaj i Pak Nam Pran, Pran Buri. Festivalen byr på mini-varmluftballonger, lyssetting av ballongene etter mørkets frembrudd og livemusikk.
 
-Når mørket faller på, lyses ballongene opp og danner festivalens visuelle høydepunkt. Kombinasjonen av ballonger, musikk og strandmiljø gir også gode fotomuligheter.
+Arrangementet kan være et hyggelig kveldsalternativ for familier, par og andre som oppholder seg i Pran Buri eller Hua Hin-området. Ballongene er først og fremst en visuell attraksjon, og den stemningsfulle belysningen blir et naturlig høydepunkt når kvelden faller på.
 
-Klokkeslett, adgang og detaljert program er foreløpig ikke offentliggjort. Sjekk oppdatert informasjon fra lokale turistmyndigheter før avreise. Ved utendørsarrangementer i regntiden kan programmet bli endret på kort varsel.
+## Tid og sted
+
+Festivalen finner sted fra fredag 7. til søndag 9. august 2026 på Lan Maharaj i Pak Nam Pran, i Pran Buri-distriktet i Prachuap Khiri Khan.
+
+Tourism Authority of Thailand oppgir foreløpig ikke daglige åpningstider, detaljert konsertprogram eller informasjon om eventuell inngangspris. Det kan derfor være lurt å vente med å planlegge kvelden i detalj til arrangøren eller lokale turistmyndigheter har publisert et fullstendig program.
+
+## Praktisk før besøket
+
+Siden de opplyste høydepunktene omfatter lyssetting og livemusikk, vil mye av festivalstemningen trolig komme etter solnedgang. Sett gjerne av litt ekstra tid til transport og parkering, særlig lørdag kveld.
+
+August faller i regntiden i denne delen av Thailand. Regn, vind og tordenvær kan påvirke ballongaktivitet og andre utendørsinnslag, og programmet kan bli endret på kort varsel. Sjekk derfor værmeldingen og siste arrangementsinformasjon samme dag som du skal dra.
+
+Opplysningene om dato, sted og hovedprogram er hentet fra [Tourism Authority of Thailands arrangementskalender for august 2026](https://www.tatnews.org/2026/07/august-2026-event-and-calendar/). Flere praktiske detaljer var ikke offentliggjort da denne omtalen ble skrevet.
