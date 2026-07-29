@@ -1,6 +1,6 @@
 ---
 type: event
-title: '2026 Ayutthaya Night Run Fun Fin Fear'
+title: 2026 Ayutthaya Night Run Fun Fin Fear
 published: false
 date: null
 author: null
@@ -8,8 +8,8 @@ slug: null
 description: 'Nattløp med underholdning, kulturinnslag, mat og lysinstallasjoner ved Wat Mahathat i Ayutthaya 1.–2. august 2026.'
 excerpt: 'Et todagers nattløp i UNESCO-byen Ayutthaya, kombinert med kultur- og matopplevelser.'
 eventStatus: scheduled
-startDate: 2026-08-01
-endDate: 2026-08-02
+startDate: 2026-08-01T00:00:00.000Z
+endDate: 2026-08-02T00:00:00.000Z
 startTime: null
 endTime: null
 allDay: false
@@ -43,10 +43,10 @@ sources:
   - id: source.tat-august-calendar-2026
     title: August 2026 Event and Calendar
     publisher: Tourism Authority of Thailand (TAT)
-    url: https://www.tatnews.org/2026/07/august-2026-event-and-calendar/
+    url: 'https://www.tatnews.org/2026/07/august-2026-event-and-calendar/'
     sourceType: official-announcement
     publishedAt: null
-    accessedAt: 2026-07-28
+    accessedAt: 2026-07-28T00:00:00.000Z
     supports:
       - date
       - location
@@ -56,23 +56,23 @@ sources:
 eventRefs: []
 relations: []
 research:
-  topicSource: hermes:huginn
+  topicSource: 'hermes:huginn'
   score: 8
   confidence: high
 pipeline:
-  stage: candidate
+  stage: archived
   writing_effort: null
   verification_burden: null
   hold_until: ''
   publish_date: ''
-  reject_reason: ''
+  reject_reason: Won't be able to publish before event
   content_category: event
   resurface_cooldown: null
   last_verified: null
-  last_touched: 2026-07-28T03:24:00+07:00
-  source_research: hermes:huginn
+  last_touched: '2026-07-28T20:36:19.005Z'
+  source_research: 'hermes:huginn'
   source_idea: monthly-event-research
-  source_url: https://www.tatnews.org/2026/07/august-2026-event-and-calendar/
+  source_url: 'https://www.tatnews.org/2026/07/august-2026-event-and-calendar/'
   content_type: event
 ---
 

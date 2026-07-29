@@ -6,10 +6,10 @@ date: null
 author: null
 slug: null
 description: 'Internasjonal pantomimefestival med forestillinger, workshops og kunstnersamtaler i Bangkok 8.–9. august 2026.'
-excerpt: 'To dager med internasjonal pantomime og interaktive aktiviteter på Muang Thai Life Assurance Auditorium.'
+excerpt: To dager med internasjonal pantomime og interaktive aktiviteter på Muang Thai Life Assurance Auditorium.
 eventStatus: scheduled
-startDate: 2026-08-08
-endDate: 2026-08-09
+startDate: 2026-08-08T00:00:00.000Z
+endDate: 2026-08-09T00:00:00.000Z
 startTime: null
 endTime: null
 allDay: false
@@ -43,10 +43,10 @@ sources:
   - id: source.tat-august-calendar-2026
     title: August 2026 Event and Calendar
     publisher: Tourism Authority of Thailand (TAT)
-    url: https://www.tatnews.org/2026/07/august-2026-event-and-calendar/
+    url: 'https://www.tatnews.org/2026/07/august-2026-event-and-calendar/'
     sourceType: official-announcement
     publishedAt: null
-    accessedAt: 2026-07-28
+    accessedAt: 2026-07-28T00:00:00.000Z
     supports:
       - date
       - location
@@ -56,23 +56,23 @@ sources:
 eventRefs: []
 relations: []
 research:
-  topicSource: hermes:huginn
+  topicSource: 'hermes:huginn'
   score: 7
   confidence: high
 pipeline:
-  stage: candidate
+  stage: archived
   writing_effort: null
   verification_burden: null
   hold_until: ''
   publish_date: ''
-  reject_reason: ''
+  reject_reason: Don't quite understand the focus of this event
   content_category: event
   resurface_cooldown: null
   last_verified: null
-  last_touched: 2026-07-28T03:24:00+07:00
-  source_research: hermes:huginn
+  last_touched: '2026-07-28T20:37:08.173Z'
+  source_research: 'hermes:huginn'
   source_idea: monthly-event-research
-  source_url: https://www.tatnews.org/2026/07/august-2026-event-and-calendar/
+  source_url: 'https://www.tatnews.org/2026/07/august-2026-event-and-calendar/'
   content_type: event
 ---
 
