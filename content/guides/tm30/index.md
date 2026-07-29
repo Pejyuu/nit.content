@@ -2,14 +2,8 @@
 id: guide.tm30
 slug: tm30
 title: 'TM30 i Thailand: Hva er TM30 og hva bør du vite?'
-description: >-
-  Se hvem som skal sende TM30, når en ny melding kan kreves, og hvilke
-  opplysninger du bør kontrollere før et besøk hos immigrasjonskontoret.
-excerpt: >-
-  En praktisk guide for nordmenn som flytter inn på hotell, i leiebolig eller
-  hos familie i Thailand – og trenger å forstå hvem som har ansvar for
-  TM30-adressemeldingen, når den må fornyes, og hva du selv bør sjekke før et
-  besøk hos immigrasjonskontoret.
+description: 'Se hvem som skal sende TM30, når en ny melding kan kreves, og hvilke opplysninger du bør kontrollere før et besøk hos immigrasjonskontoret.'
+excerpt: 'En praktisk guide for nordmenn som flytter inn på hotell, i leiebolig eller hos familie i Thailand – og trenger å forstå hvem som har ansvar for TM30-adressemeldingen, når den må fornyes, og hva du selv bør sjekke før et besøk hos immigrasjonskontoret.'
 type: guide
 published: true
 status: published
@@ -33,18 +27,14 @@ sources:
     sourceType: unclassified
     accessedAt: '2026-07-23'
     supports: []
-    note: >-
-      Primærkilde som må brukes til å kontrollere gjeldende
-      immigrasjonsveiledning og eventuelle skjemaendringer.
+    note: Primærkilde som må brukes til å kontrollere gjeldende immigrasjonsveiledning og eventuelle skjemaendringer.
   - id: source.tm30-online-notification-2
     title: TM30 Online Notification
     url: 'https://tm30.immigration.go.th/tm30/#/login'
     sourceType: unclassified
     accessedAt: '2026-07-23'
     supports: []
-    note: >-
-      Offisiell portal for elektronisk TM30-melding; må kontrolleres for aktiv
-      funksjon og oppdatert brukerflyt.
+    note: Offisiell portal for elektronisk TM30-melding; må kontrolleres for aktiv funksjon og oppdatert brukerflyt.
 relations: []
 affiliateLinks: []
 ads:
@@ -55,20 +45,17 @@ pipeline:
   publish_date: '2026-07-29T01:00:00.000Z'
   reject_reason: ''
   content_category: evergreen
-  last_touched: '2026-07-29T12:45:46.774Z'
+  last_touched: '2026-07-29T13:19:45.577Z'
   source_research: 'hermes:huginn'
   source_url: 'https://www.immigration.go.th/en/'
   content_type: guide
 seo:
   title: 'TM30 i Thailand: Hva er TM30 og hva bør du vite?'
-  description: >-
-    Se hvem som skal sende TM30, når en ny melding kan kreves, og hvilke
-    opplysninger du bør kontrollere før et besøk hos immigrasjonskontoret.
-updatedAt: '2026-07-29T12:45:00.975Z'
+  description: 'Se hvem som skal sende TM30, når en ny melding kan kreves, og hvilke opplysninger du bør kontrollere før et besøk hos immigrasjonskontoret.'
+updatedAt: '2026-07-29T13:19:45.577Z'
 revisionHistory: []
 ---
-## Hva er TM30?
-TM30 melder til immigrasjonsmyndighetene hvor en utlending bor i Thailand. Skal normalt sendes innen 24 timer etter ankomst – enten via TM30-portalen eller ved lokalt immigrasjonskontor.
+Flytter du inn på hotell, i leiebolig eller hjem hos familie i Thailand? Da skal oppholdsstedet ditt meldes til immigrasjonsmyndighetene gjennom TM30. Her får du oversikt over hvem som har ansvaret, når meldingen må fornyes, og hvordan du selv kan kontrollere at alt er i orden.
 
 ## Hvem har ansvaret?
 Det er normalt **verten** (hotell, utleier, boligforvalter, eller familie/venn du bor hos) som skal sende meldingen – ikke deg selv. Hoteller gjør dette vanligvis automatisk ved innsjekking. Ved leid bolig eller opphold hos familie/venner bør du avklare ansvaret tidlig og be om dokumentasjon.

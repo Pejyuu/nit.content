@@ -4,10 +4,10 @@ type: visa
 slug: turist.visum
 published: true
 status: published
-title: Turistvisum
-description: 'Du kan søke på 60 dagers turistvisum til Thailand. Men du kan og søke på multi-entry visum med gyldighet i 6 måneder. '
+title: 'Turistvisum til Thailand: Priser, krav og forlengelse'
+description: 'Turistvisum til Thailand: priser, dokumentkrav og søknad om forlengelse av opphold for single- og multiple-entry. Oppdatert guide for 2026'
 author: marianneh
-updatedAt: '2025-05-20T08:16'
+updatedAt: '2026-07-29T13:52:20.368Z'
 lastVerifiedAt: '2026-07-25T02:15:51.308Z'
 nextReviewAt: '2026-10-25T02:15:51.308Z'
 revisionHistory:
@@ -32,69 +32,61 @@ pipeline:
   content_category: seasonal
   resurface_cooldown: 3 months
   last_verified: '2026-07-25T02:15:51.308Z'
-  last_touched: '2026-07-25T02:15:51.308Z'
+  last_touched: '2026-07-29T13:52:20.368Z'
   source_research: null
   source_idea: null
+excerpt: Du kan søke på 60 dagers turistvisum til Thailand. Men du kan og søke på multi-entry visum med gyldighet i 6 måneder.
 ---
-Thailand er et av de mest populære reisemålene blant nordmenn, og det finnes flere ulike visumalternativer for turister.  
-Turistvisumet er et godt valg for deg som ønsker dra på besøk til Thailand, men ønsker noe sikrere enn visumfri innreise.
+Thailand er et av de mest populære reisemålene blant nordmenn, og turistvisum er det tryggeste alternativet for deg som vil oppholde deg lenger enn det visumfri innreise tillater, eller som ønsker en mer forutsigbar innreise.
 
-1.  Både visumfri innreise og turistvisum gir nå 60 dagers opphold. Reglene kan endres uten forvarsel.
-    
+**Kort oppsummert:**
+- Både visumfri innreise og turistvisum gir nå 60 dagers opphold ved innreise
+- Turistvisum finnes som single-entry og multiple-entry
+- Begge kan utvides med en søknad om forlengelse av opphold på et immigrasjonskontor i Thailand
+- Reglene kan endres uten forvarsel – sjekk alltid offisielle kilder før du søker
 
-## Single-Entry
+## Single-Entry turistvisum
 
-Turistvisum gir deg opphold i 60 dager i Thailand.  
-Det er mulig å forlenge dette visumet med 30 dager på immigrasjonskontoret i Thailand.
+Gir deg 60 dagers opphold i Thailand ved én innreise. Kan senere utvides med 30 dager gjennom en søknad om forlengelse av opphold hos immigrasjonskontoret.
 
 | Varighet | Pris | Kan brukes flere ganger | Kan forlenges? |
-| --- | --- | --- | --- |
+|---|---|---|---|
 | 60 dg | 350,- | Nei | 30 dg |
 
-## Multiple-Entry
+## Multiple-Entry turistvisum
 
-Dette visumet gir deg muligheten til å reise inn og ut av Thailand flere ganger i løpet av en gyldighetsperiode på opptil 6 måneder.  
-Hver gang du reiser inn i Thailand, får du opphold på 60 dager. Etter dette må du forlate landet eller forlenge visumet på immigrasjonskontoret.  
-Du kan forlenge med maksimalt 30 dager for hver innreise til Thailand.
+Gir deg mulighet til å reise inn og ut av Thailand flere ganger i løpet av en gyldighetsperiode på opptil 6 måneder. Hver innreise gir 60 nye dager i landet. Før disse dagene er brukt opp må du enten forlate landet, reise inn på nytt, eller søke om forlengelse av opphold – med maksimalt 30 dager per innreise.
 
-Timer du dette visumet riktig, kan du få opp mot 9 måneder totalt ut av visumet.
+Timer du innreisene riktig, kan du få opp mot 9 måneder totalt ut av visumet.
 
 | Varighet | Pris | Kan brukes flere ganger? | Kan forlenges? |
-| --- | --- | --- | --- |
-| 60 dg pr innreise | 1700,- | Ubegrensede innreiser over 6 mnd | 30 dg |
+|---|---|---|---|
+| 60 dg pr. innreise | 1700,- | Ubegrenset antall innreiser i 6 mnd | 30 dg |
 
-## Hvordan søke?
+## Slik søker du om turistvisum
 
-Gå til [Thai E-Visa](https://www.thaievisa.go.th/) for å søke på turistvisum.  
-Vi anbefaler å bruke en datamaskin med [Google Chrome](https://www.google.com/chrome/) som nettleser for å gjennomføre denne søknaden.
+Søknaden gjøres via [Thai E-Visa](https://www.thaievisa.go.th/). Vi anbefaler å bruke en datamaskin med [Google Chrome](https://www.google.com/chrome/) som nettleser.
 
-**Dokumentasjonskrav**
+**Dokumentasjonskrav:**
+- Pass med gyldighet på minst 6 måneder
+- Fotografi av søkeren, tatt innenfor de siste 6 månedene
+- Bevis på reise, f.eks. en fullt betalt flybillett (for multiple-entry kreves minst to sett med inn- og utreisebilletter)
+- Utreisebillett innen 60 dager etter ankomst *(ikke ofte håndhevet i praksis, men et formelt krav fra MFA)*
+- Dokumentasjon på tilstrekkelig økonomi:
+  - Single-entry: 20 000 THB per person eller 40 000 THB per familie
+  - Multiple-entry: 200 000 THB per person eller 400 000 THB per familie (siste 6 måneder)
+- Bevis på overnatting
 
-*   Pass med gyldighet på minst 6 mnd 
-*   Fotografi av søkeren, tatt innenfor de siste 6 mnd 
-*   Bevis på reise, f.eks. en flybillett betalt i sin helhet  
-    <small>For Multiple Entry må du ha **minst to sett** med innreise og utreisebilletter</small>  
-*   Utreisebillett innen 60 dager etter ankomst  
-    <small>Ikke håndhevet ofte, men det står i MFA sine forskrifter som et krav</small>
-*   Dokumentasjon på tilstrekkelig økonomi:  
-    *   20 000 Baht per person eller 40 000 Baht per familie    
-    *   For Multiple Entry: 200 000 Baht per person, eller 400 000 Baht per familie (de siste 6 mnd)     
-*   Bevis på overnatting
-    
+## Søknad om forlengelse av opphold
 
-## Forlenge oppholdet?
+Både visumfritt opphold og turistvisum kan utvides med 30 dager gjennom en søknad om forlengelse av opphold ved et immigrasjonskontor i Thailand.
 
-Du kan utvide et visumfritt opphold med ytterligere 30 dager ved å dra til et av Thailands immigrasjonskontorer.
+**Dokumentasjonskrav:**
+- Kopi av bildesiden i passet
+- Kopi av innreisestempelet i passet
+- Kopi av det elektroniske visumet
+- 2 passfoto
+- Utfylt søknadsskjema (fås hos immigrasjonskontoret)
+- Gebyr på 1900 THB
 
-**Dokumentasjonskrav**
-
-*   Kopi av bildesiden i passet
-*   Kopi av innreisestempelet i passet
-*   Kopi av ditt elektroniske visum, evt. kopi av visumsiden i passet ditt
-*   2x passfoto
-*   Søknadspapirer (finnes hos immigrasjonskontorene)
-*   1900 THB  
-*   Og litt tålmodighet og et smil. :)
-    
-
-Det er køsystem hos enkelte av immigrasjonskontorene, og begrenset antall kølapper hver dag.
+Enkelte immigrasjonskontorer har køsystem med et begrenset antall kølapper per dag – sett av god tid.
