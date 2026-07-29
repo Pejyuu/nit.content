@@ -210,6 +210,13 @@
           "contentId": "guide.turist-index"
         },
         {
+          "id": "content-ms63vftl-l396",
+          "kind": "content",
+          "label": "TM30 - Adressemelding",
+          "children": [],
+          "contentId": "guide.tm30"
+        },
+        {
           "id": "guide-tm47",
           "kind": "content",
           "label": "TM47 – 90-dagersrapport",
